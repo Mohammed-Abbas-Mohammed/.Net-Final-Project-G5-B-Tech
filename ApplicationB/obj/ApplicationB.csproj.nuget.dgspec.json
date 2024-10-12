@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\ApplicationB.csproj": {}
+    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\ApplicationB.csproj": {
+    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\ApplicationB.csproj",
+        "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
         "projectName": "ApplicationB",
-        "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\ApplicationB.csproj",
-        "packagesPath": "C:\\Users\\Mohammed Abbas\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\obj\\",
+        "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
+        "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
+        "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammed Abbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,14 +23,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj"
+              "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -69,25 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj": {
+    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj",
+        "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
         "projectName": "ModelsB",
-        "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj",
-        "packagesPath": "C:\\Users\\Mohammed Abbas\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\obj\\",
+        "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
+        "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mohammed Abbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +89,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net8.0": {
@@ -140,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -212,7 +212,10 @@
           "ModelsB": "1.0.0"
         },
         "runtime": {
-          "ApplicationB.dll": {}
+          "ApplicationB.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ModelsB/1.0.0": {
@@ -220,7 +223,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10"
         },
         "runtime": {
-          "ModelsB.dll": {}
+          "ModelsB.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

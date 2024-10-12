@@ -20,14 +20,14 @@ namespace DbContextB
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //    => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=B_TechDB;Integrated Security=True;Encrypt=True;" +
-        //        "TrustServerCertificate=true");
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            => optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=B_TechDB;Integrated Security=True;Encrypt=True;" +
+                "TrustServerCertificate=true");
 
         public BTechDbContext(DbContextOptions<BTechDbContext> options, IHttpContextAccessor httpContextAccessor)
         : base(options)
         {
-           _httpContextAccessor = httpContextAccessor;
+            _httpContextAccessor = httpContextAccessor;
         }
 
 
@@ -51,10 +51,10 @@ namespace DbContextB
                 .IsUnique();
 
             builder.Entity<CategoryB>().HasMany(c => c.Translations).WithOne(ct => ct.Category).HasForeignKey(ct => ct.CategoryId)
-                .OnDelete(DeleteBehavior.Cascade); 
+                .OnDelete(DeleteBehavior.Cascade);
             builder.Entity<CategoryTranslationB>().HasIndex(ct => new { ct.CategoryId, ct.LanguageId }).IsUnique();
 
-            builder.Entity<ProductCategoryB>().HasKey(pc => new { pc.ProductId, pc.CategoryId });  
+            builder.Entity<ProductCategoryB>().HasKey(pc => new { pc.ProductId, pc.CategoryId });
             builder.Entity<ProductCategoryB>().HasOne(pc => pc.Product).WithMany(p => p.ProductCategories)
                 .HasForeignKey(pc => pc.ProductId);
             builder.Entity<ProductCategoryB>().HasOne(pc => pc.Category).WithMany(c => c.ProductCategories)
@@ -88,7 +88,7 @@ namespace DbContextB
         public virtual DbSet<CategoryB> Categories { get; set; }
         public virtual DbSet<CategoryTranslationB> CategoryTranslations { get; set; }
         public virtual DbSet<ProductCategoryB> ProductCategories { get; set; }
-        
+
 
         /// <summary>
         /// Order DbSets
@@ -109,9 +109,9 @@ namespace DbContextB
         public virtual DbSet<LocalizationResourceB> LocalizationResources { get; set; }
 
 
-       
-      
-       
+
+
+
 
 
 
