@@ -11,6 +11,7 @@ namespace ModelsB.Category_B
 {
     public class CategoryB: BaseEntityB
     {
+        //
         public int Id { get; set; }
         [MaxLength(250)]
         public string? ImageUrl { get; set; }

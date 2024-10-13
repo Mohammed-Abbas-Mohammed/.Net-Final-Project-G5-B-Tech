@@ -33,3 +33,21 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\refint\InfrastructureB.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.pdb
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.deps.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.AssemblyReference.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfoInputs.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfo.cs
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.CoreCompileInputs.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.sourcelink.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\Infrastr.03B3DBF3.Up2Date
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\refint\InfrastructureB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll

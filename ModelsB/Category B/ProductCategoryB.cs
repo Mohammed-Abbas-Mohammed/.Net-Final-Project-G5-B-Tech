@@ -11,7 +11,6 @@ namespace ModelsB.Category_B
     {
         public int ProductId { get; set; }
         public ProductB Product { get; set; }
-
         public int CategoryId { get; set; }
         public CategoryB Category { get; set; }
 
