@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelsB.Category_B;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
