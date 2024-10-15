@@ -8699,19 +8699,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Khaled\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\AdminDashboardB.csproj",
+      "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\AdminDashboardB.csproj",
       "projectName": "AdminDashboardB",
-      "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\AdminDashboardB.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\obj\\",
+      "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\AdminDashboardB.csproj",
+      "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
+      "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8720,20 +8720,21 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
-              "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj"
+            "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
+              "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj"
             },
-            "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
-              "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj"
+            "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
+              "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj"
             },
-            "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj": {
-              "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj"
+            "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj": {
+              "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj"
             }
           }
         }
@@ -8807,7 +8808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

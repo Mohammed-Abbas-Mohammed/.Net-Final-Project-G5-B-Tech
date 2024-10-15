@@ -57,3 +57,25 @@ F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Te
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DTOsB.pdb
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\Infrastr.03B3DBF3.Up2Date
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.deps.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DbContextB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DTOsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DbContextB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DTOsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.AssemblyReference.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfoInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.CoreCompileInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.sourcelink.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\Infrastr.03B3DBF3.Up2Date
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\refint\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll

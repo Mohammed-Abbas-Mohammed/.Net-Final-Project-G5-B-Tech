@@ -23,18 +23,18 @@ namespace WebApplication1
 
 
             // Add services to the container.
-            
+
             builder.Services.AddDbContext<BTechDbContext>(options =>
            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>()
-                   .AddDefaultTokenProviders().AddDefaultUI();
+            //builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>()
+            //       .AddDefaultTokenProviders().AddDefaultUI();
 
 
-          
+
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-           
+
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
             builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                 .AddDataAnnotationsLocalization();
@@ -66,7 +66,7 @@ namespace WebApplication1
 
 
             builder.Services.AddControllersWithViews();
-           
+
             var app = builder.Build();
 
             //using (var serviceScope = app.Services.GetService<IServiceScopeFactory>().CreateScope())

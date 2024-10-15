@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {}
+    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {}
   },
   "projects": {
-    "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
+    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj",
+        "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj",
         "projectName": "DbContextB",
-        "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\DbContextB\\obj\\",
+        "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj",
+        "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
+        "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DbContextB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,14 +23,15 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
+              "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -99,21 +100,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
         "projectName": "ModelsB",
-        "projectPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\الصالة الرياضية\\books\\DevOps\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
+        "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
+        "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,7 +123,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net8.0": {
@@ -166,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

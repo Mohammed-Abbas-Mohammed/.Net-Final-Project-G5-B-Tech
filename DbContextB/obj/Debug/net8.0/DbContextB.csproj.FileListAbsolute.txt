@@ -51,3 +51,21 @@ F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Te
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.pdb
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.deps.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.runtimeconfig.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\ModelsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.AssemblyReference.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfoInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.CoreCompileInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.sourcelink.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.Up2Date
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\refint\DbContextB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll

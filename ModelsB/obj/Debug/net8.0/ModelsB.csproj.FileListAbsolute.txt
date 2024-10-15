@@ -36,3 +36,16 @@ F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Te
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.pdb
 F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.sourcelink.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
