@@ -1,0 +1,35 @@
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\bin\Debug\net8.0\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\bin\Debug\net8.0\DTOsB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\bin\Debug\net8.0\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\bin\Debug\net8.0\DTOsB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll

@@ -1,0 +1,53 @@
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\InfrastructureB.deps.json
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\InfrastructureB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfoInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.CoreCompileInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\refint\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\ApplicationB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\ModelsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\ApplicationB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\bin\Debug\net8.0\ModelsB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.AssemblyReference.cache
+D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\InfrastructureB\obj\Debug\net8.0\Infrastr.03B3DBF3.Up2Date
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\InfrastructureB.deps.json
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\InfrastructureB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\ApplicationB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\ModelsB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\ApplicationB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\bin\Debug\net8.0\ModelsB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.AssemblyReference.cache
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfoInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.CoreCompileInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.sourcelink.json
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\Infrastr.03B3DBF3.Up2Date
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\refint\InfrastructureB.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\InfrastructureB.pdb
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.deps.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.AssemblyReference.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfoInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.CoreCompileInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.sourcelink.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\Infrastr.03B3DBF3.Up2Date
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\refint\InfrastructureB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\ref\InfrastructureB.dll
