@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {}
+    "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {}
   },
   "projects": {
-    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
+    "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
+        "projectUniqueName": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
         "projectName": "ApplicationB",
-        "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
+        "projectPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
         "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
-        "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\obj\\",
+        "outputPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,8 +30,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
+              "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+    "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "projectUniqueName": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
         "projectName": "ModelsB",
-        "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "projectPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
         "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
-        "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
+        "outputPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
