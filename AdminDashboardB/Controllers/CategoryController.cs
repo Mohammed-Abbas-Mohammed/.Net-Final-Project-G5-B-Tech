@@ -8,5 +8,41 @@ namespace AdminDashboardB.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
+
+        //[HttpPost]
+        //public async Task<IActionResult> Create(CreateCategoryDTO category)
+        //{
+        //    return NotFound();
+        //}
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            return NotFound();
+        }
+
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            return NotFound();
+
+        }
+
+        //[HttpPost]
+        //public async Task<IActionResult> Edit( )
+        //{
+
+        //    return NotFound();
+
+        //}
+
+        public async Task<IActionResult> Search(string name)
+        {
+
+            return NotFound();
+        }
     }
 }
