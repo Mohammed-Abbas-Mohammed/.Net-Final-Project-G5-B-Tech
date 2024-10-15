@@ -472,6 +472,7 @@ E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.runtimeconfig.json
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AutoMapper.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Azure.Core.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Azure.Identity.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Humanizer.dll
@@ -590,9 +591,15 @@ E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ApplicationB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DTOsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\InfrastructureB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ApplicationB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\InfrastructureB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DTOsB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.AssemblyReference.cache
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.GeneratedMSBuildEditorConfig.editorconfig

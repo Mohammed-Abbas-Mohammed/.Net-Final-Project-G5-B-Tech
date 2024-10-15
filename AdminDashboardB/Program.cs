@@ -1,4 +1,8 @@
+using ApplicationB.Contracts_B;
+using ApplicationB.Mapper_B;
+using ApplicationB.Services_B.Category.NewFolder;
 using DbContextB;
+using InfrastructureB;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -6,7 +10,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using ModelsB.Authentication_and_Authorization_B;
 using System.Globalization;
-using WebApplication1.Data;
 
 namespace WebApplication1
 {
@@ -16,24 +19,32 @@ namespace WebApplication1
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
-            // Add services to the container.
-            //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
-            //    throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            // Add DbContext
             builder.Services.AddDbContext<BTechDbContext>(options =>
-           options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddDefaultIdentity<ApplicationUserB>(options => options.SignIn.RequireConfirmedAccount = false)
-                .AddEntityFrameworkStores<BTechDbContext>();
-            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+            // Add Identity
 
-            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>()
-                    .AddDefaultTokenProviders().AddDefaultUI();
+            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = false; // Modify as needed
+            })
+            .AddEntityFrameworkStores<BTechDbContext>()
+            .AddDefaultTokenProviders()
+            .AddDefaultUI();
 
+            // Add services
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddAutoMapper(typeof(CategoryMappingProfile));
+
+            // Localization
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
-            builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+            builder.Services.AddMvc()
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                 .AddDataAnnotationsLocalization();
 
+            // Configure request localization
             builder.Services.Configure<RequestLocalizationOptions>(options =>
             {
                 var supportedCultures = new[]
@@ -47,25 +58,12 @@ namespace WebApplication1
                 options.SupportedUICultures = supportedCultures;
             });
 
-
+            // Add MVC
             builder.Services.AddControllersWithViews();
-           
+
             var app = builder.Build();
 
-            //using (var serviceScope = app.Services.GetService<IServiceScopeFactory>().CreateScope())
-            //{
-            //    var services = serviceScope.ServiceProvider;
-            //    try
-            //    {
-            //        RoleInitializer.Initialize(services).Wait();
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        // Log the error or handle accordingly
-            //    }
-            //}
-
-            // Configure the HTTP request pipeline.
+            // Configure middleware
             if (app.Environment.IsDevelopment())
             {
                 app.UseMigrationsEndPoint();
@@ -73,7 +71,6 @@ namespace WebApplication1
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -85,11 +82,12 @@ namespace WebApplication1
             var locOptions = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
             app.UseRequestLocalization(locOptions.Value);
 
+            app.UseAuthentication(); // Ensure authentication is added
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Admin}/{action=Login}/{id?}");
             app.MapRazorPages();
 
             app.Run();

@@ -37,9 +37,13 @@ E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\InfrastructureB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DbContextB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DTOsB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ApplicationB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DbContextB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\ModelsB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\bin\Debug\net8.0\DTOsB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.csproj.AssemblyReference.cache
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.GeneratedMSBuildEditorConfig.editorconfig
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\InfrastructureB\obj\Debug\net8.0\InfrastructureB.AssemblyInfoInputs.cache

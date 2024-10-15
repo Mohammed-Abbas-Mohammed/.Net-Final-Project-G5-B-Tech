@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ApplicationB\ApplicationB.csproj" />
     <ProjectReference Include="..\DbContextB\DbContextB.csproj" />
+    <ProjectReference Include="..\InfrastructureB\InfrastructureB.csproj" />
   </ItemGroup>
 
 </Project>

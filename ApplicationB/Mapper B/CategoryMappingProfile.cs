@@ -13,11 +13,14 @@ namespace ApplicationB.Mapper_B
     {
         public CategoryMappingProfile()
         {
-            CreateMap<CategoryB, GetAllCategoriesDTO>();
-            CreateMap<CategoryTranslationB, CategoryTranslationDTO>();
+            CreateMap<CategoryB, GetAllCategoriesDTO>().ReverseMap();
+            CreateMap<CategoryB, CreateOrUpdateCategoriesDTO>().ReverseMap();
+            CreateMap<CategoryTranslationB, CategoryTranslationDTO>().ReverseMap();
+            CreateMap<CategoryTranslationB, CreateCategoryTranslationDto>().ReverseMap();
 
-            CreateMap<CreateOrUpdateCategoriesDTO, CategoryB>();
-            CreateMap<CreateCategoryTranslationDto, CategoryTranslationB>();
+            //CreateMap<CreateOrUpdateCategoriesDTO, CategoryB>();
+            //CreateMap<CreateCategoryTranslationDto, CategoryTranslationB>();
+
         }
     }
 }
