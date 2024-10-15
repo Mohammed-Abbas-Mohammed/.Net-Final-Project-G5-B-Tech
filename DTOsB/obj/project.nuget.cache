@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\DTOsB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

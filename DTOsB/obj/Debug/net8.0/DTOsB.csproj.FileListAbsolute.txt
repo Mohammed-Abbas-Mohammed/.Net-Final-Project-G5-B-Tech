@@ -21,6 +21,7 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.pdb
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
+<<<<<<< HEAD
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.pdb
@@ -33,3 +34,17 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOs
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
+=======
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
+>>>>>>> Menna

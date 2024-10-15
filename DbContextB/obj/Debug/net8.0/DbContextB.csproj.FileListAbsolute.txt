@@ -33,6 +33,7 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DbContextB\obj\Debug\net8.0\DbContextB.pdb
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll
+<<<<<<< HEAD
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.deps.json
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.runtimeconfig.json
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.dll
@@ -51,3 +52,23 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.pdb
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll
+=======
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.deps.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.runtimeconfig.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\ModelsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\ModelsB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.AssemblyReference.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfoInputs.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfo.cs
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.CoreCompileInputs.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.sourcelink.json
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.Up2Date
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\refint\DbContextB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.pdb
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll
+>>>>>>> Menna
