@@ -857,11 +857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj",
+      "projectUniqueName": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj",
       "projectName": "InfrastructureB",
-      "projectPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj",
+      "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj",
       "packagesPath": "C:\\Users\\Khaled\\.nuget\\packages\\",
-      "outputPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\obj\\",
+      "outputPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -880,11 +880,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
-              "projectPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj"
+            "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
+              "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj"
             },
-            "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
-              "projectPath": "e:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
+            "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+              "projectPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
             }
           }
         }
