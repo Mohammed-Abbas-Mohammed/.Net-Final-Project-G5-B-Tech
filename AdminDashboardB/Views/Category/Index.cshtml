@@ -1,0 +1,59 @@
+﻿@* @model IEnumerable<DTOsB.CategoryDTOs.GetCategoryDTO> 
+ *@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5 shadow p-4 rounded">
+    <div class="row mb-4 align-items-center">
+        <div class="col-lg-4 col-md-5 col-sm-12 text-end fs-5 text-info-emphasis">
+            <label for="search" class="form-label">Category Name :</label>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12">
+            <form class="d-flex" role="search" asp-action="Search" asp-controller="Category" method="get">
+                <input class="form-control me-2" id="search" type="search" name="name" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="col-lg-4 col-md-2 col-sm-12 text-end">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                <i class="fa-solid fa-plus"></i> Add New Category
+            </a>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover text-center align-middle">
+            <thead class="table-dark shadow">
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Arabic Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* @foreach (var item in Model) 
+                {
+                    <tr>
+                        <td class="text-center" style="width: 200px; height: 100px;">
+                            <img class="img-fluid" style="max-width: 100px;" src="~/Categories/@item.ImagePath" alt="@item.Name">
+                        </td>
+                        <td>@item.Name</td>
+                        <td>@item.ArabicName</td>
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning text-white">
+                                    <i class="fa-solid fa-pen-to-square"></i> Edit
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                    <i class="fa-solid fa-trash-can"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                } *@
+            </tbody>
+        </table>
+    </div>
+</div>
