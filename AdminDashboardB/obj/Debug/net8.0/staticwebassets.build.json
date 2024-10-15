@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2jGoWw7RyX3MZVa4+x22+OD5aunSNMcIvyC+j2KTj9c=",
+  "Hash": "Vc4QNsQknVhE6W3xNQWYUuhH+E2lMIdsn17E/Yd1cQg=",
   "Source": "AdminDashboardB",
   "BasePath": "_content/AdminDashboardB",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\css\\styles.css",
+      "SourceId": "AdminDashboardB",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\",
+      "BasePath": "_content/AdminDashboardB",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\favicon.ico",
       "SourceId": "AdminDashboardB",
       "SourceType": "Discovered",
@@ -1231,6 +1250,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\icons8-admin-16.png",
+      "SourceId": "AdminDashboardB",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\",
+      "BasePath": "_content/AdminDashboardB",
+      "RelativePath": "icons8-admin-16.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons8-admin-16.png"
+    },
+    {
+      "Identity": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\js\\scripts.js",
+      "SourceId": "AdminDashboardB",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\",
+      "BasePath": "_content/AdminDashboardB",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\js\\site.js",
@@ -2333,6 +2390,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\Vbackground.mp4",
+      "SourceId": "AdminDashboardB",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\",
+      "BasePath": "_content/AdminDashboardB",
+      "RelativePath": "Vbackground.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Vbackground.mp4"
     }
   ]
 }

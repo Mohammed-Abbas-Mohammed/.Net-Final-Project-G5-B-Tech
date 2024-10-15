@@ -1,7 +1,3 @@
-using ApplicationB.Contracts_B.Product;
-using ApplicationB.Contracts_B;
-using ApplicationB.Mapper_B;
-using ApplicationB.Services_B.Product;
 using DbContextB;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
@@ -11,45 +7,31 @@ using Microsoft.Extensions.Options;
 using ModelsB.Authentication_and_Authorization_B;
 using System.Globalization;
 using WebApplication1.Data;
-using InfrastructureB.Product;
 
 namespace WebApplication1
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
 
             // Add services to the container.
-
+            //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+            //    throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             builder.Services.AddDbContext<BTechDbContext>(options =>
            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            //builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>()
-            //       .AddDefaultTokenProviders().AddDefaultUI();
-
-
-
+            //builder.Services.AddDefaultIdentity<ApplicationUserB>(options => options.SignIn.RequireConfirmedAccount = false)
+            //    .AddEntityFrameworkStores<BTechDbContext>();
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>().AddDefaultTokenProviders().AddDefaultUI();
 
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
             builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                 .AddDataAnnotationsLocalization();
-
-            builder.Services.AddAutoMapper(typeof(MappingProfile));
-
-            builder.Services.AddScoped<IProductRepository, ProductRepository>();
-            builder.Services.AddScoped<ProductService>();
-            builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
-            builder.Services.AddScoped<ProductImageService>();
-
-            builder.Services.AddScoped<IProductSpecificationRepository, ProductSpecificationRepository>();
-            builder.Services.AddScoped<ProductSpecificationService>();
-            builder.Services.AddScoped<IProductTranslationRepository, ProductTranslationRepository>();
-            builder.Services.AddScoped<ProductTranslationService>();
 
             builder.Services.Configure<RequestLocalizationOptions>(options =>
             {
@@ -69,15 +51,29 @@ namespace WebApplication1
 
             var app = builder.Build();
 
+            // Initialize the databaseSeedUser
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var userManager = services.GetRequiredService<UserManager<ApplicationUserB>>();
+                    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                    await BTechDbContextSeed.SeedAsync(userManager, roleManager);
+                }
+                catch (Exception ex)
+                {
+                    // Log the error or handle accordingly
+                    Console.WriteLine("Error In Database Seeding");
+                    Console.WriteLine(ex.Message);
+                }
+            }
             //using (var serviceScope = app.Services.GetService<IServiceScopeFactory>().CreateScope())
             //{
             //    var services = serviceScope.ServiceProvider;
-            //    var context = services.GetRequiredService<BTechDbContext>();
-            //    var seeder = new DataSeeder(context);
             //    try
             //    {
             //        RoleInitializer.Initialize(services).Wait();
-            //        seeder.Seed();
             //    }
             //    catch (Exception ex)
             //    {
@@ -105,15 +101,15 @@ namespace WebApplication1
             var locOptions = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
             app.UseRequestLocalization(locOptions.Value);
 
-            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Admin}/{action=Login}/{id?}");
             app.MapRazorPages();
 
             app.Run();
         }
     }
+
 }

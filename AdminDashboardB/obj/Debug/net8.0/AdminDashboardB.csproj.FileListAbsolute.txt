@@ -428,7 +428,12 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\DbContextB.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ModelsB.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\DbContextB.pdb
@@ -459,459 +464,6 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.pdb
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.genruntimeconfig.cache
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\obj\Debug\net8.0\ref\AdminDashboardB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.Framework.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.Common.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.Configuration.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.Frameworks.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.LibraryModel.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.Packaging.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.ProjectModel.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.Protocol.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\NuGet.Versioning.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\af\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ar\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\az\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\bg\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\cs\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\da\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\de\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\el\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\es\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fa\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fr\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\he\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\hr\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\hu\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\hy\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\id\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\is\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\it\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ja\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ku\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\lv\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\mt\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\nb\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\nl\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pl\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pt\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ro\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ru\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\sk\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\sl\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\sr\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\sv\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\tr\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\uk\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\vi\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\AdminDashboardB\bin\Debug\net8.0\Bogus.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.AssemblyReference.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.GeneratedMSBuildEditorConfig.editorconfig
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfoInputs.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfo.cs
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.CoreCompileInputs.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cs
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cs
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.sourcelink.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\refint\AdminDashboardB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\appsettings.Development.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\appsettings.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.staticwebassets.runtime.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.exe
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.deps.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.runtimeconfig.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AutoMapper.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Azure.Core.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Azure.Identity.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Bogus.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Humanizer.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.Framework.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Mono.TextTemplating.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Newtonsoft.Json.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Common.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Configuration.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Frameworks.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.LibraryModel.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Packaging.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.ProjectModel.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Protocol.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Versioning.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.CodeDom.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.Convention.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.Hosting.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.Runtime.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.TypedParts.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Drawing.Common.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Formats.Asn1.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Memory.Data.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Runtime.Caching.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Security.Permissions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Windows.Extensions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\af\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ar\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\az\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\bg\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\da\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\el\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fa\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\he\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\hr\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\hu\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\hy\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\id\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\is\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ku\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\lv\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\mt\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\nb\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\nl\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ro\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\sk\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\sl\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\sr\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\sv\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\uk\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\vi\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ApplicationB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DTOsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ApplicationB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DTOsB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.build.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.development.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.AdminDashboardB.Microsoft.AspNetCore.StaticWebAssets.props
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.build.AdminDashboardB.props
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdminDashboardB.props
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdminDashboardB.props
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.pack.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\bundle\AdminDashboardB.styles.css
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\projectbundle\AdminDashboardB.bundle.scp.css
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDas.B87703F2.Up2Date
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.genruntimeconfig.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\ref\AdminDashboardB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\InfrastructureB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\InfrastructureB.pdb
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\appsettings.Development.json
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\appsettings.json
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.staticwebassets.runtime.json
@@ -920,39 +472,24 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\n
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.runtimeconfig.json
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AdminDashboardB.pdb
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\AutoMapper.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Azure.Core.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Azure.Identity.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Bogus.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Humanizer.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.Framework.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
@@ -972,30 +509,9 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\n
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Mono.TextTemplating.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Newtonsoft.Json.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Common.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Configuration.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Frameworks.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.LibraryModel.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Packaging.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.ProjectModel.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Protocol.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Versioning.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.CodeDom.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -1006,11 +522,130 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\n
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Drawing.Common.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Memory.Data.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Runtime.Caching.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Security.Permissions.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.AssemblyReference.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfoInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.CoreCompileInputs.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cs
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.sourcelink.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.build.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.development.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.AdminDashboardB.Microsoft.AspNetCore.StaticWebAssets.props
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.build.AdminDashboardB.props
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdminDashboardB.props
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdminDashboardB.props
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.pack.json
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\bundle\AdminDashboardB.styles.css
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\projectbundle\AdminDashboardB.bundle.scp.css
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDas.B87703F2.Up2Date
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\refint\AdminDashboardB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.pdb
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.genruntimeconfig.cache
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\ref\AdminDashboardB.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout - Copy.cshtml.rz.scp.css
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Common.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Configuration.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Frameworks.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.LibraryModel.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Packaging.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.ProjectModel.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Protocol.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\NuGet.Versioning.dll
+E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\af\Humanizer.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ar\Humanizer.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -1059,32 +694,6 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\n
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
@@ -1098,19 +707,6 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\n
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
@@ -1137,83 +733,9 @@ E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\n
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ApplicationB.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.dll
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DTOsB.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\InfrastructureB.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ApplicationB.pdb
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DbContextB.pdb
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\InfrastructureB.pdb
 E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\DTOsB.pdb
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\bin\Debug\net8.0\ModelsB.pdb
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.AssemblyReference.cache
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.GeneratedMSBuildEditorConfig.editorconfig
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfoInputs.cache
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfo.cs
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.CoreCompileInputs.cache
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cs
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cache
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cache
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cs
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.sourcelink.json
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.build.json
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.development.json
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.AdminDashboardB.Microsoft.AspNetCore.StaticWebAssets.props
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.build.AdminDashboardB.props
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdminDashboardB.props
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdminDashboardB.props
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\staticwebassets.pack.json
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\bundle\AdminDashboardB.styles.css
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\scopedcss\projectbundle\AdminDashboardB.bundle.scp.css
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDas.B87703F2.Up2Date
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\refint\AdminDashboardB.dll
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.pdb
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.genruntimeconfig.cache
-E:\1- Final Project ITI\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\ref\AdminDashboardB.dll
