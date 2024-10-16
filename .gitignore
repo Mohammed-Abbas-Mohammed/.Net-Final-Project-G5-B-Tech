@@ -1,0 +1,9 @@
+/.vs
+**/Migrations/
+*.dll
+*.pdb
+*.cache
+*.json
+bin/
+obj/
+debug.log
