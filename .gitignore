@@ -6,4 +6,3 @@
 *.json
 bin/
 obj/
-debug.log
