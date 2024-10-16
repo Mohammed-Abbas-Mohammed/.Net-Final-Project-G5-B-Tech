@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace DTOsB.Category
     public class CreateOrUpdateCategoriesDTO
     {
         
-        public string ImageUrl { get; set; }
+        public IFormFile ImageUrl { get; set; }
         public List<CreateCategoryTranslationDto> Translations { get; set; }
     }
 }

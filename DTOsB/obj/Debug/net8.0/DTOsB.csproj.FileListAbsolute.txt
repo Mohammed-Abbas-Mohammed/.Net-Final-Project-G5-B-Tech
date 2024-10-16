@@ -33,3 +33,4 @@ E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.dl
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
 E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
+E:\.NET\ASP\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.AssemblyReference.cache

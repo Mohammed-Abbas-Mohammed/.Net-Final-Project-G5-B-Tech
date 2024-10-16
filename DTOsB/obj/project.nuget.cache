@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hm/sFiN3NnQ=",
+  "dgSpecHash": "b+1EryFfH/0=",
   "success": true,
   "projectFilePath": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
   "logs": []
 }
