@@ -1,28 +1,28 @@
-﻿@* @model IEnumerable<DTOsB.CategoryDTOs.GetCategoryDTO> 
+﻿@* @model IEnumerable<DTOsB.CategoryDTOs.GetCategoryDTO>
  *@
 @{
     ViewData["Title"] = "Index";
 }
 
-<div class="container mt-5 shadow p-4 rounded">
-    <div class="row mb-4 align-items-center">
-        <div class="col-lg-4 col-md-5 col-sm-12 text-end fs-5 text-info-emphasis">
-            <label for="search" class="form-label">Category Name :</label>
+<div class="container my-5 shadow p-4 rounded">
+    <div class="row mb-5 mt-4 align-items-center">
+        <div class="shadow rounded-3 bg-dark ms-3  rounded p-1 col-12 col-md-3 text-center text-light fs-5 fw-bold">
+            <label for="search" class="form-label ">Category Name </label>
         </div>
-        <div class="col-lg-4 col-md-5 col-sm-12">
+        <div class="col-md-5 col-12">
             <form class="d-flex" role="search" asp-action="Search" asp-controller="Category" method="get">
-                <input class="form-control me-2" id="search" type="search" name="name" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-secondary" type="submit">Search</button>
+                <input class=" shadow form-control me-2" id="search" type="search" name="name" placeholder="Search Category" aria-label="Search">
+                <button class=" shadow btn btn-primary" type="submit">Search</button>
             </form>
         </div>
-        <div class="col-lg-4 col-md-2 col-sm-12 text-end">
-            <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
-                <i class="fa-solid fa-plus"></i> Add New Category
+        <div class="col-12 col-md-3  text-center mt-3 mt-md-0 ">
+            <a asp-controller="Category" asp-action="Create" class="shadow btn btn-success">
+                <i class="fa-solid fa-plus me-2"></i> Add New Category
             </a>
         </div>
     </div>
 
-    <div class="table-responsive">
+    <div class="table-responsive shadow rounded-3">
         <table class="table table-hover text-center align-middle">
             <thead class="table-dark shadow">
                 <tr>
@@ -33,26 +33,36 @@
                 </tr>
             </thead>
             <tbody>
-                @* @foreach (var item in Model) 
+                @*
+                @foreach (var item in Model)
                 {
-                    <tr>
-                        <td class="text-center" style="width: 200px; height: 100px;">
-                            <img class="img-fluid" style="max-width: 100px;" src="~/Categories/@item.ImagePath" alt="@item.Name">
-                        </td>
-                        <td>@item.Name</td>
-                        <td>@item.ArabicName</td>
-                        <td>
-                            <div class="d-flex justify-content-center gap-2">
-                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning text-white">
-                                    <i class="fa-solid fa-pen-to-square"></i> Edit
-                                </a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
-                                    <i class="fa-solid fa-trash-can"></i> Delete
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
-                } *@
+                *@
+
+                <tr>
+                    <td class="text-center" style="width: 200px; height: 100px;">
+                        @*
+
+                        <img class="img-fluid" style="max-width: 100px;" src="~/Categories/@item.ImagePath" alt="@item.Name">
+
+                        *@
+                    </td>
+                    <td>Name</td>
+                    <td>ArabicName</td>
+                    <td>
+                        <div class="d-flex justify-content-center gap-2">
+                            <a class="btn btn-warning text-white" asp-action="Edit" asp-route-id="Id">
+                                <i class="fa-solid fa-pen-to-square"></i> Edit
+                            </a>
+
+                            <a asp-action="Delete" asp-route-id="Id" class="btn btn-danger">
+                                <i class="fa-solid fa-trash-can"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                @*
+                }
+                *@
             </tbody>
         </table>
     </div>

@@ -27,7 +27,7 @@ namespace AdminDashboardB.Controllers
 
         public async Task<IActionResult> Edit(int id)
         {
-            return NotFound();
+            return View();
 
         }
 

@@ -1,0 +1,69 @@
+﻿@* @model DTOsB.productDTOs.ProductDetailsDTO *@
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="container my-5 p-4  shadow rounded col-md-10 ">
+    <div class="row">
+
+        <!-- Product Details -->
+        <div class=" col-md-8 mt-5 ">
+            <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Product Details</h2>
+            <hr />
+            <ul class="list-group shadow">
+                <li class="list-group-item">
+                    <strong>ID:</strong> Id
+                </li>
+                <li class="list-group-item">
+                    <strong>Name:</strong> Name
+                </li>
+                <li class="list-group-item">
+                    <strong>Arabic Name:</strong> ArabicName
+                </li>
+                <li class="list-group-item">
+                    <strong>Price:</strong> Price
+                </li>
+                <li class="list-group-item">
+                    <strong>StockQuantity :</strong> StockQuantity
+                </li>
+                <li class="list-group-item">
+                    <strong>Description:</strong> Description
+                </li>
+                <li class="list-group-item">
+                    <strong>Created:</strong> Created
+                </li>
+                <li class="list-group-item">
+                    <strong>Category Name:</strong> CategoryName
+                </li>
+                <li class="list-group-item">
+                    <strong>Specification Name:</strong> Specification
+                </li>
+            </ul>
+        </div>
+        <!-- Product Image -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="~/icons8-admin-16.png" class="card-img-top img-fluid" alt="test image" />
+                @*
+                <img src="/Products/@Model.Images" class="card-img-top img-fluid" alt="@Model.Name" />
+                *@
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <div class="row">
+        <div class="col text-center">
+            <a asp-action="Edit" asp-route-id="Id" class="btn btn-warning me-2 shadow">
+                <i class="fa-solid fa-pen"></i> Edit
+            </a>
+            <a asp-action="Index" class="btn btn-secondary shadow">
+                <i class="fa-solid fa-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>
+

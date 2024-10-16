@@ -1,0 +1,92 @@
+﻿@*
+@model DTOBs.productDTOs.CreatingOrUpdatingProduct
+*@
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container my-5 p-4  shadow rounded col-md-8">
+    <div class="row justify-content-center mt-5">
+        <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Create Product</h2>
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Name"> Name</label>
+                <input type="text" class="form-control shadow-sm" id="Name" name="Name" placeholder="Enter Name" required>
+                @* <span asp-validation-for="Name" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="ArabicName">Arabic Name</label>
+                <input type="text" class="form-control shadow-sm" id="ArabicName" name="ArabicName" placeholder="Enter Arabic Name" required>
+                @* <span asp-validation-for="ArabicName" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="Price">Price</label>
+                <input type="number" class="form-control shadow-sm" id="Price" name="Price" placeholder="Enter Price" required>
+                @* <span asp-validation-for="Price" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="Stock"> StockQuantity </label>
+                <input type="number" class="form-control shadow-sm" id="Stock" name="Stock" placeholder="Enter StockQuantity " required>
+                @* <span asp-validation-for="Stock" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Description">Description</label>
+                <textarea class="form-control shadow-sm" id="Description" name="Description" rows="3" placeholder="Enter Product Description"></textarea>
+                @* <span asp-validation-for="Description" class="text-danger"></span> *@
+            </div>
+
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="Created">Created</label>
+                <input type="date" class="form-control shadow-sm" id="Created" name="Created" placeholder="Enter Created Date">
+                @* <span asp-validation-for="Created" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="CategoryId">Category</label>
+                <select class="form-select shadow-sm" id="CategoryId" name="CategoryId">
+                    <option value="">Select Category</option>
+                    @*
+                    @foreach (var category in ViewBag.CategoryList)
+                    {
+                    <option value="@category.Id">@category.Name</option>
+                    }
+                    *@
+                </select>
+                @* <span asp-validation-for="CategoryId" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="SpecificationId">Specification</label>
+                <select class="form-select shadow-sm" id="SpecificationId" name="SpecificationId">
+                    <option value="">Select Specification</option>
+                    @*
+                    @foreach (var Specification in ViewBag.SpecificationList)
+                    {
+                    <option value="@Specification.Id">@Specification.Name</option>
+                    }
+                    *@
+                </select>
+                @* <span asp-validation-for="SpecificationId" class="text-danger"></span> *@
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="ImageFile">Product Image</label>
+                <input type="file" class="form-control shadow-sm" id="ImageFile" name="ImageFile">
+                @* <span asp-validation-for="ImageFile" class="text-danger"></span> *@
+            </div>
+
+            <div class="d-grid gap-2 mt-5">
+                <button class="btn btn-success btn-lg shadow" type="submit">
+                    <i class="fa-solid fa-check me-2"></i>Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
