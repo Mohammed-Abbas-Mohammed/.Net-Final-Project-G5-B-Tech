@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\1- final project iti\\.net-final-project-g5-b-tech\\admindashboardb\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\1- final project iti\\.net-final-project-g5-b-tech\\admindashboardb\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\1- final project iti\\.net-final-project-g5-b-tech\\admindashboardb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\1- final project iti\\.net-final-project-g5-b-tech\\admindashboardb\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,58 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Product\\Create.cshtml",
-              "ToolTip": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "AdminDashboardB\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T14:05:30.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Edit.cshtml \u2B24",
-              "RelativeToolTip": "AdminDashboardB\\Views\\Product\\Edit.cshtml \u2B24",
-              "ViewState": "AgIAAE4AAAAAAAAAAADwv2cAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T13:37:49.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "AdminDashboardB\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T07:57:22.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Product\\Index.cshtml",
-              "ToolTip": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "AdminDashboardB\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwBoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T07:59:46.167Z",
-              "EditorCaption": ""
             }
           ]
         }

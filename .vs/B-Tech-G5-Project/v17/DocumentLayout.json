@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\1- final project iti\\.net-final-project-g5-b-tech\\admindashboardb\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "E:\\1- Final Project ITI\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "AdminDashboardB\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T14:25:03.394Z",
+              "EditorCaption": ""
             }
           ]
         }
