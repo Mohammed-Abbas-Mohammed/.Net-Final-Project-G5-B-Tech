@@ -51,3 +51,21 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DbContextB\obj\Debug\net8.0\DbContextB.pdb
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.deps.json
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.runtimeconfig.json
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\DbContextB.pdb
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\ModelsB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\bin\Debug\net8.0\ModelsB.pdb
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.AssemblyReference.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfoInputs.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfo.cs
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.CoreCompileInputs.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.sourcelink.json
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.CopyComplete
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\refint\DbContextB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.pdb
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.genruntimeconfig.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\ref\DbContextB.dll

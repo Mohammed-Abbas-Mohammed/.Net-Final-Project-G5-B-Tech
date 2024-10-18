@@ -16,6 +16,7 @@ using ApplicationB.Services_B;
 using ApplicationB.Contracts_B.General;
 using ApplicationB.Services_B.General;
 using InfrastructureB.General;
+using InfrastructureB.user;
 
 namespace WebApplication1
 {
@@ -48,6 +49,8 @@ namespace WebApplication1
 
 
             #region AddScoped
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ILanguageRepository, LanguageRepository>();
             builder.Services.AddScoped<ILanguageService, LanguageService>();
             builder.Services.AddScoped<IUserService, UserService>();

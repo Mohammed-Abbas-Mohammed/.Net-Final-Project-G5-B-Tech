@@ -8700,24 +8700,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohammed Abbas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\SanTomas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\AdminDashboardB\\AdminDashboardB.csproj",
+      "projectUniqueName": "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\AdminDashboardB.csproj",
       "projectName": "AdminDashboardB",
-      "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\AdminDashboardB\\AdminDashboardB.csproj",
-      "packagesPath": "C:\\Users\\Mohammed Abbas\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\AdminDashboardB\\obj\\",
+      "projectPath": "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\AdminDashboardB.csproj",
+      "packagesPath": "C:\\Users\\SanTomas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mohammed Abbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\SanTomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8725,21 +8720,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\ApplicationB.csproj": {
-              "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ApplicationB\\ApplicationB.csproj"
+            "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
+              "projectPath": "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj"
             },
-            "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\DbContextB\\DbContextB.csproj": {
-              "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\DbContextB\\DbContextB.csproj"
+            "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
+              "projectPath": "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj"
             },
-            "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\InfrastructureB\\InfrastructureB.csproj": {
-              "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\InfrastructureB\\InfrastructureB.csproj"
+            "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj": {
+              "projectPath": "C:\\Users\\SanTomas\\Desktop\\FinalProject\\.Net-Final-Project-G5-B-Tech\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj"
             }
           }
         }
@@ -8748,11 +8742,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8813,7 +8802,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

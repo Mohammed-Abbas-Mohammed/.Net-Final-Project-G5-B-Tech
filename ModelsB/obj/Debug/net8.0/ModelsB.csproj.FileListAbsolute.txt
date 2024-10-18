@@ -36,3 +36,16 @@ D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.pdb
 D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.pdb
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.sourcelink.json
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.pdb
+C:\Users\SanTomas\Desktop\FinalProject\.Net-Final-Project-G5-B-Tech\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll

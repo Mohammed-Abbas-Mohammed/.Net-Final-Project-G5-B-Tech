@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using DTOsB.Product;
+using DTOsB.User;
+using ModelsB.Authentication_and_Authorization_B;
 using ModelsB.Product_B;
 using System;
 using System.Collections.Generic;
@@ -21,8 +23,10 @@ namespace ApplicationB.Mapper_B
             CreateMap<ProductSpecificationTranslationB, ProductSpecificationTranslationDto>().ReverseMap();
             CreateMap<SpecificationStore, SpecificationStoreDto>().ReverseMap();
             CreateMap<ReviewB, ReviewDto>().ReverseMap();
-          
+            CreateMap<ApplicationUserB, UserDto>().ReverseMap();
+
+
         }
-    
+
     }
 }
