@@ -48,17 +48,12 @@ namespace AdminDashboardB.Controllers
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    if (model.UserType == "Admin")
-                    {
-                        await _userManager.AddToRoleAsync(user, "Admin");
-                    }
-                    else
-                    {
-                        await _userManager.AddToRoleAsync(user, "User");
-                    }
+                    model.UserType = "User";
+                    await _userManager.AddToRoleAsync(user, "User");
+                    
 
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home"); // Redirect to homepage after successful registration
+                    return RedirectToAction("Login", "Account"); // Redirect to homepage after successful registration
                 }
 
                 foreach (var error in result.Errors)
@@ -113,7 +108,7 @@ namespace AdminDashboardB.Controllers
                 }
             }
 
-            return View(model); // Re-display the form if there are validation errors
+            return View(model); 
         }
 
 

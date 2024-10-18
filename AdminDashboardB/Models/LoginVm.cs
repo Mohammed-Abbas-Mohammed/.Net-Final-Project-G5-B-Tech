@@ -4,12 +4,13 @@ namespace AdminDashboardB.Models
 {
     public class LoginVm
     {
-        [Required]
+       [Required(ErrorMessage = "Wrong Email ")]
+
         [Display(Name = "Email")]
         public string Email { get; set; }
 
-        [Required]
         [DataType(DataType.Password)]
+        [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
 
         [Display(Name = "Remember me?")]
