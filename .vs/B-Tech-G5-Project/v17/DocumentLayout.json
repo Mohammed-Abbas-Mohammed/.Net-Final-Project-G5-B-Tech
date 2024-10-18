@@ -102,8 +102,7 @@
               "RelativeToolTip": "AdminDashboardB\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T16:13:33.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T16:13:33.559Z"
             },
             {
               "$type": "Document",
@@ -211,8 +210,7 @@
               "RelativeToolTip": "AdminDashboardB\\Controllers\\AdminController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:07:37.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T16:07:37.913Z"
             },
             {
               "$type": "Document",
@@ -330,7 +328,7 @@
               "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\CategoryController.cs",
               "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "AdminDashboardB\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T15:07:30.96Z",
               "EditorCaption": ""
