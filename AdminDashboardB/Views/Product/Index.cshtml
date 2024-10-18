@@ -1,0 +1,74 @@
+﻿@* @model IEnumerable<DTOsB.productDTOs.GetAllProduct> *@
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container my-5 shadow p-4 rounded">
+    <div class="row mb-5 mt-4 align-items-center">
+        <div class=" shadow rounded-3 bg-dark ms-3  rounded p-1 col-12 col-md-3 text-center text-light fs-5 fw-bold">
+       <label for="search" class="form-label ">Product Name </label>
+
+        </div>
+        <div class="col-12 col-md-5">
+            <form class="d-flex" role="search" asp-action="Search" asp-controller="Product" method="get">
+                <input class="shadow form-control me-2" type="search" name="name" placeholder="Search Products" aria-label="Search">
+                <button class="shadow btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="col-12 col-md-3  text-center mt-3 mt-md-0">
+            <a asp-action="Create" class="shadow btn btn-success">
+                <i class="fa-solid fa-plus me-2"></i>Add New Product
+            </a>
+        </div>
+    </div>
+    <div class="table-responsive shadow rounded-3">
+        <table class="table table-hover text-center align-middle">
+            <thead class="table-dark shadow">
+                <tr>
+                    <th class="text-center">Images</th>
+                    <th class="text-center">Name</th>
+                    <th class="text-center">Price</th>
+                    <th class="text-center">Created</th>
+                    <th class="text-center">StockQuantity</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @*
+                @foreach (var item in Model)
+                {
+                *@
+                <tr class="align-middle">
+                    <td class="text-center">
+                        @*                 <img class="img-thumbnail" src="~/Products/@item.Images" alt="@item.Name" style="max-width: 100px;">
+                        *@
+                    </td>
+                    <td class="text-center">Name</td>
+                    <td class="text-center">Price</td>
+                    <td class="text-center">Created</td>
+                    <td class="text-center">StockQuantity</td>
+                    <td class="text-center">
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-info text-white" asp-action="Details">
+                                <i class="fa-solid fa-circle-info"></i> Details
+                            </a>
+                            <a class="btn btn-warning text-white" asp-action="Edit" asp-route-id="Id">
+                                <i class="fa-solid fa-pen-to-square"></i> Edit
+                            </a>
+                            <a class="btn btn-danger text-white" asp-action="Delete" asp-route-id="Id">
+                                <i class="fa-solid fa-trash-can"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                @*
+                }
+                *@
+            </tbody>
+        </table>
+    </div>
+
+</div>

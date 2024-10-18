@@ -15,7 +15,7 @@ namespace WebApplication1
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +32,13 @@ namespace WebApplication1
             .AddEntityFrameworkStores<BTechDbContext>()
             .AddDefaultTokenProviders()
             .AddDefaultUI();
+
+            //builder.Services.AddDefaultIdentity<ApplicationUserB>(options => options.SignIn.RequireConfirmedAccount = false)
+            //    .AddEntityFrameworkStores<BTechDbContext>();
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+            //may be comment
+            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>().AddDefaultTokenProviders().AddDefaultUI();
 
             // Add services
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -64,6 +71,38 @@ namespace WebApplication1
             var app = builder.Build();
 
             // Configure middleware
+
+            // Initialize the databaseSeedUser
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var userManager = services.GetRequiredService<UserManager<ApplicationUserB>>();
+                    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                    await BTechDbContextSeed.SeedAsync(userManager, roleManager);
+                }
+                catch (Exception ex)
+                {
+                    // Log the error or handle accordingly
+                    Console.WriteLine("Error In Database Seeding");
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            //using (var serviceScope = app.Services.GetService<IServiceScopeFactory>().CreateScope())
+            //{
+            //    var services = serviceScope.ServiceProvider;
+            //    try
+            //    {
+            //        RoleInitializer.Initialize(services).Wait();
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        // Log the error or handle accordingly
+            //    }
+            //}
+
+            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseMigrationsEndPoint();
@@ -93,4 +132,5 @@ namespace WebApplication1
             app.Run();
         }
     }
+
 }

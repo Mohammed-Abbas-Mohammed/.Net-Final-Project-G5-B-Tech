@@ -3,32 +3,84 @@
   "WorkspaceRootPath": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\admindashboardb\\views\\category\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\category\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\admindashboardb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\applicationb\\contracts b\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\contracts b\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11278AA7-930A-47ED-8EB9-45F7DEB3159C}|DTOsB\\DTOsB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\dtosb\\category\\getallcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11278AA7-930A-47ED-8EB9-45F7DEB3159C}|DTOsB\\DTOsB.csproj|solutionrelative:dtosb\\category\\getallcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Admin\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Views\\Admin\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Views\\Category\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Views\\Category\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Views\\Category\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\GetAll.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Views\\Category\\GetAll.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74E724FB-74F1-425A-AFC1-3DCF2A3820A2}|InfrastructureB\\InfrastructureB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\infrastructureb\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74E724FB-74F1-425A-AFC1-3DCF2A3820A2}|InfrastructureB\\InfrastructureB.csproj|solutionrelative:infrastructureb\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\modelsb\\product b\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\product b\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\OrderController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Controllers\\OrderController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\modelsb\\product b\\sellerb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\product b\\sellerb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashboardB\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\applicationb\\applicationb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\applicationb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\applicationb\\mapper b\\categorymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\mapper b\\categorymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\applicationb\\contracts b\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\contracts b\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\applicationb\\contracts b\\igenericrepositoryb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\contracts b\\igenericrepositoryb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\modelsb\\modelsb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\modelsb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|e:\\.net\\asp\\project\\.net-final-project-g5-b-tech\\modelsb\\product b\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\product b\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +90,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AdminDashboardB\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:13:33.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "AdminDashboardB\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:13:06.844Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Category\\Create.cshtml",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "AdminDashboardB\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:12:50.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "AdminDashboardB\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:12:41.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "AdminDashboardB\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAuwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:11:49.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Program.cs",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Program.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Program.cs",
+              "RelativeToolTip": "AdminDashboardB\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:09:22.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminDashboardB\\appsettings.json",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\appsettings.json",
+              "RelativeToolTip": "AdminDashboardB\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T16:09:15.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AdminDashboardB\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:07:48.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AdminDashboardB\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:07:44.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AdminDashboardB\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:07:37.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AdminDashboardB\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:07:33.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationB.csproj",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
+              "RelativeDocumentMoniker": "ApplicationB\\ApplicationB.csproj",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
+              "RelativeToolTip": "ApplicationB\\ApplicationB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-16T15:59:27.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryMappingProfile.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Mapper B\\CategoryMappingProfile.cs",
+              "RelativeDocumentMoniker": "ApplicationB\\Mapper B\\CategoryMappingProfile.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Mapper B\\CategoryMappingProfile.cs",
+              "RelativeToolTip": "ApplicationB\\Mapper B\\CategoryMappingProfile.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T15:12:21.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGenericRepositoryB.cs",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Contracts B\\IGenericRepositoryB.cs",
+              "RelativeDocumentMoniker": "ApplicationB\\Contracts B\\IGenericRepositoryB.cs",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Contracts B\\IGenericRepositoryB.cs",
+              "RelativeToolTip": "ApplicationB\\Contracts B\\IGenericRepositoryB.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA7wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T15:12:11.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ModelsB.csproj",
+              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+              "RelativeDocumentMoniker": "ModelsB\\ModelsB.csproj",
+              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+              "RelativeToolTip": "ModelsB\\ModelsB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-16T15:11:00.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureB\\CategoryRepository.cs",
@@ -50,25 +284,23 @@
               "RelativeToolTip": "InfrastructureB\\CategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:44:47.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T12:44:47.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Contracts B\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "ApplicationB\\Contracts B\\ICategoryRepository.cs",
               "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Contracts B\\ICategoryRepository.cs",
               "RelativeToolTip": "ApplicationB\\Contracts B\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA4AAAA8AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:41:23.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T12:41:23.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "ProductB.cs",
               "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductB.cs",
               "RelativeDocumentMoniker": "ModelsB\\Product B\\ProductB.cs",
@@ -76,59 +308,31 @@
               "RelativeToolTip": "ModelsB\\Product B\\ProductB.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:14:34.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T12:14:34.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "GetAll.cshtml",
               "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\GetAll.cshtml",
               "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Category\\GetAll.cshtml",
               "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Category\\GetAll.cshtml",
               "RelativeToolTip": "AdminDashboardB\\Views\\Category\\GetAll.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T11:51:38.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T15:07:30.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\CategoryController.cs",
               "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "AdminDashboardB\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:51:08.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllCategoriesDTO.cs",
-              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\DTOsB\\Category\\GetAllCategoriesDTO.cs",
-              "RelativeDocumentMoniker": "DTOsB\\Category\\GetAllCategoriesDTO.cs",
-              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\DTOsB\\Category\\GetAllCategoriesDTO.cs",
-              "RelativeToolTip": "DTOsB\\Category\\GetAllCategoriesDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:47:07.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SellerB.cs",
-              "DocumentMoniker": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\SellerB.cs",
-              "RelativeDocumentMoniker": "ModelsB\\Product B\\SellerB.cs",
-              "ToolTip": "E:\\.NET\\ASP\\Project\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\SellerB.cs",
-              "RelativeToolTip": "ModelsB\\Product B\\SellerB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:40:36.326Z",
+              "WhenOpened": "2024-10-16T15:07:30.96Z",
               "EditorCaption": ""
             }
           ]
