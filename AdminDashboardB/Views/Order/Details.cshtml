@@ -1,0 +1,153 @@
+﻿@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="container my-5 p-4  shadow rounded col-md-8">
+    <div class="row justify-content-center mt-5">
+        <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Order Details</h2>
+        <form method="post">
+            <div class="container">
+                <div>
+                    @* <input hidden asp-for="Order.Id" /> *@
+                    <div class="container rounded p-2">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-4">
+
+                                <div class="row my-1">
+                                    <div class="col-3">Name</div>
+                                    <div class="col-9">
+
+                                        @* <input asp-for="Order.Name" type="text" class="form-control" /> *@
+                                        @* <span asp-validation-for="Order.Name" class="text-danger"></span> *@
+
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Phone</div>
+                                    <div class="col-9">
+                                        @* <input asp-for="Order.PhoneNumber" type="text" class="form-control" /> *@
+                                        @* <span asp-validation-for="Order.PhoneNumber" class="text-danger"></span> *@
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Address</div>
+                                    <div class="col-9">
+
+                                        @* <input asp-for="Order.Address" type="text" class="form-control" /> *@
+                                        @* <span asp-validation-for="Order.Address" class="text-danger"></span> *@
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">City</div>
+                                    <div class="col-9">
+                                        @* <input type="text" asp-for="Order.City" class="form-control" /> *@
+                                        @* <span asp-validation-for="Order.City" class="text-danger"></span> *@
+                                    </div>
+                                </div>
+
+                                <div class="row my-1">
+                                    <div class="col-3">Email</div>
+                                    <div class="col-9">
+                                        @* <input asp-for="Order.ApplicationUser.Email" readonly type="text" class="form-control" /> *@
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Order Date</div>
+                                    <div class="col-9">
+
+                                        @* <input value="@Model.Order.OrderDate.ToShortDateString()" readonly type="text" class="form-control" /> *@
+
+                                    </div>
+                                </div>
+
+                                <div class="row my-1">
+                                    <div class="col-3">Tracking Number</div>
+                                    <div class="col-9">
+
+                                        @* <input asp-for="Order.TrackingNumber" id="tracking" type="text" class="form-control" /> *@
+
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Shipping Date</div>
+                                    <div class="col-9">
+                                        @* <input value="@Model.Order.ShippingDate.ToShortDateString()" type="text" class="form-control" /> *@
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Payment </div>
+                                    <div class="col-9">
+                                        @* <input value="@Model.Order.Payment.ToShortDateString()" type="text" class="form-control" /> *@
+                                    </div>
+
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Payment Status</div>
+                                    <div class="col-9">
+                                        @* <input type="text" asp-for="Order.PaymentStatus" class="form-control" /> *@
+                                    </div>
+                                </div>
+                                <input type="submit" asp-action="UpdateOrderDetails" class="btn btn-success form-control my-1 shadow" value="Update Details" />
+
+
+                            </div>
+                            <div class="col-12 col-lg-5 offset-lg-1 shadow rounded h-25 ">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span></span>
+                                </h4>
+                                <label class="btn btn-outline-primary form-control my-2">Order Status - Order.OrderStatus</label>
+
+                                <ul class="list-group mb-3">
+                                    @* @foreach (var item in Model.OrderDetails)
+                                    { *@
+                                    <li class="list-group-item d-flex justify-content-between p-2">
+                                        <div class="row container">
+                                            <div class="col-8">
+
+                                                <h6 class="my-0 text-primary">Product.Name</h6>
+                                                <small class="text-muted">Price : Product.Price</small><br />
+                                                <small class="text-muted">Quantity : Count</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    @* } *@
+
+
+                                    <li class="list-group-item bg-dark">
+                                        <div class="row container">
+                                            <div class="col-6">
+                                                <h5 class="text-white">TOTAL </h5>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <h5 class="text-white">Order.TotalPrice</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                @*
+                                @if (Model.Order.OrderStatus == Approve)
+                                {
+                                *@
+                                <input type="submit" asp-action="StartProccess" class="btn btn-primary mb-3" value="Start Proccess" />
+                                @*   } *@
+                                @*
+                                @if (Model.Order.OrderStatus == Proccessing)
+                                {
+                                *@
+                                <input type="submit" asp-action="StartShip" onclick="return CheckData()" class="btn btn-success mb-3" value="Start Shipping" />
+                                @*  } *@
+                                @*
+                                @if (Model.Order.OrderStatus != Cancelled || Model.OrderHeader.OrderStatus != Refund)
+                                {
+                                *@
+                                <input type="submit" class="btn btn-danger mb-3" asp-action="CancelOrder" value="Cancel Order" />
+                                @*}*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

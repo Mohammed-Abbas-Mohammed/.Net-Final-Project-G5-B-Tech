@@ -23,5 +23,28 @@ namespace AdminDashboardB.Controllers
 
         //    return RedirectToAction(nameof(Index));
         //}
+
+        public async Task<IActionResult> Details(int orderid)
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> CancelOrder()
+        {
+            return RedirectToAction();
+        }
+        public async Task<IActionResult> UpdateOrderDetails()
+        {
+            return RedirectToAction();
+        }
+        public async Task<IActionResult> StartProccess()
+        {
+            return RedirectToAction();
+        }
+
+        public async Task<IActionResult> StartShip()
+        {
+            return RedirectToAction();
+        }
     }
 }
