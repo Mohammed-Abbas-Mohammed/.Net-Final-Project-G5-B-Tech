@@ -26,5 +26,9 @@ namespace AdminDashboardB.Controllers
         //    return RedirectToAction("Index");
 
         //}
+        public IActionResult LockUnlock(string? id)
+        {
+            return RedirectToAction();
+        }
     }
 }
