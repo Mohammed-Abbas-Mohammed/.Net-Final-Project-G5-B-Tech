@@ -7,18 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Admin\**" />
-    <Compile Remove="Category\**" />
-    <Compile Remove="Customer\**" />
-    <Compile Remove="Order\**" />
-    <EmbeddedResource Remove="Admin\**" />
-    <EmbeddedResource Remove="Category\**" />
-    <EmbeddedResource Remove="Customer\**" />
-    <EmbeddedResource Remove="Order\**" />
-    <None Remove="Admin\**" />
-    <None Remove="Category\**" />
-    <None Remove="Customer\**" />
-    <None Remove="Order\**" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 
 </Project>

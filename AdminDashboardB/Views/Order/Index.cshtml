@@ -1,0 +1,48 @@
+﻿@* @model IEnumerable<DTOBs.OrderDTOs.OrderDto> *@
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container my-5 shadow p-4 rounded">
+
+    <h2 class="shadow rounded-3 bg-dark mb-5 mt-4 rounded p-1 col-12 col-md-3 text-center text-light fw-bold ">All Orders</h2>
+    <div class="table-responsive shadow rounded-3">
+        <table class="table table-hover text-center align-middle">
+            <thead class="table-dark shadow">
+                <tr>
+                    <th>ID</th>
+                    <th>Ordered Date</th>
+                    <th>Total Price</th>
+                    <th>Current Status</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>Shipped Date</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                @*
+                @foreach (var order in Model)
+                {
+                *@
+                <tr>
+                    <td>Id</td>
+                    <td>Ordered Date</td>
+                    <td>Total Price</td>
+                    <td>Current Status</td>
+                    <td>Address</td>
+                    <td>City</td>
+                    <td>Shipped Date</td>
+                    <td>
+                        <a asp-controller="Order" asp-action="Edit" class="btn btn-outline-warning">
+                            <i class="fa-solid fa-pen-to-square"></i> Edit
+                        </a>
+                    </td>
+                </tr>
+                @*   } *@
+            </tbody>
+        </table>
+    </div>
+</div>

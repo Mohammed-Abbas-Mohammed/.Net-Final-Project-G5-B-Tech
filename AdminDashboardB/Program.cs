@@ -1,13 +1,27 @@
-using AdminDashboardB.Data;
+using ApplicationB.Contracts_B.Product;
+using ApplicationB.Contracts_B;
+using ApplicationB.Mapper_B;
+using ApplicationB.Services_B.Product;
 using DbContextB;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
-using ModelsB.Authentication_and_Authorization;
+using Microsoft.Extensions.Options;
+using ModelsB.Authentication_and_Authorization_B;
 using System.Globalization;
+using WebApplication1.Data;
+using InfrastructureB.Product;
+using ApplicationB.Services_B;
+using ApplicationB.Contracts_B.General;
+using ApplicationB.Services_B.General;
+using InfrastructureB.General;
+using ApplicationB.Contracts_B.Category;
+using ApplicationB.Services_B.Category;
+using InfrastructureB.Category;
+using AutoMapper;
 
-namespace AdminDashboardB
+namespace WebApplication1
 {
     public class Program
     {
@@ -15,31 +29,67 @@ namespace AdminDashboardB
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
 
             // Add services to the container.
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<BTechDbContextB>(options =>
-            options.UseSqlServer(connectionString));
+            
+            builder.Services.AddDbContext<BTechDbContext>(options =>
+           options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddDefaultIdentity<ApplicationUserB>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>().AddEntityFrameworkStores<BTechDbContext>()
+                   .AddDefaultTokenProviders().AddDefaultUI();
+
+
+          
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddIdentity<ApplicationUserB, IdentityRole>()
-             .AddEntityFrameworkStores<ApplicationDbContext>()
-                    .AddDefaultTokenProviders()
-                    .AddDefaultUI();
-
-
-
-            //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
-            //    .AddEntityFrameworkStores<ApplicationDbContext>();
-
+           
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
-
-            builder.Services.AddMvc()
-                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+            builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                 .AddDataAnnotationsLocalization();
+
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+            var serviceProvider = builder.Services.BuildServiceProvider();
+            var mapper = serviceProvider.GetService<IMapper>();
+            mapper.ConfigurationProvider.AssertConfigurationIsValid();
+
+            builder.Services.AddHttpContextAccessor();
+
+
+            #region AddScoped
+
+            builder.Services.AddScoped<ILanguageRepository, LanguageRepository>();
+            builder.Services.AddScoped<ILanguageService, LanguageService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+
+
+            //==========Product==========
+
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IProductService,ProductService>();
+            builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
+            builder.Services.AddScoped<IProductImageService,ProductImageService>();
+
+            builder.Services.AddScoped<IProductSpecificationRepository, ProductSpecificationRepository>();
+            builder.Services.AddScoped<IProductSpecificationService,ProductSpecificationService>();
+            builder.Services.AddScoped<IProductTranslationRepository, ProductTranslationRepository>();
+            builder.Services.AddScoped<IProductTranslationService,ProductTranslationService>();
+            builder.Services.AddScoped<IProductSpecificationTranslationRepository, ProductSpecificationTranslationRep>();
+            builder.Services.AddScoped<IProductSpecificationTransService, ProductSpecificationTransService>();
+            builder.Services.AddScoped<ISpecificationStoreRepository, SpecificationStoreRepository>();
+            builder.Services.AddScoped<ISpecificationStoreService, SpecificationStoreService>();
+
+
+            builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+            builder.Services.AddScoped<IReviewService, ReviewService>();
+
+
+            //==========Category==========
+
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            #endregion
+
+
 
             builder.Services.Configure<RequestLocalizationOptions>(options =>
             {
@@ -56,8 +106,22 @@ namespace AdminDashboardB
 
 
             builder.Services.AddControllersWithViews();
-
+           
             var app = builder.Build();
+
+
+            //using (var serviceScope = app.Services.GetService<IServiceScopeFactory>().CreateScope())
+            //{
+            //    var services = serviceScope.ServiceProvider;
+            //    try
+            //    {
+            //        RoleInitializer.Initialize(services).Wait();
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        // Log the error or handle accordingly
+            //    }
+            //}
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -76,11 +140,15 @@ namespace AdminDashboardB
 
             app.UseRouting();
 
+            var locOptions = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(locOptions.Value);
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Product}/{action=Index}/{id?}");
             app.MapRazorPages();
 
             app.Run();

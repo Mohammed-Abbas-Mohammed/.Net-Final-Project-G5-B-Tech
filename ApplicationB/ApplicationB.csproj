@@ -8,13 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DTOsB\DTOsB.csproj" />
-    <ProjectReference Include="..\DTOsMAFP\DTOsMAFP.csproj" />
     <ProjectReference Include="..\ModelsB\ModelsB.csproj" />
-    <ProjectReference Include="..\ModelsMAFP\ModelsMAFP.csproj" />
   </ItemGroup>
 
 </Project>

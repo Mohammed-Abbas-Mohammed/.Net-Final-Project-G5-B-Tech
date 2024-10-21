@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-AdminDashboardB-a18ffb20-b2ae-45aa-a12f-9e8b39df7a78")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WebApplication1-d68fb8d1-f3f3-4efd-a77f-92cc276819cc")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminDashboardB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813473efe10df5c913f3222711506764f091b9d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a42c4e2fdab027fec740770997e82b4c3908b18f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminDashboardB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminDashboardB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

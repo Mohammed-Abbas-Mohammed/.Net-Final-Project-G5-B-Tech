@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\ITI .Net Full Stack Sohag\\B-TECH\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {}
+    "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\ITI .Net Full Stack Sohag\\B-TECH\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+    "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\ITI .Net Full Stack Sohag\\B-TECH\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "projectUniqueName": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj",
         "projectName": "ModelsB",
-        "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\B-TECH\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
+        "projectPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\ModelsB.csproj",
         "packagesPath": "C:\\Users\\Mohammed Abbas\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\B-TECH\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
+        "outputPath": "D:\\Programming\\ITI .Net Full Stack Sohag\\Final Project\\FinalProjectG5\\.Net-Final-Project-G5-B-Tech-\\ModelsB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNet.Identity.EntityFramework": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.4, )"
+              "version": "[8.0.10, )"
             }
           },
           "imports": [

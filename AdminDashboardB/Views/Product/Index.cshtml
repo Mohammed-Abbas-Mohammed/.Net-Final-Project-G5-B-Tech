@@ -1,0 +1,116 @@
+﻿@model  DTOsB.Shared.ResultView< IEnumerable<DTOsB.Product.ProductDto>>
+@* @model DTOsB.Shared.EntityPaginatedB<DTOsB.Product.ProductDto> *@
+@*     @model DTOsB.Product.ProductViewModelWithLang *@
+@{
+    ViewData["Title"] = "Products";
+    
+}
+
+<div class="container my-5 shadow p-4 rounded">
+   @*  <form asp-action="Index" method="get">
+    <select name="selectedLanguageId" onchange="this.form.submit()">
+        <option value="">Select Language</option>
+        @foreach (var lang in ViewBag.AvailableLanguages)
+        {
+            <option value="@lang.Value">
+                @lang.Text
+            </option>
+        }
+    </select>
+    </form> *@
+
+
+  
+    <div class="row mb-5 mt-4 align-items-center">
+        <div class="shadow rounded-3 bg-dark ms-3 rounded p-1 col-12 col-md-3 text-center text-light fs-5 fw-bold">
+            <label for="search" class="form-label">Product Name </label>
+        </div>
+        <div class="col-12 col-md-5">
+            <form class="d-flex" role="search" asp-action="Search" asp-controller="Product" method="get">
+                <input class="shadow form-control me-2" type="search" name="searchString" placeholder="Search Products" aria-label="Search">
+                <button class="shadow btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="col-12 col-md-3 text-center mt-3 mt-md-0">
+            <a asp-action="Create" class="shadow btn btn-success">
+                <i class="fa-solid fa-plus me-2"></i>Add New Product
+            </a>
+        </div>
+    </div>
+
+    <div class="table-responsive shadow rounded-3">
+        <table class="table table-hover text-center align-middle">
+            <thead class="table-dark shadow">
+                <tr>
+                    <th class="text-center">Name</th>
+                    <th class="text-center">Brand Name</th>
+                    <th class="text-center">Price</th>
+                    <th class="text-center">Stock Quantity</th>
+                    <th class="text-center">Image</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Entity)
+                {
+                    <tr class="align-middle">
+                        <!-- Name Translation by LanguageId -->
+                        <td class="text-center">
+                            @item.Translations.FirstOrDefault(trans => trans.LanguageId == 2/* ViewBag.SelectedLanguageId */)?.Name
+                        </td>
+
+                        <!-- Brand Name Translation by LanguageId -->
+                        <td class="text-center">
+                            @item.Translations.FirstOrDefault(trans => trans.LanguageId == 2/* ViewBag.SelectedLanguageId */)?.BrandName
+                        </td>
+
+                        <!-- Price -->
+                        <td class="text-center">
+                            @item.Price.ToString("C")
+                        </td>
+
+                        <!-- Stock Quantity -->
+                        <td class="text-center">
+                            @item.StockQuantity
+                        </td>
+
+                        <!-- Image -->
+                        <td class="text-center">
+                            @if (item.Images.Any())
+                            {
+                                <img class="img-thumbnail" src="~/Products/@item.Images.First().Url" alt="Product Image" style="max-width: 100px;">
+                            }
+                            else
+                            {
+                                <span>No image available</span>
+                            }
+                        </td>
+
+                        <!-- Actions -->
+                        <td class="text-center">
+                            <div class="btn-group" role="group">
+                                <a class="btn btn-info text-white" asp-action="Details" asp-route-id="@item.Id">
+                                    <i class="fa-solid fa-circle-info"></i> Details
+                                </a>
+                                <a class="btn btn-warning text-white" asp-action="Edit" asp-route-id="@item.Id">
+                                    <i class="fa-solid fa-pen-to-square"></i> Edit
+                                </a>
+                                <a class="btn btn-danger text-white" asp-action="Delete" asp-route-id="@item.Id">
+                                    <i class="fa-solid fa-trash-can"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+          
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+                        
+
+
+

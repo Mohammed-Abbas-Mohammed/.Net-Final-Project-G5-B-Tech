@@ -1,0 +1,215 @@
+﻿
+@model DTOsB.Product.ProductCreateOrUpdateDto
+
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container my-5 p-4  shadow rounded col-md-12">
+   @*  <form asp-action="Index" method="get">
+        <select name="selectedLanguageId" onchange="this.form.submit()">
+            <option value="">Select Language</option>
+            @foreach (var lang in ViewBag.AvailableLanguages)
+            {
+                <option value="@lang.Value">
+                    @lang.Text
+                </option>
+            }
+        </select>
+    </form> *@
+    <div class="row justify-content-center mt-5">
+        <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Create Product</h2>
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Name">English Name</label>
+                <input type="text" class="form-control shadow-sm" id="EnName" name="Name" placeholder="Enter Name" required>
+                <span asp-validation-for="Translations.FirstOrDefault(trans=> trans.LanguageId == 2).Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Name">Arabic Name</label>
+                <input type="text" class="form-control shadow-sm" id="ArName" name="Name" placeholder="Enter Name" required>
+                <span asp-validation-for="Translations.FirstOrDefault(trans=> trans.LanguageId == 1).Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="ArabicName">Englis Brand Name</label>
+                <input type="text" class="form-control shadow-sm" id="EnBrandName" name="ArabicName" placeholder="Enter Arabic Name" required>
+                <span asp-validation-for="Translations.FirstOrDefault(trans=> trans.LanguageId == 2).BrandName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="ArabicName">Arabic Brand Name</label>
+                <input type="text" class="form-control shadow-sm" id="ArBrandName" name="ArabicName" placeholder="Enter Arabic Name" required>
+                <span asp-validation-for="Translations.FirstOrDefault(trans=> trans.LanguageId == 1).BrandName" class="text-danger"></span>
+            </div>
+
+            @* <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="ArBrandName">Arabic Brand Name</label>
+                <select class="form-control shadow-sm" id="ArBrandName" name="ArabicName" required>
+                    <option value="">Select Arabic Brand Name</option>
+                    @foreach (var trans in Model.Translations.Where(t => t.LanguageId == 1))
+                    {
+                        <option value="@trans.BrandName">@trans.BrandName</option>
+                    }
+                </select>
+                <span asp-validation-for="Translations.FirstOrDefault(trans => trans.LanguageId == 1).BrandName" class="text-danger"></span>
+            </div> *@
+            
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="Price">Price</label>
+                <input type="number" class="form-control shadow-sm" id="Price" name="Price" placeholder="Enter Price" required>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="Stock"> StockQuantity </label>
+                <input type="number" class="form-control shadow-sm" id="Stock" name="Stock" placeholder="Enter StockQuantity " required>
+                <span asp-validation-for="StockQuantity" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Description">English Description</label>
+                <textarea class="form-control shadow-sm" id="Description" name="EnDescription" rows="3" placeholder="Enter Product Description"></textarea>
+                <span asp-validation-for="Translations.FirstOrDefault(trans=> trans.LanguageId == 2).Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Description">Arabic Description</label>
+                <textarea class="form-control shadow-sm" id="Description" name="ArDescription" rows="3" placeholder="Enter Product Description"></textarea>
+                <span asp-validation-for="Translations.FirstOrDefault(trans=> trans.LanguageId == 1).Description" class="text-danger"></span>
+            </div>
+
+
+           @*  <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="CategoryId">Category</label>
+                <select class="form-select shadow-sm" id="CategoryId" name="CategoryId">
+                    <option value="">Select Category</option>
+                    
+                    @foreach (var category in ViewBag.CategoryList)
+                    {
+                    <option value="@category.Id">@category.Name</option>
+                    }
+                   
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div> *@
+
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="ImageFiles">Product Images</label>
+                <input type="file" class="form-control shadow-sm" id="ImageFiles" name="ImageFiles" multiple>
+                <span asp-validation-for="Images.FirstOrDefault().ImageFile" class="text-danger"></span>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="SpecificationId">Specification</label>
+                <select class="form-select shadow-sm" id="SpecificationId" name="SpecificationId">
+                    <option value="">Select Specification</option>
+                    @*
+                    @foreach (var Specification in ViewBag.SpecificationList)
+                    {
+                    <option value="@Specification.Id">@Specification.Name</option>
+                    }
+                    *@
+                </select>
+                @* <span asp-validation-for="SpecificationId" class="text-danger"></span> *@
+            </div>
+
+          
+
+            @* <div id="specifications-container">
+            <h4>Specifications</h4>
+
+            <!-- Loop through existing specifications in the model -->
+            @for (var i = 1; i < 5; i++)
+            {
+                <div class="spec-row">
+                    <div class="form-group">
+                        <label for="spec-language-@i">Language</label>
+                        <select name="Specifications[@i].LanguageId" class="form-control">
+                                @foreach (var lang in ViewBag.AvailableLanguages)
+                            {
+                                <option value="@lang.Value">
+                                    @lang.Text
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="spec-key-@i">Specification Key</label>
+                        <input type="text" class="form-control" name="Specifications[@i].Translations[0].TranslatedKey" 
+                               value="@Model.Specifications[i].Translations.FirstOrDefault()?.TranslatedKey ?? string.Empty" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="spec-value-@i">Specification Value</label>
+                        <input type="text" class="form-control" name="Specifications[@i].Translations[0].TranslatedValue" 
+                               value="@Model.Specifications[i].Translations.FirstOrDefault()?.TranslatedValue ?? string.Empty" />
+                    </div>
+                </div>
+            }
+            </div>
+
+
+           
+
+             <!-- Button to add new specification -->
+            <button type="button" class="btn btn-primary" id="add-spec-btn">Add Specification</button> *@
+
+
+            <div class="d-grid gap-2 mt-5">
+                <button class="btn btn-success btn-lg shadow" type="submit">
+                    <i class="fa-solid fa-check me-2"></i>Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+@* <script>
+    $(document).ready(function () {
+        $('#ArBrandName').select2({
+            placeholder: "Select Arabic Brand Name",
+            allowClear: true
+        });
+    });
+</script> *@
+@* <script>
+    var specIndex = @Model.Specifications.Count;
+
+    // Function to dynamically add new spec rows
+    document.getElementById("add-spec-btn").addEventListener("click", function () {
+        var container = document.getElementById("specifications-container");
+        var newRow = `
+                <div class="spec-row">
+                    <div class="form-group">
+                        <label for="spec-language-${specIndex}">Language</label>
+                        <select name="Specs[${specIndex}].LanguageId" class="form-control">
+    @foreach (var lang in ViewBag.LanguageList)
+    {
+                                    <option value="@lang.Id">@lang.Name</option>
+    }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="spec-key-${specIndex}">Specification Key</label>
+                        <input type="text" class="form-control" name="Specs[${specIndex}].Key" />
+                    </div>
+                    <div class="form-group">
+                        <label for="spec-value-${specIndex}">Specification Value</label>
+                        <input type="text" class="form-control" name="Specs[${specIndex}].Value" />
+                    </div>
+                </div>
+            `;
+        container.insertAdjacentHTML('beforeend', newRow);
+        specIndex++;
+    });
+</script> *@
