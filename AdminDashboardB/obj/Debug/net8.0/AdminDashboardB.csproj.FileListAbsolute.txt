@@ -1,0 +1,9 @@
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.AssemblyReference.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfoInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.AssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.csproj.CoreCompileInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.RazorAssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\AdminDashboardB\obj\Debug\net8.0\AdminDashboardB.sourcelink.json

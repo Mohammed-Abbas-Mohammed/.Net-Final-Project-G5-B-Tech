@@ -1,0 +1,6 @@
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.AssemblyReference.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfoInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.AssemblyInfo.cs
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.csproj.CoreCompileInputs.cache
+D:\Programming\ITI .Net Full Stack Sohag\B-TECH\.Net-Final-Project-G5-B-Tech\DbContextB\obj\Debug\net8.0\DbContextB.sourcelink.json
