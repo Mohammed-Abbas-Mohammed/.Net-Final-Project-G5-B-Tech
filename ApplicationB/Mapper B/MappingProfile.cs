@@ -30,6 +30,7 @@ namespace ApplicationB.Mapper_B
                 .ForMember(dest => dest.Translations, opt => opt.MapFrom(src => src.Translations))
                 .ReverseMap();
             CreateMap<ProductB, ProductCreateOrUpdateDto>()
+                .ForMember(dest => dest.ImageFiles, opt => opt.Ignore()).ReverseMap()
                 //.ForMember(dest => dest.Images, opt => opt.MapFrom(src => src.Images))
 
                 .ReverseMap();
@@ -42,6 +43,7 @@ namespace ApplicationB.Mapper_B
             CreateMap<ProductTranslationB, ProductTranslationDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.LanguageId, opt => opt.MapFrom(src => src.LanguageId))
+                .ForMember(dest => dest.ProductId, opt => opt.MapFrom(src => src.ProductId))
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
                 .ForMember(dest => dest.BrandName, opt => opt.MapFrom(src => src.BrandName))
                 .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.Description))

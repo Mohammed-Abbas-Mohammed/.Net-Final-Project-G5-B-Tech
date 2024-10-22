@@ -11,7 +11,7 @@ namespace ApplicationB.Contracts_B
     {
         public Task<IQueryable<T>> GetAllAsync();
         public Task<T> GetByIdAsync(int id);
-        public Task AddAsync(T entity);
+        public Task<T> AddAsync(T entity);
         public Task UpdateAsync(T entity);
         public Task DeleteAsync(int id);
        

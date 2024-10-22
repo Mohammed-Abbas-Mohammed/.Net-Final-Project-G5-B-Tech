@@ -44,10 +44,12 @@
                         @foreach (var image in Model.Entity.Images)
                         {
                             <li class="list-group-item">
+                                <p>Image URL: @image.Url</p>
                                 <img src="@image.Url" class="img-thumbnail" alt="Product Image" style="max-width: 150px;" />
                             </li>
                         }
                     </ul>
+
                 </li>
             </ul>
         </div>

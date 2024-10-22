@@ -28,8 +28,7 @@ namespace ApplicationB.Services_B.Product
         public async Task<ResultView<ProductImageCreateOrUpdateDto>> AddImageAsync(ProductImageCreateOrUpdateDto productImageDto)
         {
             var productImage = _mapper.Map<ProductImageB>(productImageDto);
-            productImage.Product.CreatedBy = _userService.GetCurrentUserId();
-           
+          
 
             await _productImageRepository.AddAsync(productImage);
             return ResultView<ProductImageCreateOrUpdateDto>.Success(productImageDto);
@@ -45,8 +44,6 @@ namespace ApplicationB.Services_B.Product
               
             }
             _mapper.Map(productImageDto, existingImage);
-
-            existingImage.Product.UpdatedBy = _userService.GetCurrentUserId();
 
             await _productImageRepository.UpdateAsync(existingImage);
             return ResultView<ProductImageCreateOrUpdateDto>.Success(productImageDto);

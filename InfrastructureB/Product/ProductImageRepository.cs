@@ -21,6 +21,6 @@ namespace InfrastructureB.Product
              .Where(pi => pi.ProductId == productId);
         }
 
-        
+       
     }
 }

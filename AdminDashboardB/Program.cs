@@ -20,6 +20,7 @@ using ApplicationB.Contracts_B.Category;
 using ApplicationB.Services_B.Category;
 using InfrastructureB.Category;
 using AutoMapper;
+using AdminDashboardB.Models;
 
 namespace WebApplication1
 {
@@ -59,6 +60,8 @@ namespace WebApplication1
 
             builder.Services.AddScoped<ILanguageRepository, LanguageRepository>();
             builder.Services.AddScoped<ILanguageService, LanguageService>();
+            builder.Services.AddScoped<IImageService, ImageService>();
+
             builder.Services.AddScoped<IUserService, UserService>();
 
 

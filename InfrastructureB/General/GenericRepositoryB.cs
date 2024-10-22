@@ -25,10 +25,11 @@ namespace InfrastructureB.General
 
         public virtual async Task<T> GetByIdAsync(int id) => await _dbSet.FindAsync(id);
 
-        public async Task AddAsync(T entity)
+        public async Task<T> AddAsync(T entity)
         {
-            await _dbSet.AddAsync(entity);
+            var recieved = (await _dbSet.AddAsync(entity)).Entity;
             await _context.SaveChangesAsync();
+            return recieved;
         }
 
         public async Task UpdateAsync(T entity)

@@ -78,7 +78,8 @@
                         <td class="text-center">
                             @if (item.Images.Any())
                             {
-                                <img class="img-thumbnail" src="~/Products/@item.Images.First().Url" alt="Product Image" style="max-width: 100px;">
+                                <img class="img-thumbnail" src="@item.Images.FirstOrDefault()?.Url" alt="Product Image" style="max-width: 100px;">
+
                             }
                             else
                             {

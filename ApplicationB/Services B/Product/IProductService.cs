@@ -11,9 +11,9 @@ namespace ApplicationB.Services_B.Product
     public interface IProductService
     {
         Task<ResultView<ProductCreateOrUpdateDto>> CreateProductAsync(ProductCreateOrUpdateDto productDto);
-        Task<ResultView<ProductDto>> UpdateProductAsync(ProductDto productDto);
+        Task<ResultView<ProductCreateOrUpdateDto>> UpdateProductAsync(ProductCreateOrUpdateDto productDto);
         Task<ResultView<ProductDto>> DeleteProductAsync(int id);
-        Task<ResultView<ProductDto>> GetProductByIdAsync(int id);
+        Task<ResultView<ProductCreateOrUpdateDto>> GetProductByIdAsync(int id);
         Task<ResultView<IEnumerable<ProductDto>>> GetAllProductsAsync();
         Task<ResultView<IEnumerable<ProductDto>>> SearchProductsByNameAsync(string name);
         public Task<EntityPaginatedB<ProductDto>> GetAllPaginatedAsync(int pageNumber, int Count);

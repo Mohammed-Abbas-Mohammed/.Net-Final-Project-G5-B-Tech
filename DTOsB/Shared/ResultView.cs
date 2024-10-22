@@ -15,6 +15,10 @@ namespace DTOsB.Shared
 
         public string Msg { get; set; }
 
+        public ResultView()
+        {
+        }
+
         private ResultView(T data, bool success, string error)
         {
             Entity = data;

@@ -13,5 +13,7 @@ namespace DTOsB.Product
         public int Id { get; set; }
         public IFormFile ImageFile { get; set; } // For file upload
         public string Url { get; set; }
+
+        public int ProductId { get; set; }
     }
 }

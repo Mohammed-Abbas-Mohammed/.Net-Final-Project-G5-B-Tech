@@ -50,36 +50,36 @@ public class ProductService: IProductService
             if (productDto.StockQuantity < 0)
                 return ResultView<ProductCreateOrUpdateDto>.Failure("Product Quantity must be a positive value.");
 
-          
 
             var product = _mapper.Map<ProductB>(productDto);
-            await _productRepository.AddAsync(product);
+            var createdProduct = await _productRepository.AddAsync(product);
 
 
-            return ResultView<ProductCreateOrUpdateDto>.Success(productDto);
+         
+            return ResultView<ProductCreateOrUpdateDto>.Success(_mapper.Map<ProductCreateOrUpdateDto>(createdProduct));
         }
 
-        public async Task<ResultView<ProductDto>> UpdateProductAsync(ProductDto productDto)
+        public async Task<ResultView<ProductCreateOrUpdateDto>> UpdateProductAsync(ProductCreateOrUpdateDto productDto)
         {
             if (productDto == null)
-                return ResultView<ProductDto>.Failure("Product must have data to be added");
+                return ResultView<ProductCreateOrUpdateDto>.Failure("Product must have data to be added");
 
             var existingProduct = await _productRepository.GetByIdAsync(productDto.Id);
             if (existingProduct == null || existingProduct.IsDeleted)
-                return ResultView<ProductDto>.Failure("Product not found. Unable to update.");
+                return ResultView<ProductCreateOrUpdateDto>.Failure("Product not found. Unable to update.");
 
             if (productDto.Price < 0)
-                return ResultView<ProductDto>.Failure("Product price must be a positive value.");
+                return ResultView<ProductCreateOrUpdateDto>.Failure("Product price must be a positive value.");
 
             if (productDto.StockQuantity < 0)
-                return ResultView<ProductDto>.Failure("Product Quantity must be a positive value.");
+                return ResultView<ProductCreateOrUpdateDto>.Failure("Product Quantity must be a positive value.");
 
             _mapper.Map(productDto, existingProduct);
             
             //existingProduct.UpdatedBy = _userService.GetCurrentUserId();
 
             await _productRepository.UpdateAsync(existingProduct);
-            return ResultView<ProductDto>.Success(productDto);
+            return ResultView<ProductCreateOrUpdateDto>.Success(productDto);
         }
 
         public async Task<ResultView<ProductDto>> DeleteProductAsync(int id)
@@ -96,16 +96,16 @@ public class ProductService: IProductService
             return ResultView<ProductDto>.Success(null);
         }
 
-        public async Task<ResultView<ProductDto>> GetProductByIdAsync(int id)
+        public async Task<ResultView<ProductCreateOrUpdateDto>> GetProductByIdAsync(int id)
         {
          
             var product = await _productRepository.GetByIdAsync(id);
 
             if (product == null)
-                return ResultView<ProductDto>.Failure("Product not found.");
+                return ResultView<ProductCreateOrUpdateDto>.Failure("Product not found.");
 
-            var productDto = _mapper.Map<ProductDto>(product);
-            return ResultView<ProductDto>.Success(productDto);
+            var productDto = _mapper.Map<ProductCreateOrUpdateDto>(product);
+            return ResultView<ProductCreateOrUpdateDto>.Success(productDto);
         }
 
         public async Task<ResultView<IEnumerable<ProductDto>>> GetAllProductsAsync()

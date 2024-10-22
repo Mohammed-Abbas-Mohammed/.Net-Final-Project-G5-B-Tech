@@ -25,10 +25,10 @@ namespace DTOsB.Controllers
 
 
         public ProductController(IProductService _productService, IUserService userService,ILanguageService _languageService, IProductImageService productImageService,IProductSpecificationService productSpecificationService,
-            IProductTranslationService productTranslationService,IProductSpecificationTransService productSpecificationTransService)
+            IProductTranslationService productTranslationService,IProductSpecificationTransService productSpecificationTransService, IImageService imageService)
         {
             productService = _productService;
-           
+             _imageService =imageService;
             _userService = userService;
             languageService = _languageService;
             _productImageService = productImageService;
@@ -81,7 +81,7 @@ namespace DTOsB.Controllers
         //}
 
         // GET: Products/Create
-        public  IActionResult Create(/*int selectedLanguageId = 2*/)
+        public  async Task<IActionResult> Create(/*int selectedLanguageId = 2*/)
         {
             //var availableLanguages = await languageService.GetAllLanguagesAsync();
             //ViewBag.AvailableLanguages = new SelectList(availableLanguages, "Id", "Code");
@@ -89,6 +89,8 @@ namespace DTOsB.Controllers
 
             //languageService.SetUserSelectedLanguageAsync(selectedLanguageId);
             //ViewBag.SelectedLanguageId = selectedLanguageId;
+
+           
             return View();
         }
 
@@ -103,6 +105,7 @@ namespace DTOsB.Controllers
             productDto.CreatedBy = _userService.GetCurrentUserId();
             productDto.UpdatedBy = _userService.GetCurrentUserId();
 
+
             var result = await productService.CreateProductAsync(productDto);
             if (!result.IsSuccess)
             {
@@ -110,69 +113,67 @@ namespace DTOsB.Controllers
                 return View(productDto);
             }
 
-
-            //Images
             if (productDto.ImageFiles != null && productDto.ImageFiles.Count > 0)
             {
-                productDto.Images = productDto.Images ?? new List<ProductImageCreateOrUpdateDto>();
-                var errorMessages = new List<string>();
+
+                result.Entity.Images = result.Entity.Images ?? new List<ProductImageCreateOrUpdateDto>();
 
                 foreach (var imageFile in productDto.ImageFiles)
                 {
+                 
                     var imageUrl = await _imageService.SaveImageAsync(imageFile, "ImageUrls");
-                    ProductImageCreateOrUpdateDto imageDto = new ProductImageCreateOrUpdateDto
+
+                   
+                    var imageDto = new ProductImageCreateOrUpdateDto
                     {
                         Url = imageUrl,
+                        ProductId = result.Entity.Id 
                     };
 
-                    productDto.Images.Add(imageDto);
+                   
+                    //productDto.Images.Add(imageDto);
 
                     var imageResult = await _productImageService.AddImageAsync(imageDto);
                     if (!imageResult.IsSuccess)
                     {
-                        errorMessages.Add(imageResult.Msg);
+                        ModelState.AddModelError("", imageResult.Msg);
+                        return View(result.Entity);
                     }
-                }
-
-                if (errorMessages.Any())
-                {
-                    ModelState.AddModelError("", string.Join(";", errorMessages));
-                    return View(productDto);
                 }
             }
 
             //Translations
-            foreach (var trans in productDto.Translations)
-            {
-                var transResult = await _productTranslationService.AddTranslationAsync(trans);
-                if (!transResult.IsSuccess)
-                {
-                    ModelState.AddModelError("", transResult.Msg);
-                    return View(productDto);
-                }
-            }
+            //foreach (var trans in productDto.Translations)
+            //{
+            //    var transResult = await _productTranslationService.AddTranslationAsync(trans);
+            //    if (!transResult.IsSuccess)
+            //    {
+            //        ModelState.AddModelError("", transResult.Msg);
+            //        return View(productDto);
+            //    }
+            //}
 
 
             //Specifications
-            foreach (var spec in productDto.Specifications)
-            {
-                var specResult = await _productSpecificationService.AddSpecificationAsync(spec);
-                if (!specResult.IsSuccess)
-                {
-                    ModelState.AddModelError("", specResult.Msg);
-                    return View(productDto);
-                }
+            //foreach (var spec in productDto.Specifications)
+            //{
+            //    var specResult = await _productSpecificationService.AddSpecificationAsync(spec);
+            //    if (!specResult.IsSuccess)
+            //    {
+            //        ModelState.AddModelError("", specResult.Msg);
+            //        return View(productDto);
+            //    }
 
-                foreach (var specTrans in spec.Translations)
-                {
-                    var specTransResult = await _productSpecificationTransService.AddTranslationAsync(specTrans);
-                    if (!specTransResult.IsSuccess)
-                    {
-                        ModelState.AddModelError("", specTransResult.Msg);
-                        return View(productDto);
-                    }
-                }
-            }
+            //    foreach (var specTrans in spec.Translations)
+            //    {
+            //        var specTransResult = await _productSpecificationTransService.AddTranslationAsync(specTrans);
+            //        if (!specTransResult.IsSuccess)
+            //        {
+            //            ModelState.AddModelError("", specTransResult.Msg);
+            //            return View(productDto);
+            //        }
+            //    }
+            //}
 
             //}
             return RedirectToAction(nameof(Index));
@@ -186,30 +187,49 @@ namespace DTOsB.Controllers
             {
                 return NotFound();
             }
+
             return View(product);
         }
 
         // POST: Products/Edit/5
+     
+        //[ValidateAntiForgeryToken]
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, ProductDto productDto)
+        public async Task<IActionResult> Edit(int id, ResultView<ProductCreateOrUpdateDto> resultView)
         {
+            // Extract the actual DTO from the result view
+            var productDto = resultView.Entity;
+
             if (id != productDto.Id)
             {
                 return BadRequest();
             }
 
-            if (ModelState.IsValid)
+            //if (ModelState.IsValid)
+            //{
+            productDto.CreatedBy = _userService.GetCurrentUserId();
+            productDto.UpdatedBy = _userService.GetCurrentUserId();
+
+
+            var result = await productService.UpdateProductAsync(productDto);
+            var translations = productDto.Translations;
+            foreach (var Trans in translations)
             {
-                var result = await productService.UpdateProductAsync(productDto);
-                if (result.IsSuccess)
+                 await _productTranslationService.UpdateTranslationAsync(Trans);
+            }
+         
+            if (result.IsSuccess)
                 {
                     return RedirectToAction(nameof(Index));
                 }
+
                 ModelState.AddModelError("", result.Msg);
-            }
-            return View(productDto);
+            //}
+
+            // Return the entire resultView to the view, since it's the expected type
+            return View(resultView);
         }
+
 
         // GET: Products/Delete/5
         //public async Task<IActionResult> Delete(int id)
