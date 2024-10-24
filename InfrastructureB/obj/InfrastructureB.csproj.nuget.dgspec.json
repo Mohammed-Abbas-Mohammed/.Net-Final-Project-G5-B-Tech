@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CS\\Desktop\\backup\\InfrastructureB\\InfrastructureB.csproj": {}
+    "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CS\\Desktop\\backup\\ApplicationB\\ApplicationB.csproj": {
+    "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CS\\Desktop\\backup\\ApplicationB\\ApplicationB.csproj",
+        "projectUniqueName": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
         "projectName": "ApplicationB",
-        "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ApplicationB\\ApplicationB.csproj",
+        "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CS\\Desktop\\backup\\ApplicationB\\obj\\",
+        "outputPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj"
               },
-              "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj"
+              },
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -56,6 +59,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
             },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
@@ -86,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\CS\\Desktop\\backup\\DbContextB\\DbContextB.csproj": {
+    "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CS\\Desktop\\backup\\DbContextB\\DbContextB.csproj",
+        "projectUniqueName": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj",
         "projectName": "DbContextB",
-        "projectPath": "C:\\Users\\CS\\Desktop\\backup\\DbContextB\\DbContextB.csproj",
+        "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CS\\Desktop\\backup\\DbContextB\\obj\\",
+        "outputPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,8 +118,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -185,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj": {
+    "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj",
+        "projectUniqueName": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj",
         "projectName": "DTOsB",
-        "projectPath": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj",
+        "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\obj\\",
+        "outputPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -210,8 +217,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -256,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\CS\\Desktop\\backup\\InfrastructureB\\InfrastructureB.csproj": {
+    "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CS\\Desktop\\backup\\InfrastructureB\\InfrastructureB.csproj",
+        "projectUniqueName": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj",
         "projectName": "InfrastructureB",
-        "projectPath": "C:\\Users\\CS\\Desktop\\backup\\InfrastructureB\\InfrastructureB.csproj",
+        "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\InfrastructureB.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CS\\Desktop\\backup\\InfrastructureB\\obj\\",
+        "outputPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -281,14 +288,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CS\\Desktop\\backup\\ApplicationB\\ApplicationB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ApplicationB\\ApplicationB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\ApplicationB.csproj"
               },
-              "C:\\Users\\CS\\Desktop\\backup\\DbContextB\\DbContextB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\DbContextB\\DbContextB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DbContextB\\DbContextB.csproj"
               },
-              "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj": {
-                "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj"
+              "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+                "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
               }
             }
           }
@@ -327,14 +334,14 @@
         }
       }
     },
-    "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj": {
+    "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj",
+        "projectUniqueName": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
         "projectName": "ModelsB",
-        "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj",
+        "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\obj\\",
+        "outputPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",

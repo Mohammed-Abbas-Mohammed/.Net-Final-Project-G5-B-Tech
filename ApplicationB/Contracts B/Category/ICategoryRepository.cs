@@ -12,7 +12,7 @@ namespace ApplicationB.Contracts_B.Category
     {
         Task<IEnumerable<CategoryB>> GetAllAsync();
     Task<CategoryB> GetByIdAsync(int id);
-    Task<CategoryB> GetByNameAsync(string categoryName);
+    Task<IEnumerable<CategoryB>> GetByNameAsync(string categoryName);
     Task AddAsync(CategoryB category);
     Task UpdateAsync(CategoryB category);
     Task DeleteAsync(int id);

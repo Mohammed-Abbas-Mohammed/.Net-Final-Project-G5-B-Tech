@@ -17,12 +17,12 @@ namespace InfrastructureB.Product
     {
         public ProductSpecificationTranslationRep(BTechDbContext context) : base(context) { }
 
-        public async Task<IQueryable<ProductSpecificationTranslationB>> GetTranslationsByProductId(int productId, string language)
+        public async Task<IQueryable<ProductSpecificationTranslationB>> GetTranslationsByProductId(int productId, int languageId)
         {
             var translations = await GetAllAsync();
             return (translations
                 .Where(trans => trans.ProductSpecification.ProductId == productId
-                && trans.ProductSpecification.Product.IsDeleted == false && trans.Language.Code == language));
+                && trans.ProductSpecification.Product.IsDeleted == false && trans.Language.Id == languageId));
         }
 
     }

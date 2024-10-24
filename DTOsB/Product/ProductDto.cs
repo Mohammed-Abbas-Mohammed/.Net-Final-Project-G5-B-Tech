@@ -12,9 +12,9 @@ namespace DTOsB.Product
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
 
-        public int CreatedBy { get; set; }
+        public string CreatedBy { get; set; }
         public DateTime Created { get; set; } = DateTime.Now;
-        public int UpdatedBy { get; set; }
+        public string UpdatedBy { get; set; }
         public DateTime Updated { get; set; } = DateTime.Now;
         public bool IsDeleted { get; set; }
         public List<ProductImageDto> Images { get; set; }

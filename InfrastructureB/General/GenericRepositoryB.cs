@@ -21,7 +21,7 @@ namespace InfrastructureB.General
             _dbSet = context.Set<T>();
         }
 
-        public virtual Task<IQueryable<T>> GetAllAsync() => Task.FromResult(_dbSet.Select(p => p));
+        public virtual async Task<IQueryable<T>> GetAllAsync() => await Task.FromResult(_dbSet.Select(p => p));
 
         public virtual async Task<T> GetByIdAsync(int id) => await _dbSet.FindAsync(id);
 

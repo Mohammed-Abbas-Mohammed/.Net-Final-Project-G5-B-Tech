@@ -1,0 +1,59 @@
+﻿@model DTOsB.Category.CreateOrUpdateCategoriesDTO
+
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-12 mt-5">
+            <form asp-action="Create" method="post" enctype="multipart/form-data" class="shadow p-4 rounded bg-light">
+                <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -80px">Create Category</h2>
+
+                <!-- Language Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label fs-5 fw-bold" for="LanguageId">Select Language</label>
+                    <select class="form-select shadow-sm" id="LanguageId" name="Translations[0].LanguageId" required>
+                        <option value="">-- Select Language --</option>
+                        @foreach (var language in ViewBag.Languages)
+                        {
+                            <option value="@language.Value">@language.Text</option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Category Image -->
+                <div class="mb-3">
+                    <label class="form-label fs-5 fw-bold" for="imageFile">Category Image</label>
+                    <input type="file" class="form-control shadow-sm" id="imageFile" name="imageFile" required>
+                </div>
+
+
+                <!-- Category Name -->
+                <div class="mb-3">
+                    <label class="form-label fs-5 fw-bold" for="CategoryName">Category Name</label>
+                    <input type="text" class="form-control shadow-sm" id="CategoryName" name="Translations[0].CategoryName" placeholder="Enter Category Name" required>
+                </div>
+
+                <!-- Category Description -->
+                <div class="mb-3">
+                    <label class="form-label fs-5 fw-bold" for="Description">Category Description</label>
+                    <textarea class="form-control shadow-sm" id="Description" name="Translations[0].Description" placeholder="Enter Description" rows="3"></textarea>
+                </div>
+
+                <!-- Is Main Category -->
+                <div class="mb-3 form-check">
+                    <input class="form-check-input" type="checkbox" id="IsMainCategory" name="Translations[0].IsMainCategory" value="true">
+                    <label class="form-check-label fs-5 fw-bold" for="IsMainCategory">Is Main Category</label>
+                </div>
+
+
+                <div class="d-grid gap-2 mt-4">
+                    <button class="btn btn-success btn-lg shadow" type="submit">
+                        <i class="fa-solid fa-check"></i> Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -15,11 +15,11 @@ namespace InfrastructureB.Product
     {
         public ProductTranslationRepository(BTechDbContext context) : base(context) { }
 
-        public async Task<IQueryable<ProductTranslationB>> GetTranslationsByProductId(int productId, string language)
+        public async Task<IQueryable<ProductTranslationB>> GetTranslationsByProductId(int productId, int languageId)
         {
             var translations = await GetAllAsync();
             return translations.Where(trans => trans.ProductId == productId && trans.Product.IsDeleted==false 
-            && trans.Language.Code==language);
+            && trans.Language.Id== languageId);
         }
     }
 }

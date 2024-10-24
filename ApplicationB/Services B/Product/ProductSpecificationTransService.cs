@@ -34,7 +34,7 @@ namespace ApplicationB.Services_B.Product
             var translation = _mapper.Map<ProductSpecificationTranslationB>(translationDto);
 
             translation.ProductSpecification.Product.CreatedBy = _userService.GetCurrentUserId();
-            translation.Language.Code = _languageService.GetCurrentLanguageCode();
+            translation.Language.Id = _languageService.GetCurrentLanguageCode();
 
 
             await _specTranslationRepository.AddAsync(translation);
@@ -43,7 +43,7 @@ namespace ApplicationB.Services_B.Product
 
         public async Task<ResultView<IEnumerable<ProductSpecificationTranslationDto>>> GetSpecificationsTransByProductIdAsync(int productId)
         {
-            string language = _languageService.GetCurrentLanguageCode();
+            int language = _languageService.GetCurrentLanguageCode();
             var translations = await _specTranslationRepository.GetTranslationsByProductId(productId,language);
             if (!translations.Any())
             {

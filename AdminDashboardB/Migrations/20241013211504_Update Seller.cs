@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace AdminDashboardB.Migrations
+namespace DTOsB.Migrations
 {
     /// <inheritdoc />
     public partial class UpdateSeller : Migration

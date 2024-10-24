@@ -13,7 +13,8 @@ namespace InfrastructureB.General
     public class GenericRepositoryWithLogging<T>: IGenericRepositoryB<T> where T : BaseEntityB
     {
         protected readonly BTechDbContext _context;
-        private readonly DbSet<T> _dbSet;
+        //private readonly DbSet<T> _dbSet;
+        protected readonly DbSet<T> _dbSet;
 
         public GenericRepositoryWithLogging(BTechDbContext context)
         {
@@ -21,7 +22,7 @@ namespace InfrastructureB.General
             _dbSet = context.Set<T>();
         }
 
-        public virtual Task<IQueryable<T>> GetAllAsync() => Task.FromResult(_dbSet.Select(p => p).Where(p => !p.IsDeleted));
+        public virtual async Task<IQueryable<T>> GetAllAsync() => await Task.FromResult(_dbSet.Select(p => p).Where(p => !p.IsDeleted));
 
         public virtual async Task<T> GetByIdAsync(int id) => await _dbSet.FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
 

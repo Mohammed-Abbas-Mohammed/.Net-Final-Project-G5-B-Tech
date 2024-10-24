@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace AdminDashboardB.Areas.Identity.Pages.Account
+namespace DTOsB.Areas.Identity.Pages.Account
 {
     public class ForgotPasswordModel : PageModel
     {

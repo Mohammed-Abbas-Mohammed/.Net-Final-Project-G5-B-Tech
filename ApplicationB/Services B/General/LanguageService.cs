@@ -11,68 +11,72 @@ namespace ApplicationB.Services_B.General
     public class LanguageService : ILanguageService
     {
         private readonly ILanguageRepository _languageRepository;
-        private string _currentLanguageCode;
+        private int _currentLanguageId;
 
         public LanguageService(ILanguageRepository languageRepository)
         {
             _languageRepository = languageRepository;
-            _currentLanguageCode = "en"; // Default to English
+            _currentLanguageId = 2; // Default to English
         }
 
         // Get the currently selected language
-        public string GetCurrentLanguageCode()
+        public int GetCurrentLanguageCode()
         {
-            return _currentLanguageCode;
+            return _currentLanguageId;
         }
 
         // Set language manually (user selection)
-        public void SetCurrentLanguageCode(string languageCode)
+        public void SetCurrentLanguageCode(int LanguageId)
         {
-            if (string.IsNullOrEmpty(languageCode))
+            if (LanguageId == null)
             {
                 throw new ArgumentException("Invalid language code");
             }
 
-            _currentLanguageCode = languageCode;
+            _currentLanguageId = LanguageId;
         }
 
         // Handle default language detection from Accept-Language header
         public async Task<string> SetLanguageFromBrowserAsync(string acceptLanguageHeader)
         {
-            string defaultLanguage = "en"; // Fallback to English
+            string defaultLanguageCode = "en"; // Fallback to a default language ID, e.g., English
 
             if (!string.IsNullOrEmpty(acceptLanguageHeader))
             {
                 // Extract the first language code from the Accept-Language header
-                var preferredLanguage = acceptLanguageHeader.Split(',').FirstOrDefault()?.Trim();
+                var preferredLanguageCode = acceptLanguageHeader.Split(',').FirstOrDefault()?.Trim();
 
-                // Check if the language exists in the database
-                var language = await _languageRepository.GetByCodeAsync(preferredLanguage);
-
-                if (language != null)
+                if (!string.IsNullOrEmpty(preferredLanguageCode))
                 {
-                    defaultLanguage = preferredLanguage;
+                    // Check if the language code exists in the database
+                    var language = await _languageRepository.GetByCodeAsync(preferredLanguageCode);
+
+                    // If the language is found, return its ID
+                    if (language != null)
+                    {
+                        return language.Code;
+                    }
                 }
             }
 
-            // Set the detected or fallback language as the current language
-            _currentLanguageCode = defaultLanguage;
-            return defaultLanguage;
+            // Set the fallback language ID if no matching language was found
+            return defaultLanguageCode;
         }
 
+
         // Handle user-selected language
-        public async Task<string> SetUserSelectedLanguageAsync(string languageCode)
+        public async Task<int> SetUserSelectedLanguageAsync(int languageId)
         {
             // Check if the selected language exists in the database
-            var language = await _languageRepository.GetByCodeAsync(languageCode);
+            var language = await _languageRepository.GetByIdAsync(languageId);
 
             if (language != null)
             {
-                _currentLanguageCode = languageCode; // Set the user-selected language
-                return languageCode;
+                _currentLanguageId = languageId; // Set the user-selected language
+                return languageId;
             }
 
-            return "en"; // Fallback to English if the selected language is not found
+            return 2; // Fallback to English if the selected language is not found
         }
 
         public async Task<List<LanguageDto>> GetAllLanguagesAsync()
@@ -80,8 +84,10 @@ namespace ApplicationB.Services_B.General
             var languages = await _languageRepository.GetAllAsync();
             return languages.Select(l => new LanguageDto
             {
+                Id = l.Id,
                 Code = l.Code,
-                Name = l.Name
+                Name = l.Name,
             }).ToList();
         }
-    } }
+    }
+}

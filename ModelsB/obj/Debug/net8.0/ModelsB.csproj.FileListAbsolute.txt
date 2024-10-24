@@ -1,51 +1,13 @@
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\bin\Debug\net8.0\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\bin\Debug\net8.0\ModelsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ModelsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.sourcelink.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\bin\Debug\net8.0\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\bin\Debug\net8.0\ModelsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.sourcelink.json
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ModelsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.pdb
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.sourcelink.json
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.pdb
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.deps.json
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\bin\Debug\net8.0\ModelsB.pdb
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.AssemblyReference.cache
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfoInputs.cache
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.AssemblyInfo.cs
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.csproj.CoreCompileInputs.cache
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.sourcelink.json
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\refint\ModelsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ModelsB.pdb
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\ModelsB\obj\Debug\net8.0\ref\ModelsB.dll

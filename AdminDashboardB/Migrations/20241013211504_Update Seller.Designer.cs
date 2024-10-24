@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace AdminDashboardB.Migrations
+namespace DTOsB.Migrations
 {
     [DbContext(typeof(BTechDbContext))]
     [Migration("20241013211504_Update Seller")]

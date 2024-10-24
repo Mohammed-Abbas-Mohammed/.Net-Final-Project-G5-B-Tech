@@ -1087,11 +1087,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj",
+      "projectUniqueName": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj",
       "projectName": "DTOsB",
-      "projectPath": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\DTOsB.csproj",
+      "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\DTOsB.csproj",
       "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CS\\Desktop\\backup\\DTOsB\\obj\\",
+      "outputPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1109,8 +1109,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj": {
-              "projectPath": "C:\\Users\\CS\\Desktop\\backup\\ModelsB\\ModelsB.csproj"
+            "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj": {
+              "projectPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\ModelsB.csproj"
             }
           }
         }

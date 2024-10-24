@@ -9,6 +9,6 @@ namespace ApplicationB.Contracts_B.Product
 {
     public interface IProductSpecificationTranslationRepository: IGenericRepositoryB<ProductSpecificationTranslationB>
     {
-        Task<IQueryable<ProductSpecificationTranslationB>> GetTranslationsByProductId(int productId,string language);
+        Task<IQueryable<ProductSpecificationTranslationB>> GetTranslationsByProductId(int productId,int languageId);
     }
 }

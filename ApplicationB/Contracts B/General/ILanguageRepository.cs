@@ -10,6 +10,9 @@ namespace ApplicationB.Contracts_B.General
     public interface ILanguageRepository
     {
         Task<LanguageB> GetByCodeAsync(string code);
+        Task<LanguageB> GetByIdAsync(int Id);
         Task<List<LanguageB>> GetAllAsync();
+        public Task<bool> AnyAsync(Func<LanguageB, bool> predicate);
+
     }
 }

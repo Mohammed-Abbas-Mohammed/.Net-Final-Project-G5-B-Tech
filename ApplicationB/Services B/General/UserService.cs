@@ -23,10 +23,10 @@ namespace ApplicationB.Services_B
       
         }
 
-        public int GetCurrentUserId()
+        public string GetCurrentUserId()
         {
             var userId = _httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.NameIdentifier);
-            return userId != null ? int.Parse(userId) : 0; 
+            return userId != null ? userId : "0"; 
         }
     }
 }

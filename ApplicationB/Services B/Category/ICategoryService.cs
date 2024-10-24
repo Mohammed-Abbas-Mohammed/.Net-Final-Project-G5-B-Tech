@@ -1,4 +1,5 @@
 ﻿using DTOsB.Category;
+using Microsoft.AspNetCore.Http;
 using ModelsB.Category_B;
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,10 @@ namespace ApplicationB.Services_B.Category
     {
         public Task<IEnumerable<GetAllCategoriesDTO>> GetAllCategoriesAsync();
         public Task<CategoryB> GetCategoryByIdAsync(int id);
-        public Task<GetAllCategoriesDTO> GetCategoryByNameAsync(string categoryName);
-        public Task AddCategoryAsync(CreateOrUpdateCategoriesDTO createCategoryDto);
-        public Task UpdateCategoryAsync(int id, CreateOrUpdateCategoriesDTO categoryDto);
+        public Task<IEnumerable<GetAllCategoriesDTO>> GetCategoryByNameAsync(string categoryName);
+        public Task AddCategoryAsync(CreateOrUpdateCategoriesDTO createCategoryDto, IFormFile imageFile);
+        public Task UpdateCategoryAsync(int id, CreateOrUpdateCategoriesDTO categoryDto, IFormFile imageFile);
         public Task DeleteCategoryAsync(int id);
+        public Task<string> HandleImageUploadAsync(IFormFile imageFile);
     }
 }

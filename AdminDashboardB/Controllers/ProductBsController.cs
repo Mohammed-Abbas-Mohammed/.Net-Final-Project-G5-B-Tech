@@ -9,17 +9,17 @@ using DbContextB;
 using ModelsB.Product_B;
 using ApplicationB.Services_B.Product;
 
-namespace AdminDashboardB.Controllers
+namespace DTOsB.Controllers
 {
     public class ProductBsController : Controller
     {
-       // private readonly IWebHostEnvironment webHostEnvironment;
+        private readonly IWebHostEnvironment webHostEnvironment;
         private readonly IProductService productService;
 
-        public ProductBsController(IProductService _productService/*, IWebHostEnvironment _webHostEnvironment*/)
+        public ProductBsController(IProductService _productService, IWebHostEnvironment _webHostEnvironment)
         {
            productService= _productService;
-            //webHostEnvironment = _webHostEnvironment;
+            webHostEnvironment = _webHostEnvironment;
         }
 
         // GET: ProductBs
@@ -29,22 +29,22 @@ namespace AdminDashboardB.Controllers
         }
 
         // GET: ProductBs/Details/5
-    //    public async Task<IActionResult> Details(int? id)
+        //public async Task<IActionResult> Details(int? id)
+        //{
+        //    if (id == null)
     //    {
-    //        if (id == null)
-    //        {
-    //            return NotFound();
-    //        }
+        //        return NotFound();
+        //    }
 
-    //        var productB = await _context.Products
-    //            .FirstOrDefaultAsync(m => m.Id == id);
-    //        if (productB == null)
-    //        {
-    //            return NotFound();
-    //        }
-
-    //        return View(productB);
+        //    var productB = await _context.Products
+        //        .FirstOrDefaultAsync(m => m.Id == id);
+        //    if (productB == null)
+        //    {
+        //        return NotFound();
     //    }
+
+        //    return View(productB);
+        //}
 
     //    // GET: ProductBs/Create
     //    public IActionResult Create()

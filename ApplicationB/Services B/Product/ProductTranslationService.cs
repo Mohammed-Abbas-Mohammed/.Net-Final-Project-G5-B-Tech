@@ -33,7 +33,7 @@ namespace ApplicationB.Services_B.Product
             var translation = _mapper.Map<ProductTranslationB>(translationDto);
             
             translation.Product.CreatedBy = _userService.GetCurrentUserId();
-            translation.Language.Code= _languageService.GetCurrentLanguageCode();
+            translation.Language.Id= _languageService.GetCurrentLanguageCode();
 
 
             await _translationRepository.AddAsync(translation);
@@ -52,7 +52,7 @@ namespace ApplicationB.Services_B.Product
             _mapper.Map(translationDto, existingTranslation);
 
             existingTranslation.Product.UpdatedBy = _userService.GetCurrentUserId();
-            existingTranslation.Language.Code = _languageService.GetCurrentLanguageCode();
+            existingTranslation.Language.Id = _languageService.GetCurrentLanguageCode();
 
             await _translationRepository.UpdateAsync(existingTranslation);
             return ResultView<ProductTranslationDto>.Success(translationDto);
@@ -63,7 +63,7 @@ namespace ApplicationB.Services_B.Product
 
         public async Task<ResultView<IEnumerable<ProductTranslationDto>>> GetTranslationsByProductIdAsync(int productId)
         {
-            string language = _languageService.GetCurrentLanguageCode();
+            int language = _languageService.GetCurrentLanguageCode();
             var translations = await _translationRepository.GetTranslationsByProductId(productId, language);
             if (!translations.Any())
             {

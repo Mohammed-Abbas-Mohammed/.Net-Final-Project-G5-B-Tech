@@ -1,247 +1,455 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AdminDashboardB.bundle.scp.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AdminDashboardB.bundle.scp.css",
       "PackagePath": "staticwebassets\\AdminDashboardB.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638649855067516249.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638649855067516249.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638650465579927449.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638650465579927449.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638650645111412931.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638650645111412931.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638650652165799928.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638650652165799928.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638650738820487090.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638650738820487090.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638650740940055486.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638650740940055486.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638651454661940662.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638651454661940662.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638651460952032913.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638651460952032913.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638652129827950702.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638652129827950702.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638652131372113552.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638652131372113552.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638652133290867462.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638652133290867462.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\1_638652305151615309.jpg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\1_638652305151615309.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\Entity Relationship Diagram1_638651461286485439.png",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\Entity Relationship Diagram1_638651461286485439.png"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638650529305653559.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638650529305653559.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638651444850714233.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638651444850714233.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638651450579756423.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638651450579756423.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638651454366472174.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638651454366472174.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638651469371122611.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638651469371122611.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638652305515547310.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638652305515547310.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\labs_638652305862946879.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\labs_638652305862946879.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\mob_638652129039478155.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\mob_638652129039478155.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649813064250077.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649813064250077.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649816868589732.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649816868589732.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649824281347921.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649824281347921.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649830302454651.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649830302454651.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649831019531497.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649831019531497.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649834717630769.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649834717630769.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649838957756038.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649838957756038.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649839438857299.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649839438857299.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649849067138616.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649849067138616.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649851997278291.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649851997278291.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649854778206827.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649854778206827.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638649857522991182.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638649857522991182.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650352860066373.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650352860066373.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650374734902300.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650374734902300.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650383583173464.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650383583173464.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650399741473967.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650399741473967.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650404871177776.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650404871177776.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650415677306343.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650415677306343.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650424604728861.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650424604728861.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650435804064847.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650435804064847.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650457526150657.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650457526150657.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650493074777978.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650493074777978.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650738504468881.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650738504468881.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638650740682668968.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638650740682668968.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638651229549972116.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638651229549972116.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638651374184956307.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638651374184956307.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638651444524681173.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638651444524681173.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\tv_638651480013818130.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\tv_638651480013818130.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\ImageUrls\\categories\\العمارة القوطية_638652319014150520.jpeg",
+      "PackagePath": "staticwebassets\\ImageUrls\\categories\\العمارة القوطية_638652319014150520.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\CS\\Desktop\\project versions\\test\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

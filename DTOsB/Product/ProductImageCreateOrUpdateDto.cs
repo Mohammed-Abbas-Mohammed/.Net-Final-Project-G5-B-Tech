@@ -11,6 +11,7 @@ namespace DTOsB.Product
     public class ProductImageCreateOrUpdateDto
     {
         public int Id { get; set; }
-        public IFormFile Url { get; set; }
+        public IFormFile ImageFile { get; set; } // For file upload
+        public string Url { get; set; }
     }
 }

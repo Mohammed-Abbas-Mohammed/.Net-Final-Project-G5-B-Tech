@@ -9,10 +9,10 @@ namespace ApplicationB.Services_B.General
 {
     public interface ILanguageService
     {
-        string GetCurrentLanguageCode();
-        void SetCurrentLanguageCode(string languageCode);
+        int GetCurrentLanguageCode();
+        void SetCurrentLanguageCode(int languageId);
         Task<string> SetLanguageFromBrowserAsync(string acceptLanguageHeader);
-        Task<string> SetUserSelectedLanguageAsync(string languageCode); 
+        Task<int> SetUserSelectedLanguageAsync(int languageId); 
         Task<List<LanguageDto>> GetAllLanguagesAsync();
     }
 }

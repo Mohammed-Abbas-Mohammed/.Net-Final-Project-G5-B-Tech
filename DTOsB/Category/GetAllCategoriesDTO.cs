@@ -13,5 +13,6 @@ namespace DTOsB.Category
         [MaxLength(250)]
         public string? ImageUrl { get; set; }
         public ICollection<CategoryTranslationDTO> Translations { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

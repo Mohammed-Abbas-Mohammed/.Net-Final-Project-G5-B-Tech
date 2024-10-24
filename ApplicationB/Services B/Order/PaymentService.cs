@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ApplicationB.Services_B.Order
-{   
+{
 
-    public class PaymentService :IPaymentService
+    public class PaymentService : IPaymentService
     {
         public async Task<string> CreatePayment(decimal amount, string currency)
         {
@@ -68,8 +68,8 @@ namespace ApplicationB.Services_B.Order
     {
         public static PayPalEnvironment GetEnvironment()
         {
-            var clientId = "ATvDFJFysYICcOZtRecpSyQbw0iwDwl6tVuTRTyYDi-aJAbFLNTIQMrY21C-xY11cB9cykkearVgb5Op"; 
-            var secret = "EKt6Eh4B8kUQXAhq8_-fxRZJJ0leG7edvtfOJ-7fbFB3qFunAELEhG0lkV80pME_AAXAgTJjda11INpT";  
+            var clientId = "ATvDFJFysYICcOZtRecpSyQbw0iwDwl6tVuTRTyYDi-aJAbFLNTIQMrY21C-xY11cB9cykkearVgb5Op";
+            var secret = "EKt6Eh4B8kUQXAhq8_-fxRZJJ0leG7edvtfOJ-7fbFB3qFunAELEhG0lkV80pME_AAXAgTJjda11INpT";
             return new SandboxEnvironment(clientId, secret);
         }
 

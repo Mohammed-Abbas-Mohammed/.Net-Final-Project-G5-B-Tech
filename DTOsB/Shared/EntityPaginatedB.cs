@@ -8,7 +8,13 @@ namespace DTOsB.Shared
 {
     public class EntityPaginatedB<T>
     {
-        public List<T> Data { get; set; }
+        public IEnumerable<T> Data { get; set; }
         public int CountAllItems { get; set; }
+
+        public int PageNumber { get; set; }
+
+        public int Count { get; set; }
+
+        public int TotalPages => (int)Math.Ceiling((double)CountAllItems / Count);
     }
 }

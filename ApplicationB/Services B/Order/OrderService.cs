@@ -37,6 +37,8 @@ namespace ApplicationB.Services_B.Order
 
             order.CreatedBy = userService.GetCurrentUserId();
             order.Created = DateTime.Now;
+            order.UpdatedBy = userService.GetCurrentUserId();
+            order.Updated = DateTime.Now;
 
             await orderRepository.AddAsync(order);
             return ResultView<AddOrUpdateOrderBDTO>.Success(orderBDTO);
@@ -63,7 +65,7 @@ namespace ApplicationB.Services_B.Order
         }
         public async Task<SelectOrderBDTO> GetOrderByIdAsync(int id)
         {
-            var order = await orderRepository.GetByIdAsync(id);
+            OrderB order = await orderRepository.GetByIdAsync(id);
             //if (order == null)
             //    return ResultView<SelectOrderBDTO>.Failure("Order not found.");
 

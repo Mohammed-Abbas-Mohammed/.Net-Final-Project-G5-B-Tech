@@ -9,7 +9,7 @@ namespace ModelsB.Category_B
 {
     public class ProductCategoryB
     {
-        public int ProductId { get; set; }
+        public int? ProductId { get; set; }
         public ProductB Product { get; set; }
 
         public int CategoryId { get; set; }

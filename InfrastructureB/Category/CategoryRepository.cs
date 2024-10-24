@@ -20,13 +20,12 @@ namespace InfrastructureB.Category
             _dbContext = dbContextB;
         }
 
-        public async Task<CategoryB> GetByNameAsync(string categoryName)
+        public async Task<IEnumerable<CategoryB>> GetByNameAsync(string categoryName)
         {
             return await _dbContext.Categories
                                  .Include(c => c.Translations)
-                                 .Include(c => c.ProductCategories)
-                                 .FirstOrDefaultAsync(c => c.Translations
-                                 .Any(t => t.CategoryName == categoryName));
+                                   .Where(c => c.Translations.Any(t => t.CategoryName.ToLower().Contains(categoryName.ToLower())))
+                                   .ToListAsync();
         }
 
         public async Task AddAsync(CategoryB category)
@@ -45,9 +44,12 @@ namespace InfrastructureB.Category
 
         public async Task<IEnumerable<CategoryB>> GetAllAsync()
         {
+
             return await _dbContext.Categories
                                  .Include(c => c.Translations)
+                            .ThenInclude(t => t.Language) 
                                  .Include(c => c.ProductCategories)
+                            .Where(c => !c.IsDeleted)
                                  .ToListAsync();
         }
 
@@ -66,7 +68,11 @@ namespace InfrastructureB.Category
 
         public async Task UpdateAsync(CategoryB category)
         {
+
+            //_dbContext.Attach(category);
+            //_dbContext.Entry(category).State = EntityState.Modified;
             _dbContext.Categories.Update(category);
+            await _dbContext.SaveChangesAsync();
         }
 
         public async Task<bool> AnyAsync(Expression<Func<CategoryB, bool>> predicate)

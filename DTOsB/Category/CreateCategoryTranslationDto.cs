@@ -9,9 +9,12 @@ namespace DTOsB.Category
 {
     public class CreateCategoryTranslationDto
     {
-        [MaxLength(100)]
+        [MaxLength(50)]
         public string CategoryName { get; set; }
+        [MaxLength(150)]
         public string? Description { get; set; }
-        public int? LanguageId { get; set; }  //
+        public int? LanguageId { get; set; }
+        public bool IsMainCategory { get; set; }
+
     }
 }

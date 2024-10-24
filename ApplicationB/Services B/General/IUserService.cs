@@ -8,6 +8,6 @@ namespace ApplicationB.Services_B
 {
     public interface IUserService
     {
-       public int GetCurrentUserId();
+       public string GetCurrentUserId();
     }
 }

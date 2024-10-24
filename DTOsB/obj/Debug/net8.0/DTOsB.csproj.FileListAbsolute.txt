@@ -1,52 +1,16 @@
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\bin\Debug\net8.0\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\bin\Debug\net8.0\DTOsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\DTOsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Last Version B-Tech\B-Tech-G5-Project\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
-F:\الصالة الرياضية\books\DevOps\Project\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\bin\Debug\net8.0\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\bin\Debug\net8.0\DTOsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.pdb
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
-D:\Programming\ITI .Net Full Stack Sohag\Final Project\FinalProjectG5\.Net-Final-Project-G5-B-Tech-\DTOsB\obj\Debug\net8.0\DTOsB.csproj.AssemblyReference.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.pdb
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.AssemblyReference.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\ModelsB.dll
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\ModelsB.pdb
-C:\Users\CS\Desktop\project versions\test\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.Up2Date
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.deps.json
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\DTOsB.pdb
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\ModelsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\bin\Debug\net8.0\ModelsB.pdb
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.AssemblyReference.cache
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfoInputs.cache
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.AssemblyInfo.cs
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.CoreCompileInputs.cache
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.sourcelink.json
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.csproj.Up2Date
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\refint\DTOsB.dll
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\DTOsB.pdb
+C:\Users\CS\Desktop\project versions\marge\.Net-Final-Project-G5-B-Tech\DTOsB\obj\Debug\net8.0\ref\DTOsB.dll
