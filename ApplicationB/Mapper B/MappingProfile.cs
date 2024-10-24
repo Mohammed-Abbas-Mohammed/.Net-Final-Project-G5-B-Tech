@@ -14,6 +14,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using DTOsB.OrderBDTOs.OrderItemDTO;
+using DTOsB.OrderBDTOs.PaymentDTO;
+using DTOsB.OrderBDTOs.ShippingDTO;
+using DTOsB.OrderDTO;
+using ModelsB.Order_B;
 
 namespace ApplicationB.Mapper_B
 {
@@ -96,6 +101,18 @@ namespace ApplicationB.Mapper_B
             CreateMap<CategoryTranslationB, CreateCategoryTranslationDto>().ReverseMap();
 
             CreateMap<LanguageB, LanguageDto>().ReverseMap();
+
+            CreateMap<OrderB, AddOrUpdateOrderBDTO>().ReverseMap();
+            CreateMap<OrderB, SelectOrderBDTO>().ReverseMap();
+
+            CreateMap<OrderItemB, AddOrUpdateOrderItemBDTO>().ReverseMap();
+            CreateMap<OrderItemB, SelectOrderItemBDTO>().ReverseMap();
+
+            CreateMap<PaymentB, AddOrUpdatePaymentBDTO>().ReverseMap();
+            CreateMap<PaymentB, SelectPaymentBDTO>().ReverseMap();
+
+            CreateMap<ShippingB, AddOrUpdateShippingBDTO>().ReverseMap();
+            CreateMap<ShippingB, SelectShippingBDTO>().ReverseMap();
         }
 
       

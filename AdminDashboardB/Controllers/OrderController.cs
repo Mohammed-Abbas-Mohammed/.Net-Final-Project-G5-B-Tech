@@ -1,4 +1,5 @@
 ﻿using ApplicationB.Services_B.Order;
+using AutoMapper;
 using DTOsB.OrderDTO;
 using DTOsB.Shared;
 using Microsoft.AspNetCore.Mvc;
@@ -40,6 +41,7 @@ namespace AdminDashboardB.Controllers
                 orderBDTO.OrderDate = DateTime.Now;
                 orderBDTO.TotalPrice = 5000;
                 orderBDTO.ApplicationUserId = "db0a8336-7f0f-416c-90c8-a8dfd01d97f7";
+                
 
                 await orderService.CreateOrderAsync(orderBDTO);
                 return RedirectToAction("Index");
@@ -53,11 +55,12 @@ namespace AdminDashboardB.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             SelectOrderBDTO order = await orderService.GetOrderByIdAsync(id);
+            
             if (order == null || order.CurrentStatus == ModelsB.Order_B.Status.Shipped || order.CurrentStatus == ModelsB.Order_B.Status.Delivered)
             {
-                return BadRequest("Cannot edit this order.");
+                TempData["ErrorMessage"] = "You can't edit this order anymore.";
+                return RedirectToAction("Index");
             }
-
             var updateOrder = new AddOrUpdateOrderBDTO()
             {
                 Id = id,
@@ -66,6 +69,7 @@ namespace AdminDashboardB.Controllers
                 CurrentStatus = order.CurrentStatus,
                 ApplicationUserId = "db0a8336-7f0f-416c-90c8-a8dfd01d97f7"
             };
+
             return View("Edit", updateOrder);  
         }
 
@@ -94,37 +98,14 @@ namespace AdminDashboardB.Controllers
         public async Task<IActionResult> CancelOrder(int id)
         {
             var order = await orderService.GetOrderByIdAsync(id);
-            if (order == null)
+            if (order == null || order.CurrentStatus == ModelsB.Order_B.Status.Shipped || order.CurrentStatus == ModelsB.Order_B.Status.Delivered)
             {
-                return NotFound();
+                TempData["ErrorMessage"] = "You can't cancel this order anymore.";
+                return RedirectToAction("Index");
             }
 
             await orderService.DeleteOrderAsync(id); 
             return RedirectToAction(nameof(Index));
-        }
-
-
-
-
-
-
-
-
-
-
-
-        public async Task<IActionResult> UpdateOrderDetails()
-        {
-            return RedirectToAction();
-        }
-        public async Task<IActionResult> StartProccess()
-        {
-            return RedirectToAction();
-        }
-
-        public async Task<IActionResult> StartShip()
-        {
-            return RedirectToAction();
         }
     }
 }
