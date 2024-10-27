@@ -34,7 +34,7 @@ namespace DbContextB.Migrations
 
                     b.HasIndex("OrdersId");
 
-                    b.ToTable("DiscountBOrderB", (string)null);
+                    b.ToTable("DiscountBOrderB");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -62,6 +62,14 @@ namespace DbContextB.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("Roles", "security");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "ADMIN_ROLE_ID",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -149,6 +157,13 @@ namespace DbContextB.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("UserRoles", "security");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "1A2B3C4D-5E6F-7G8H-9I10-J11K12L13M14",
+                            RoleId = "ADMIN_ROLE_ID"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -257,19 +272,21 @@ namespace DbContextB.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b5a2e81e-a07d-4e26-8776-4ddb48ec4096",
+                            Id = "1A2B3C4D-5E6F-7G8H-9I10-J11K12L13M14",
                             AccessFailedCount = 0,
                             Address = "Hamza St",
                             City = "Sohag",
-                            ConcurrencyStamp = "c89a5596-212f-4512-b538-78054bf8c524",
+                            ConcurrencyStamp = "2bfe545a-5460-4039-8cf4-135508867c0c",
                             Country = "Egypt",
                             Email = "moh.alnoby216@gmail.com",
-                            EmailConfirmed = false,
+                            EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEJjpAHhO/w7sop9lsQM/lfcynvVL4YV3BMeG+oG6a14p5/NAAD8llnchD93i50NnkA==",
+                            NormalizedEmail = "MOH.ALNOBY216@GMAIL.COM",
+                            NormalizedUserName = "MOHAMMED ABBAS",
+                            PasswordHash = "AQAAAAIAAYagAAAAEANoMLM/BRGa30Kqs/3ouQFM020OiayvNnqNcp4ze8J+sGYGhF1e2/WF/u7vShmTXw==",
                             PhoneNumberConfirmed = false,
                             PostalCode = "12345",
-                            SecurityStamp = "be7da990-09fd-4033-bacd-2aedea12e79d",
+                            SecurityStamp = "47defbf3-cf0a-466c-b480-5cf6f29ee8cd",
                             TwoFactorEnabled = false,
                             UserName = "Mohammed Abbas",
                             UserType = "Admin"
@@ -309,7 +326,7 @@ namespace DbContextB.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("ModelsB.Category_B.CategoryTranslationB", b =>
@@ -342,12 +359,12 @@ namespace DbContextB.Migrations
                     b.HasIndex("CategoryId", "LanguageId")
                         .IsUnique();
 
-                    b.ToTable("CategoryTranslations", (string)null);
+                    b.ToTable("CategoryTranslations");
                 });
 
             modelBuilder.Entity("ModelsB.Category_B.ProductCategoryB", b =>
                 {
-                    b.Property<int>("ProductId")
+                    b.Property<int?>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
@@ -360,7 +377,7 @@ namespace DbContextB.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("ProductCategories", (string)null);
+                    b.ToTable("ProductCategories");
                 });
 
             modelBuilder.Entity("ModelsB.Localization_B.LanguageB", b =>
@@ -381,7 +398,7 @@ namespace DbContextB.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Languages", (string)null);
+                    b.ToTable("Languages");
                 });
 
             modelBuilder.Entity("ModelsB.Localization_B.LocalizationResourceB", b =>
@@ -399,7 +416,7 @@ namespace DbContextB.Migrations
 
                     b.HasKey("Key");
 
-                    b.ToTable("LocalizationResources", (string)null);
+                    b.ToTable("LocalizationResources");
                 });
 
             modelBuilder.Entity("ModelsB.Order_B.DiscountB", b =>
@@ -470,7 +487,7 @@ namespace DbContextB.Migrations
                         .IsUnique()
                         .HasFilter("[Code] IS NOT NULL");
 
-                    b.ToTable("Discounts", (string)null);
+                    b.ToTable("Discounts");
                 });
 
             modelBuilder.Entity("ModelsB.Order_B.OrderB", b =>
@@ -488,8 +505,10 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int>("CurrentStatus")
                         .HasColumnType("int");
@@ -512,14 +531,16 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Updated")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UpdatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("UpdatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ApplicationUserId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("ModelsB.Order_B.OrderItemB", b =>
@@ -533,8 +554,10 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -551,8 +574,10 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Updated")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UpdatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("UpdatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -560,7 +585,7 @@ namespace DbContextB.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderItems", (string)null);
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("ModelsB.Order_B.PaymentB", b =>
@@ -577,8 +602,10 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("GatewayResponse")
                         .IsRequired()
@@ -612,15 +639,17 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Updated")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UpdatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("UpdatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId")
                         .IsUnique();
 
-                    b.ToTable("Payments", (string)null);
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("ModelsB.Order_B.ShippingB", b =>
@@ -634,8 +663,10 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime>("EstimatedDeliveryDate")
                         .HasColumnType("datetime2");
@@ -665,15 +696,17 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("Updated")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UpdatedBy")
-                        .HasColumnType("int");
+                    b.Property<string>("UpdatedBy")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId")
                         .IsUnique();
 
-                    b.ToTable("Shippings", (string)null);
+                    b.ToTable("Shippings");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ProductB", b =>
@@ -711,7 +744,7 @@ namespace DbContextB.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ProductImageB", b =>
@@ -734,7 +767,7 @@ namespace DbContextB.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImages", (string)null);
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ProductSpecificationTranslationB", b =>
@@ -768,7 +801,7 @@ namespace DbContextB.Migrations
                     b.HasIndex("SpecificationId", "LanguageId")
                         .IsUnique();
 
-                    b.ToTable("ProductSpecificationTranslations", (string)null);
+                    b.ToTable("ProductSpecificationTranslations");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ProductSpecificationsB", b =>
@@ -786,7 +819,7 @@ namespace DbContextB.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductSpecifications", (string)null);
+                    b.ToTable("ProductSpecifications");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ProductTranslationB", b =>
@@ -825,7 +858,7 @@ namespace DbContextB.Migrations
                     b.HasIndex("ProductId", "LanguageId")
                         .IsUnique();
 
-                    b.ToTable("ProductTranslations", (string)null);
+                    b.ToTable("ProductTranslations");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ReviewB", b =>
@@ -860,7 +893,7 @@ namespace DbContextB.Migrations
                     b.HasIndex("ProductId", "ApplicationUserId")
                         .IsUnique();
 
-                    b.ToTable("Reviews", (string)null);
+                    b.ToTable("Reviews");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.SpecificationStore", b =>
@@ -883,7 +916,7 @@ namespace DbContextB.Migrations
 
                     b.HasIndex("LanguageId");
 
-                    b.ToTable("SpecificationKeys", (string)null);
+                    b.ToTable("SpecificationKeys");
                 });
 
             modelBuilder.Entity("DiscountBOrderB", b =>

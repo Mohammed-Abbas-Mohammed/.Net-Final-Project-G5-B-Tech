@@ -1,4 +1,4 @@
-namespace B_Tech.API
+namespace B_TechApi
 {
     public class WeatherForecast
     {

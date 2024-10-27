@@ -28,7 +28,7 @@ namespace ApplicationB.Mapper_B
             CreateMap<RegisterDto, ApplicationUserB>().ReverseMap();
             CreateMap<LoginDTO, ApplicationUserB>().ReverseMap();
             CreateMap<UserDto, ApplicationUserB>().ReverseMap();
-
+            CreateMap<CheckNumDTo, ApplicationUserB>().ReverseMap(); 
 
 
 
