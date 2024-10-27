@@ -14,5 +14,7 @@ namespace DTOsB.Category
         public string? ImageUrl { get; set; }
         public ICollection<CategoryTranslationDTO> Translations { get; set; }
         public bool IsDeleted { get; set; }
+        public bool IsMainCategory { get; set; }
+
     }
 }

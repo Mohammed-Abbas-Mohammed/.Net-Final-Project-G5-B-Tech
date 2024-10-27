@@ -24,10 +24,16 @@ namespace InfrastructureB.Category
         {
             return await _dbContext.Categories
                                  .Include(c => c.Translations)
-                                   .Where(c => c.Translations.Any(t => t.CategoryName.ToLower().Contains(categoryName.ToLower())))
-                                   .ToListAsync();
+                                 .Where(c => c.Translations.Any(t => t.CategoryName.ToLower().Equals(categoryName.ToLower())))
+                                 .ToListAsync();
         }
-
+        public async Task<IEnumerable<CategoryB>> GetByLanguageAsync(int languageId)
+        {
+           return await _dbContext.Categories
+                               .Where(c => c.Translations.Any(t => t.LanguageId == languageId))
+                               .Include(c => c.Translations)
+                               .ToListAsync();
+        }
         public async Task AddAsync(CategoryB category)
         {
             await _dbContext.Categories.AddAsync(category);
@@ -46,12 +52,12 @@ namespace InfrastructureB.Category
         {
 
             return await _dbContext.Categories
-                                 .Include(c => c.Translations)
-                            .ThenInclude(t => t.Language) 
-                                 .Include(c => c.ProductCategories)
-                            .Where(c => !c.IsDeleted)
-                                 .ToListAsync();
-        }
+                                     .Include(c => c.Translations)
+                                    .ThenInclude(t => t.Language) 
+                                     .Include(c => c.ProductCategories)
+                                    .Where(c => !c.IsDeleted)
+                                     .ToListAsync();
+            }
 
         public async Task<CategoryB> GetByIdAsync(int id)
         {

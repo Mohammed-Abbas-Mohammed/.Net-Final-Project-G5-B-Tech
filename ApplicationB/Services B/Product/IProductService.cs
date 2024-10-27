@@ -26,5 +26,9 @@ namespace ApplicationB.Services_B.Product
         Task<ResultView<bool>> DeleteProductModelAsync(int productId);
 
         Task<EntityPaginatedB<ProductDto>> GetAllPaginatedByLanguageAsync(int pageNumber, int count, int languageId);
+        //public Task<IEnumerable<ProductDto>> GetProductsByCategoryNameAsync(string categoryName);
+        
+
+
     }
 }

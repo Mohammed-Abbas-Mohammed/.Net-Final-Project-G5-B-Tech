@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationB", "Application
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOsB", "DTOsB\DTOsB.csproj", "{11278AA7-930A-47ED-8EB9-45F7DEB3159C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Tech.Api", "B-TechApi\B-Tech.Api.csproj", "{E1664298-C106-4F5B-A83B-F1DFDE69DF66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B-Tech.API", "B-TechApi\B-Tech.API.csproj", "{E1664298-C106-4F5B-A83B-F1DFDE69DF66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

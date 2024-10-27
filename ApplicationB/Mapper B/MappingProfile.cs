@@ -98,12 +98,14 @@ namespace ApplicationB.Mapper_B
             //CreateMap<CategoryTranslationB, CreateCategoryTranslationDto>().ReverseMap();
             CreateMap<LanguageDto, LanguageDto>();
             CreateMap<CategoryB, GetAllCategoriesDTO>().ReverseMap();
-            CreateMap<CategoryB, CreateOrUpdateCategoriesDTO>().ReverseMap();
             CreateMap<CategoryB, CreateOrUpdateCategoriesDTO>()
                                                       .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.ImageUrl))
                                                      .ReverseMap();
             CreateMap<CategoryTranslationB, CategoryTranslationDTO>().ReverseMap();
             CreateMap<CategoryTranslationB, CreateCategoryTranslationDto>().ReverseMap();
+
+            CreateMap<ProductCategoryB, ProductCategoryDto>().ReverseMap();
+
 
             CreateMap<LanguageB, LanguageDto>().ReverseMap();
         }

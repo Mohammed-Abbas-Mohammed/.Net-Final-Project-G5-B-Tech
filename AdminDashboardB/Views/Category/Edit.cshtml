@@ -1,4 +1,7 @@
-﻿@model DTOsB.Category.CreateOrUpdateCategoriesDTO
+﻿
+
+
+@model DTOsB.Category.CreateOrUpdateCategoriesDTO
 
 @{
     ViewData["Title"] = "Edit Category";
@@ -10,39 +13,40 @@
             <form asp-action="Edit" method="post" enctype="multipart/form-data" class="shadow p-4 rounded bg-light">
                 <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded">Edit Category</h2>
 
-              <!-- Language Dropdown -->
-                @Html.DropDownListFor(model => model.Translations[0].LanguageId,
-                    (IEnumerable<SelectListItem>)ViewBag.Languages, "-- Select Language --", new { @class = "form-select shadow-sm", required = "required" })
-
                 <!-- Category Image -->
                 <div class="mb-3">
-
                     <img class="img-fluid" style="max-width: 100px;" src="@Model.ImageUrl" alt="Category Image" />
                 </div>
-                   
-                <div class="mb-3">
 
+                <div class="mb-3">
                     <label class="form-label fs-5 fw-bold" for="imageFile">Category Image</label>
                     <input type="file" class="form-control shadow-sm" id="imageFile" name="imageFile">
                 </div>
 
-                <!-- Category Name -->
-                <div class="mb-3">
-                    <label class="form-label fs-5 fw-bold" for="CategoryName">Category Name</label>
-                    <input type="text" class="form-control shadow-sm" id="CategoryName" name="Translations[0].CategoryName" value="@Model.Translations[0].CategoryName" required>
+                <!-- Translations Section -->
+                <!-- Translations Section -->
+                <div id="translationsContainer">
+                    @for (int i = 0; i < Model.Translations.Count; i++)
+                    {
+                        <div class="translation-item mb-3">
+                            <label class="form-label fs-5 fw-bold">Category Name</label>
+                            <input type="text" class="form-control shadow-sm" name="Translations[@i].CategoryName" value="@Model.Translations[i].CategoryName" required>
+
+                            <label class="form-label fs-5 fw-bold">Category Description</label>
+                            <textarea class="form-control shadow-sm" name="Translations[@i].Description" rows="3" required>@Model.Translations[i].Description</textarea>
+
+                            @Html.DropDownListFor(model => model.Translations[i].LanguageId,
+                                     (IEnumerable<SelectListItem>)ViewBag.Languages, "-- Select Language --", new { @class = "form-select shadow-sm", required = "required" })
+
+                            <div class="mb-3 form-check">
+                                <input class="form-check-input" type="checkbox" name="Translations[@i].IsMainCategory" value="true" @(Model.Translations[i].IsMainCategory ? "checked" : "") />
+                                <label class="form-check-label fs-5 fw-bold">Is Main Category</label>
+                            </div>
+                        </div>
+                    }
                 </div>
 
-                <!-- Category Description -->
-                <div class="mb-3">
-                    <label class="form-label fs-5 fw-bold" for="Description">Category Description</label>
-                    <textarea class="form-control shadow-sm" id="Description" name="Translations[0].Description" rows="3">@Model.Translations[0].Description</textarea>
-                </div>
-
-                <!-- Is Main Category -->
-                <div class="mb-3 form-check">
-                    <input class="form-check-input" type="checkbox" id="IsMainCategory" name="Translations[0].IsMainCategory" value="true" @(Model.Translations[0].IsMainCategory ? "checked" : "")>
-                    <label class="form-check-label fs-5 fw-bold" for="IsMainCategory">Is Main Category</label>
-                </div>
+                <button type="button" class="btn btn-secondary" onclick="addTranslation()">Add Another Translation</button>
 
                 <div class="d-grid gap-2 mt-4">
                     <button class="btn btn-success btn-lg shadow" type="submit">
@@ -53,3 +57,35 @@
         </div>
     </div>
 </div>
+
+<script>
+    let translationIndex = @Model.Translations.Count;
+
+    function addTranslation() {
+        const container = document.getElementById('translationsContainer');
+        const newTranslation = `
+            <div class="translation-item mb-3">
+                <label class="form-label fs-5 fw-bold">Category Name</label>
+                <input type="text" class="form-control shadow-sm" name="Translations[${translationIndex}].CategoryName" placeholder="Enter Category Name" required>
+
+                <label class="form-label fs-5 fw-bold">Category Description</label>
+                <textarea class="form-control shadow-sm" name="Translations[${translationIndex}].Description" rows="3" required></textarea>
+
+                <select class="form-select" name="Translations[${translationIndex}].LanguageId" required>
+                    <option value="">-- Select Language --</option>
+                    @foreach (var language in ViewBag.Languages)
+                    {
+                        <option value="@language.Value">@language.Text</option>
+                    }
+                </select>
+
+                <div class="mb-3 form-check">
+                    <input class="form-check-input" type="checkbox" name="Translations[${translationIndex}].IsMainCategory" value="true">
+                    <label class="form-check-label fs-5 fw-bold">Is Main Category</label>
+                </div>
+            </div>
+        `;
+        container.insertAdjacentHTML('beforeend', newTranslation);
+        translationIndex++;
+    }
+</script>

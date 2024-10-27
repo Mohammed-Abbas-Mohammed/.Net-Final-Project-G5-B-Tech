@@ -16,24 +16,50 @@ namespace AdminDashboardB.Controllers
     {
         private readonly ICategoryService _categoryService;
         private readonly ILanguageService _languageService;
+        private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
 
-        public CategoryController(ICategoryService categoryService, ILanguageService languageService, IMapper mapper) { 
+        public CategoryController(ICategoryService categoryService, ILanguageService languageService, IMapper mapper, ICategoryRepository categoryRepository) { 
             _categoryService = categoryService;
             _languageService = languageService;
-            _mapper= mapper;
+            _categoryRepository = categoryRepository;
+            _mapper = mapper;
         }
         public async Task<IActionResult> Index()
         {
             var categories = await _categoryService.GetAllCategoriesAsync();
+            ViewBag.Languages = await _languageService.GetAllLanguagesAsync(); 
 
             return View(categories);
         }
         public async Task<IActionResult> Search(string name)
         {
             var categories = await _categoryService.GetCategoryByNameAsync(name);
+            ViewBag.Languages = await _languageService.GetAllLanguagesAsync(); // Populate languages
             return View("Index", categories);
         }
+        public async Task<IActionResult> FilterByLanguage(int languageId)
+        {
+            //var categories = await _categoryService.GetCategoriesByLanguageAsync(languageId);
+            //return View("Index", categories); // Adjust as needed to return the correct view
+            IEnumerable<GetAllCategoriesDTO> categories;
+
+
+            if (languageId > 0)
+            {
+                categories = await _categoryService.GetCategoriesByLanguageAsync(languageId);
+            }
+            else
+            {
+                categories = await _categoryService.GetAllCategoriesAsync(); // استرجع جميع الفئات
+            }
+
+            ViewBag.Languages = await _languageService.GetAllLanguagesAsync(); // Populate languages
+            return View("Index", categories);
+
+        }
+
+
         public async Task<IActionResult> Create()
         {
             // Get all languages for the dropdown list
@@ -52,12 +78,15 @@ namespace AdminDashboardB.Controllers
         {
             if (ModelState.IsValid)
             {
+               
                 try
                 {
-                    if (model.Translations[0].IsMainCategory == null)
+                    // Check if translations are added
+                    if (model.Translations == null || !model.Translations.Any())
                     {
-                        model.Translations[0].IsMainCategory = false;
+                        throw new Exception("At least one translation is required.");
                     }
+
                     await _categoryService.AddCategoryAsync(model, imageFile);
                     return RedirectToAction("Index", "Category"); // Redirect to the category list
                 }
@@ -73,7 +102,7 @@ namespace AdminDashboardB.Controllers
                     var errors = entry.Value.Errors;
                     foreach (var error in errors)
                     {
-                       
+
                         Console.WriteLine($"Error in {entry.Key}: {error.ErrorMessage}");
                     }
                 }
@@ -82,10 +111,10 @@ namespace AdminDashboardB.Controllers
             var languages = await _languageService.GetAllLanguagesAsync();
             ViewBag.Languages = languages.Select(l => new SelectListItem
             {
-                
-                Value = l.Id.ToString(), 
+                Value = l.Id.ToString(),
                 Text = l.Name
             }).ToList();
+
 
             return View(model);
         }
@@ -100,11 +129,12 @@ namespace AdminDashboardB.Controllers
 
             var model = _mapper.Map<CreateOrUpdateCategoriesDTO>(category);
 
+            // Initialize Translations if none exist
             if (model.Translations == null || !model.Translations.Any())
             {
                 model.Translations = new List<CreateCategoryTranslationDto>
                 {
-                   new CreateCategoryTranslationDto()
+                    new CreateCategoryTranslationDto()
                 };
             }
 
@@ -127,6 +157,8 @@ namespace AdminDashboardB.Controllers
             {
                 try
                 {
+                    model.Translations[0].IsMainCategory = Request.Form["Translations[0].IsMainCategory"] == "true";
+
                     await _categoryService.UpdateCategoryAsync(id, model, imageFile);
                     return RedirectToAction("Index", "Category");
                 }
@@ -139,11 +171,7 @@ namespace AdminDashboardB.Controllers
             }
 
             var languages = await _languageService.GetAllLanguagesAsync();
-            ViewBag.Languages = languages.Select(l => new SelectListItem
-            {
-                Value = l.Id.ToString(),
-                Text = l.Name
-            }).ToList();
+            ViewBag.Languages = new SelectList(languages, "Id", "Name");
 
             return View(model);
         }

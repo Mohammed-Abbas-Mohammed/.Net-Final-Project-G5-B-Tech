@@ -3,6 +3,7 @@ using ApplicationB.Contracts_B.General;
 using ApplicationB.Services_B.General;
 using AutoMapper;
 using DTOsB.Category;
+using DTOsB.Product;
 using Microsoft.AspNetCore.Http;
 using ModelsB.Category_B;
 using System;
@@ -38,6 +39,12 @@ namespace ApplicationB.Services_B.Category
             return _mapper.Map<IEnumerable<GetAllCategoriesDTO>>(activeCategories);
 
         }
+        public async Task<IEnumerable<GetAllCategoriesDTO>> GetCategoriesByLanguageAsync(int languageId)
+        {
+           var categories = await _categoryRepository.GetByLanguageAsync(languageId);
+            return _mapper.Map<IEnumerable<GetAllCategoriesDTO>>(categories);
+        }
+
         public async Task<CategoryB> GetCategoryByIdAsync(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -119,19 +126,29 @@ namespace ApplicationB.Services_B.Category
                 {
                     throw new Exception("Category name cannot be null or empty.");
                 }
-                
+
                 // Add product category relationship
                 if (createCategoryDto.ProductIds != null && createCategoryDto.ProductIds.Any())
                 {
                     foreach (var productId in createCategoryDto.ProductIds)
                     {
-                        var productCategory = new ProductCategoryB
+                        // Create an instance of ProductCategoryDto
+                        var productCategoryDto = new ProductCategoryDto
                         {
-                            ProductId = productId, // Set the correct ProductId
-                            Category = category,
-                            IsMainCategory = translation.IsMainCategory
+                            ProductId = productId, // Use the variable directly here
+                            Category = _mapper.Map<GetAllCategoriesDTO>(category), // Map category if needed
+                            IsMainCategory = translation.IsMainCategory // Access IsMainCategory through translation
                         };
-                        category.ProductCategories.Add(productCategory);
+
+                        // Create the ProductCategoryB entity
+                        var productCategoryEntity = new ProductCategoryB
+                        {
+                            ProductId = productCategoryDto.ProductId, // Access ProductId from the instance
+                            Category = category, // Use the category instance
+                            IsMainCategory = productCategoryDto.IsMainCategory // Access IsMainCategory from the instance
+                        };
+                        category.ProductCategories.Add(productCategoryEntity);
+
                     }
                 }
             }
@@ -161,21 +178,18 @@ namespace ApplicationB.Services_B.Category
                 }
                 catch (Exception ex)
                 {
-                    categoryEntity.ImageUrl = existingImageUrl;
                     Console.WriteLine($"Error uploading image: {ex.Message}");
+                    // Revert to existing image URL if the upload fails
+                    categoryEntity.ImageUrl = existingImageUrl;
                     throw new Exception("Image upload failed.");
                 }
             }
             else
             {
-                categoryEntity.ImageUrl = existingImageUrl;
+                // If no new image is uploaded, retain the old image or update with provided URL
+                categoryEntity.ImageUrl = !string.IsNullOrEmpty(categoryDto.ImageUrl) ? categoryDto.ImageUrl : existingImageUrl;
             }
 
-            // If no new image is uploaded, retain the old image
-            if (imageFile == null && string.IsNullOrEmpty(categoryEntity.ImageUrl))
-            {
-                categoryEntity.ImageUrl = categoryDto.ImageUrl; // Retain old image if no new one provided
-            }
 
             // Update the user and updated date
             categoryEntity.UpdatedBy = _userService.GetCurrentUserId();
@@ -185,6 +199,11 @@ namespace ApplicationB.Services_B.Category
             categoryEntity.Translations.Clear();
             categoryEntity.ProductCategories.Clear();
 
+            // Validate and update translations using AutoMapper
+            if (categoryDto.Translations == null || !categoryDto.Translations.Any())
+            {
+                throw new Exception("Translations list cannot be null or empty.");
+            }
             // Update translations using AutoMapper
             foreach (var translationDto in categoryDto.Translations)
             {
@@ -206,7 +225,7 @@ namespace ApplicationB.Services_B.Category
                         {
                             ProductId = productId,
                             Category = categoryEntity,
-                            IsMainCategory = translationDto.IsMainCategory
+                            IsMainCategory = categoryDto.Translations.First().IsMainCategory // Assuming the main category flag is derived from the first translation
                         };
                         categoryEntity.ProductCategories.Add(productCategory);
                     }
@@ -241,7 +260,7 @@ namespace ApplicationB.Services_B.Category
                 await _categoryRepository.SaveChangesAsync();
             }
 
-            public async Task<string> HandleImageUploadAsync(IFormFile imageFile)
+         public async Task<string> HandleImageUploadAsync(IFormFile imageFile)
             {
                 if (imageFile == null || imageFile.Length == 0)
                     return null;
@@ -261,6 +280,67 @@ namespace ApplicationB.Services_B.Category
 
             return $"/ImageUrls/categories/{newFileName}"; // Return the relative URL or path        
             }
+        public async Task<List<ProductCategoryDto>> GetProductsByCategoryNameAsync(string categoryName)
+        {
+            // Get categories by name using your existing GetByNameAsync method
+            var categories = await _categoryRepository.GetByNameAsync(categoryName);
+
+            if (!categories.Any())
+            {
+                throw new Exception($"No categories found with name {categoryName}.");
+            }
+
+            // Extract products from all matching categories
+            var productCategories = categories
+                                          .SelectMany(c => c.ProductCategories)
+                                          .Distinct()
+                                          .ToList();
+
+            // Map products to ProductDto
+            var productCategoryDtos = _mapper.Map<List<ProductCategoryDto>>(productCategories);
+
+            return productCategoryDtos;
         }
-    } 
+
+        public async Task<List<ProductCategoryDto>> GetProductsByCategoryIdAsync(int categoryId)
+        {
+            // Get the category by its ID, including the related products
+            var category = await _categoryRepository.GetByIdAsync(categoryId);
+
+            if (category == null)
+            {
+                throw new Exception($"Category with ID {categoryId} not found.");
+            }
+
+            // Extract product details from the ProductCategories relationship
+            var productCategories = category.ProductCategories.ToList();
+
+            var productCategoryDtos = _mapper.Map<List<ProductCategoryDto>>(productCategories);
+
+            //var products = category.ProductCategories
+            //                       .Select(pc => pc.Product)
+            //                       .ToList();
+
+            //// Map products to ProductDto
+            //var productDtos = _mapper.Map<List<ProductDto>>(products);
+            //return productDtos;
+            return productCategoryDtos;
+        }
+
+        public async Task<List<GetAllCategoriesDTO>> GetMainCategoriesAsync()
+        {
+
+            var mainCategories = await _categoryRepository.GetAllAsync();
+
+            var filteredMainCategories = mainCategories
+                .Where(c => c.ProductCategories.Any(pc => pc.IsMainCategory))
+                .ToList();
+
+            var mainCategoriesDto = _mapper.Map<List<GetAllCategoriesDTO>>(filteredMainCategories);
+
+            return mainCategoriesDto;
+        }
+
+    }
+} 
 

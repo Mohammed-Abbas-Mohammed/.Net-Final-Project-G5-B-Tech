@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using ApplicationB.Contracts_B.Category;
 
 namespace ApplicationB.Services_B.Product
 {
@@ -24,19 +25,19 @@ public class ProductService: IProductService
         private readonly IProductRepository _productRepository;
         private readonly IMapper _mapper;
         private readonly ILanguageService _languageService;
-        
+        private readonly ICategoryRepository _categoryRepository;
         private readonly IUserService _userService;
        
         
 
      public ProductService(IProductRepository productRepository, IMapper mapper, IUserService userService,
-            ILanguageService languageService)
+            ILanguageService languageService, ICategoryRepository categoryRepository)
         {
             _productRepository = productRepository;
             _mapper = mapper;
             _userService = userService;
             _languageService = languageService;
-          
+            _categoryRepository = categoryRepository;
         }
 
         public async Task<ResultView<ProductCreateOrUpdateDto>> CreateProductAsync(ProductCreateOrUpdateDto productDto)
@@ -336,8 +337,9 @@ public class ProductService: IProductService
             };
         }
 
+  
 
-        
+
         // Handling Related Entities
 
         //public async Task<ResultView<ProductDto>> AddImagesToProductAsync(int productId, IEnumerable<ProductImageDto> imageDtos)

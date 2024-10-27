@@ -10,9 +10,11 @@ namespace ApplicationB.Contracts_B.Category
 {
     public interface ICategoryRepository:IGenericRepositoryB<CategoryB>
     {
-        Task<IEnumerable<CategoryB>> GetAllAsync();
-    Task<CategoryB> GetByIdAsync(int id);
-    Task<IEnumerable<CategoryB>> GetByNameAsync(string categoryName);
+     Task<IEnumerable<CategoryB>> GetAllAsync();
+     Task<CategoryB> GetByIdAsync(int id);
+     Task<IEnumerable<CategoryB>> GetByNameAsync(string categoryName);
+     Task<IEnumerable<CategoryB>> GetByLanguageAsync(int languageId);
+
     Task AddAsync(CategoryB category);
     Task UpdateAsync(CategoryB category);
     Task DeleteAsync(int id);
