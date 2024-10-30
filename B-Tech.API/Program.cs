@@ -175,6 +175,8 @@ namespace B_Tech.API
 
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
+            builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
 
             //===========Order==============
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();

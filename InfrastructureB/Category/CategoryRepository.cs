@@ -68,7 +68,6 @@ namespace InfrastructureB.Category
 
             return await _dbContext.Categories
                                      .Include(c => c.Translations)
-                                    .ThenInclude(t => t.Language)
                                      .Include(c => c.ProductCategories)
                                     .Where(c => !c.IsDeleted)
                                      .ToListAsync();

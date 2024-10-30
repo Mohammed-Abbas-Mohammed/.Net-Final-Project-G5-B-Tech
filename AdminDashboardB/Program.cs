@@ -117,6 +117,7 @@ namespace WebApplication1
             builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
 
 
+
             //===========Order==============
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IOrderService, OrderService>();

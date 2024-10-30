@@ -36,33 +36,38 @@ namespace DTOsB.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Login(LoginDTO model)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
 
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null)
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError(string.Empty, "User does not exist.");
                 return View(model);
             }
+
             if (user.UserType == "Admin")
             {
-                var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, lockoutOnFailure: true);
+
                 if (result.Succeeded)
                 {
-                    if (result.IsLockedOut)
-                    {
-                        ModelState.AddModelError(string.Empty, "This account has been locked out due to multiple failed login attempts.");
-                    }
-                    else
-                    {
-                        ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                    }
                     return RedirectToAction("Index", "Home");
-
+                }
+                else if (result.IsLockedOut)
+                {
+                    ModelState.AddModelError(string.Empty, "Account is locked due to multiple failed attempts.");
                 }
                 else
                 {
-                    return View();
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                 }
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Access restricted to Admin users.");
             }
 
             return View(model);

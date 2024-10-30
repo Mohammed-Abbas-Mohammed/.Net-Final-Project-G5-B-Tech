@@ -143,7 +143,7 @@ namespace B_Tech.API.Controllers
 
 
         [HttpGet("GetUserById/{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         public async Task<IActionResult> GetUserById(string id)
         {
             var user = await _userManager.FindByIdAsync(id);

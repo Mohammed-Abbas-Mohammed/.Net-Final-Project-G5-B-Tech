@@ -119,7 +119,7 @@ namespace DTOsB.Controllers
             //languageService.SetUserSelectedLanguageAsync(selectedLanguageId);
             //ViewBag.SelectedLanguageId = selectedLanguageId;
             var categories = await categoryService.GetAllCategoriesAsync();
-            ViewBag.Categories = categories;
+            ViewBag.Categories = categories.Entity;
 
             return View();
         }
