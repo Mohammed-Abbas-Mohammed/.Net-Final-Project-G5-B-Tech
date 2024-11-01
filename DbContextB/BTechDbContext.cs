@@ -50,10 +50,10 @@ namespace DbContextB
                 .IsUnique();
 
             builder.Entity<CategoryB>().HasMany(c => c.Translations).WithOne(ct => ct.Category).HasForeignKey(ct => ct.CategoryId)
-                .OnDelete(DeleteBehavior.Cascade); 
+                .OnDelete(DeleteBehavior.Cascade);
             builder.Entity<CategoryTranslationB>().HasIndex(ct => new { ct.CategoryId, ct.LanguageId }).IsUnique();
 
-            builder.Entity<ProductCategoryB>().HasKey(pc => new { pc.ProductId, pc.CategoryId });  
+            builder.Entity<ProductCategoryB>().HasKey(pc => new { pc.ProductId, pc.CategoryId });
             builder.Entity<ProductCategoryB>().HasOne(pc => pc.Product).WithMany(p => p.ProductCategories)
                 .HasForeignKey(pc => pc.ProductId);
             builder.Entity<ProductCategoryB>().HasOne(pc => pc.Category).WithMany(c => c.ProductCategories)
@@ -66,22 +66,44 @@ namespace DbContextB
             builder.Entity<DiscountB>().HasIndex(d => d.Code).IsUnique();
 
             builder.Entity<ReviewB>().HasIndex(r => new { r.ProductId, r.ApplicationUserId }).IsUnique();
-            builder.Entity<ReviewB>().HasOne(r => r.ApplicationUser).WithMany().HasForeignKey(r => r.ApplicationUserId);
 
+
+
+            builder.Entity<ReviewB>().HasOne(r => r.ApplicationUser).WithMany().HasForeignKey(r => r.ApplicationUserId);
             var hasher = new PasswordHasher<ApplicationUserB>();
             var adminUser = new ApplicationUserB
             {
+                Id = "1A2B3C4D-5E6F-7G8H-9I10-J11K12L13M14", 
                 UserName = "Mohammed Abbas",
+                NormalizedUserName = "MOHAMMED ABBAS",
                 Email = "moh.alnoby216@gmail.com",
+                NormalizedEmail = "MOH.ALNOBY216@GMAIL.COM",
+                EmailConfirmed = true,
                 Address = "Hamza St",
                 City = "Sohag",
                 PostalCode = "12345",
                 Country = "Egypt",
-                UserType = "Admin"
+                UserType = "Admin",
+                SecurityStamp = Guid.NewGuid().ToString()
             };
             adminUser.PasswordHash = hasher.HashPassword(adminUser, "Btech@g5");
 
             builder.Entity<ApplicationUserB>().HasData(adminUser);
+
+            // Seeding Admin Role
+            var adminRole = new IdentityRole
+            {
+                Id = "ADMIN_ROLE_ID", 
+                Name = "Admin",
+                NormalizedName = "ADMIN"
+            };
+            builder.Entity<IdentityRole>().HasData(adminRole);
+
+            builder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
+            {
+                UserId = adminUser.Id,
+                RoleId = adminRole.Id
+            });
         }
 
         /// <summary>

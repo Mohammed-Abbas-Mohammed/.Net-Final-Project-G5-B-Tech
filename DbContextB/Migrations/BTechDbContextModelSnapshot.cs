@@ -62,6 +62,14 @@ namespace DbContextB.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("Roles", "security");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "ADMIN_ROLE_ID",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -149,6 +157,13 @@ namespace DbContextB.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("UserRoles", "security");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "1A2B3C4D-5E6F-7G8H-9I10-J11K12L13M14",
+                            RoleId = "ADMIN_ROLE_ID"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -257,19 +272,21 @@ namespace DbContextB.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8dc0fafe-ed7b-4e38-ae2d-98897abde615",
+                            Id = "1A2B3C4D-5E6F-7G8H-9I10-J11K12L13M14",
                             AccessFailedCount = 0,
                             Address = "Hamza St",
                             City = "Sohag",
-                            ConcurrencyStamp = "35687aa0-32e5-4ae3-8f08-0950c97b4e2d",
+                            ConcurrencyStamp = "48bed10c-c23d-4efe-a656-b04f87a4fc00",
                             Country = "Egypt",
                             Email = "moh.alnoby216@gmail.com",
-                            EmailConfirmed = false,
+                            EmailConfirmed = true,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEP6gh+9H35VcwGY/sPDZPzJ0oPvr/eaCxXxR+Zh+7BVAI0I7sSfXLuXA+enHH1g3aw==",
+                            NormalizedEmail = "MOH.ALNOBY216@GMAIL.COM",
+                            NormalizedUserName = "MOHAMMED ABBAS",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFgtPBFtgBRRMja8nmUXk578qAoyaI/VyUys/oNSb78bX6FBtYTr4wPNJXqOtjGFpw==",
                             PhoneNumberConfirmed = false,
                             PostalCode = "12345",
-                            SecurityStamp = "fc4893a9-8cb5-4ee1-a804-eb86eed7c6cf",
+                            SecurityStamp = "de15d1b9-7bba-497d-9a75-698adf5a1172",
                             TwoFactorEnabled = false,
                             UserName = "Mohammed Abbas",
                             UserType = "Admin"
@@ -502,10 +519,10 @@ namespace DbContextB.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PaymentId")
+                    b.Property<int?>("PaymentId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ShippingId")
+                    b.Property<int?>("ShippingId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("TotalPrice")
@@ -1159,11 +1176,9 @@ namespace DbContextB.Migrations
                 {
                     b.Navigation("OrderItems");
 
-                    b.Navigation("Payment")
-                        .IsRequired();
+                    b.Navigation("Payment");
 
-                    b.Navigation("Shipping")
-                        .IsRequired();
+                    b.Navigation("Shipping");
                 });
 
             modelBuilder.Entity("ModelsB.Product_B.ProductB", b =>

@@ -35,14 +35,16 @@ namespace ApplicationB.Services_B.Order
         {
             var order = mapper.Map<OrderB>(orderBDTO);
 
-            order.CreatedBy = userService.GetCurrentUserId();
-            order.Created = DateTime.Now;
-            order.UpdatedBy = userService.GetCurrentUserId();
-            order.Updated = DateTime.Now;
+            //order.CreatedBy = userService.GetCurrentUserId();
+            //order.Created = DateTime.Now;
+            //order.UpdatedBy = userService.GetCurrentUserId();
+            //order.Updated = DateTime.Now;
 
             await orderRepository.AddAsync(order);
             return ResultView<AddOrUpdateOrderBDTO>.Success(orderBDTO);
         }
+
+        //*************************************************************
 
         public async Task<ResultView<SelectOrderBDTO>> DeleteOrderAsync(int id)
         {
@@ -58,32 +60,41 @@ namespace ApplicationB.Services_B.Order
             return ResultView<SelectOrderBDTO>.Success(null);
         }
 
+        //*************************************************************
+
         public async Task<IEnumerable<SelectOrderBDTO>> GetAllOrdersAsync()
         {
             var orders = await orderRepository.GetAllAsync();
             return orders.ProjectTo<SelectOrderBDTO>(mapper.ConfigurationProvider);
         }
+
+        //*************************************************************
+
         public async Task<SelectOrderBDTO> GetOrderByIdAsync(int id)
         {
             OrderB order = await orderRepository.GetByIdAsync(id);
-            //if (order == null)
-            //    return ResultView<SelectOrderBDTO>.Failure("Order not found.");
-
+        
             var orderDto = mapper.Map<SelectOrderBDTO>(order);
             var test =  new SelectOrderBDTO();
             if (orderDto == null) return test;
+
             var items = await orderItemService.GetAllItemsOfOrderAsync(orderDto.Id);
             if(items == null) items = new List<SelectOrderItemBDTO>();
             orderDto.OrderItems = items;
 
-            //need modification
-            orderDto.ApplicationUserName = "Nourhan";
+            orderDto.ApplicationUserName = (await userService.GetAppUserByIdAsync(order.ApplicationUserId)).UserName;//"Nourhan";
+            orderDto.ApplicationUserId = order.ApplicationUserId;
+
             var shippingResulView  = await shippingService.GetShippingByIdAsync(orderDto.Id);
             if (shippingResulView.Entity == null) orderDto.ShippingCost = 0;
             else orderDto.ShippingCost = shippingResulView.Entity.ShippingCost;
+
             orderDto.PaymentStatus = "pending";
+
             return orderDto;
         }
+
+        //*************************************************************
 
         public async Task<ResultView<AddOrUpdateOrderBDTO>> UpdateOrderAsync(AddOrUpdateOrderBDTO orderBDTO)
         {

@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Hosting;
+
+using Microsoft.AspNetCore.Hosting;
 using AutoMapper;
+using DTOsB.Account;
 using DTOsB.Category;
 using DTOsB.Product;
+using DTOsB.User;
 using DTOsB.Shared;
 using Microsoft.AspNetCore.Http;
-using DTOsB.Shared;
+using ModelsB.Authentication_and_Authorization_B;
 using ModelsB.Category_B;
 using ModelsB.Localization_B;
 using ModelsB.Product_B;
@@ -27,6 +30,13 @@ namespace ApplicationB.Mapper_B
        
         public MappingProfile()
         {
+            CreateMap<RegisterDto, ApplicationUserB>().ReverseMap();
+            CreateMap<LoginDTO, ApplicationUserB>().ReverseMap();
+            CreateMap<UserDto, ApplicationUserB>().ReverseMap();
+
+
+
+
 
 
 
@@ -95,7 +105,7 @@ namespace ApplicationB.Mapper_B
             CreateMap<CategoryB, GetAllCategoriesDTO>().ReverseMap();
             CreateMap<CategoryB, CreateOrUpdateCategoriesDTO>().ReverseMap();
             CreateMap<CategoryB, CreateOrUpdateCategoriesDTO>()
-                                                      .ForMember(dest => dest.ImageUrl, opt => opt.Ignore()) 
+                                                      .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.ImageUrl))
                                                      .ReverseMap();
             CreateMap<CategoryTranslationB, CategoryTranslationDTO>().ReverseMap();
             CreateMap<CategoryTranslationB, CreateCategoryTranslationDto>().ReverseMap();
@@ -107,6 +117,7 @@ namespace ApplicationB.Mapper_B
 
             CreateMap<OrderItemB, AddOrUpdateOrderItemBDTO>().ReverseMap();
             CreateMap<OrderItemB, SelectOrderItemBDTO>().ReverseMap();
+            CreateMap<SelectOrderItemBDTO, AddOrUpdateOrderItemBDTO>().ReverseMap();
 
             CreateMap<PaymentB, AddOrUpdatePaymentBDTO>().ReverseMap();
             CreateMap<PaymentB, SelectPaymentBDTO>().ReverseMap();

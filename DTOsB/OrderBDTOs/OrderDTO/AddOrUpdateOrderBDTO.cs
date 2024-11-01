@@ -25,14 +25,22 @@ namespace DTOsB.OrderDTO
 
 
         public IEnumerable<ApplicationUserB>? Users { get; set; }
-        public List<AddOrUpdateOrderItemBDTO>?derItems { get; set; } = new List<AddOrUpdateOrderItemBDTO>();
+        public List<AddOrUpdateOrderItemBDTO>?orderItems { get; set; } = new List<AddOrUpdateOrderItemBDTO>();
 
 
         public string ApplicationUserId { get; set; }
 
-        public int ShippingId { get; set; }
+        public int? ShippingId { get; set; } = 0;
 
-        public int PaymentId { get; set; }
+        public int? PaymentId { get; set; } = 0;
+
+        [MaxLength(100)]
+        public string CreatedBy { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
+        [MaxLength(100)]
+        public string UpdatedBy { get; set; }
+        public DateTime Updated { get; set; } = DateTime.Now;
+        public bool? IsDeleted { get; set; } = false;
 
     }
 }

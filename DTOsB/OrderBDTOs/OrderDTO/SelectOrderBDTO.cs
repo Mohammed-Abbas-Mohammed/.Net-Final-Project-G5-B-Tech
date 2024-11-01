@@ -24,8 +24,19 @@ namespace DTOsB.OrderDTO
         public decimal ShippingCost { get; set; }
 
         public string PaymentStatus { get; set; }
+        public string ApplicationUserId { get; set; }
 
         public IEnumerable<SelectOrderItemBDTO> OrderItems { get; set; }
+
+
+        //***********************************
+        [MaxLength(100)]
+        public string CreatedBy { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
+        [MaxLength(100)]
+        public string UpdatedBy { get; set; }
+        public DateTime Updated { get; set; } = DateTime.Now;
+        public bool? IsDeleted { get; set; } = false;
     }
 }
 //public enum Status

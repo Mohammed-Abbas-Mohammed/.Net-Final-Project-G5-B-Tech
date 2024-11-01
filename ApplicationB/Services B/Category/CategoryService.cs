@@ -50,7 +50,7 @@ namespace ApplicationB.Services_B.Category
         }
         public async Task<IEnumerable<GetAllCategoriesDTO>> GetCategoryByNameAsync(string categoryName)
         {
-            var categories = await _categoryRepository.GetAllAsync(); // أو استخدام أي طريقة لديك لاسترجاع جميع الفئات
+            var categories = await _categoryRepository.GetAllAsync(); 
             return categories.Where(c => c.Translations.Any(t => t.CategoryName.ToLower().Contains(categoryName.ToLower())))
                              .Select(c => _mapper.Map<GetAllCategoriesDTO>(c))
                              .ToList();
@@ -149,22 +149,34 @@ namespace ApplicationB.Services_B.Category
             {
                 throw new KeyNotFoundException($"Category with ID {id} not found.");
             }
+            var existingImageUrl = categoryEntity.ImageUrl;
 
             // Handle image upload (convert IFormFile to a URL or save path)
             if (imageFile != null)
             {
                 try
                 {
-                    string imageUrl = await HandleImageUploadAsync(imageFile);
-                    categoryEntity.ImageUrl = imageUrl;
+                    var newImageUrl = await HandleImageUploadAsync(imageFile);
+                    categoryEntity.ImageUrl = newImageUrl; // Update the image if new image uploaded
                 }
                 catch (Exception ex)
                 {
-                    categoryEntity.ImageUrl = categoryEntity.ImageUrl;
-
+                    categoryEntity.ImageUrl = existingImageUrl;
+                    Console.WriteLine($"Error uploading image: {ex.Message}");
+                    throw new Exception("Image upload failed.");
                 }
             }
-            categoryEntity.ImageUrl = categoryEntity.ImageUrl;
+            else
+            {
+                categoryEntity.ImageUrl = existingImageUrl;
+            }
+
+            // If no new image is uploaded, retain the old image
+            if (imageFile == null && string.IsNullOrEmpty(categoryEntity.ImageUrl))
+            {
+                categoryEntity.ImageUrl = categoryDto.ImageUrl; // Retain old image if no new one provided
+            }
+
             // Update the user and updated date
             categoryEntity.UpdatedBy = _userService.GetCurrentUserId();
             categoryEntity.Updated = DateTime.Now;
@@ -200,9 +212,6 @@ namespace ApplicationB.Services_B.Category
                     }
                 }
             }
-
-            // Map remaining fields from DTO to entity
-            _mapper.Map(categoryDto, categoryEntity);
 
             // Update the category in the repository
             await _categoryRepository.UpdateAsync(categoryEntity);

@@ -10,6 +10,6 @@ namespace ApplicationB.Contracts_B.Order
 {
     public interface IOrderItemRepository : IGenericRepositoryB<OrderItemB>
     {
-        public Task<IQueryable<OrderItemB>> ItemsOfOrder(int id);
+        public Task<IEnumerable<OrderItemB>> ItemsOfOrder(int id);
     }
 }

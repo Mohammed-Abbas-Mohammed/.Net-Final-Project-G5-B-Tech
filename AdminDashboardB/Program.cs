@@ -19,7 +19,9 @@ using InfrastructureB.General;
 using ApplicationB.Contracts_B.Category;
 using ApplicationB.Services_B.Category;
 using InfrastructureB.Category;
-using AutoMapper;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using ApplicationB.Contracts_B.User;
+using InfrastructureB.User;
 using ApplicationB.Contracts_B.Order;
 using ApplicationB.Services_B.Order;
 using InfrastructureB.Order;
@@ -31,7 +33,11 @@ namespace WebApplication1
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+    .AddEnvironmentVariables();
 
             // Add services to the container.
 
@@ -44,6 +50,25 @@ namespace WebApplication1
 
 
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+      
+
+
+            //builder.Services.AddControllersWithViews(options =>
+            //{
+            //    options.Filters.Add(new AuthorizeFilter());
+            //});
+
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Admin/Login"; // Redirect to Admin login page
+                options.AccessDeniedPath = "/Home/AccessDenied"; // Optional: redirect to an access denied page
+                options.SlidingExpiration = true; // Renew the session on each request
+                options.ExpireTimeSpan = TimeSpan.FromDays(7); // Adjust duration as needed
+                options.Cookie.HttpOnly = true; // Helps protect against XSS attacks
+                options.Cookie.IsEssential = true;
+            });
+
 
 
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
@@ -63,6 +88,9 @@ namespace WebApplication1
 
             builder.Services.AddScoped<ILanguageRepository, LanguageRepository>();
             builder.Services.AddScoped<ILanguageService, LanguageService>();
+
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
 
 
@@ -122,7 +150,11 @@ namespace WebApplication1
             });
 
 
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews(options =>
+            {
+                options.Filters.Add(new AuthorizeFilter());
+            });
+
 
             var app = builder.Build();
 

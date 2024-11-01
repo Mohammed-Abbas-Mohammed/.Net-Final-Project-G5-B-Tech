@@ -25,7 +25,10 @@
                     <li><a class="dropdown-item" href="#!">Settings</a></li>
                     <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
+                  <li><a  class="dropdown-item" asp-controller="Admin" asp-action="Logout">Sign Out</a></li>
+
+               
+
                 </ul>
             </li>
         </ul>
@@ -40,7 +43,7 @@
                             <div class="sb-nav-link-icon"><i class="fa-solid fa-pen-ruler"></i></div>
                             Roles
                         </a>
-                        <a class="nav-link" asp-controller="User" asp-action="Index">
+                        <a class="nav-link" asp-controller="Admin" asp-action="GetAllUsers">
                             <div class="sb-nav-link-icon"><i class="fa-solid fa-users-gear"></i></div>
                             Users
                         </a>

@@ -17,10 +17,10 @@
                 <!-- Category Image -->
                 <div class="mb-3">
 
-                    <p>Image Path: @Model.ImageUrl</p> 
-                    <img src="@Model.ImageUrl" alt="Category Image" />
-                    @* <img src="@Html.HiddenFor(model => model.ImageUrl)" alt="Category Image" /> *@
-                    @* @Html.HiddenFor(model => model.ImageUrl) *@
+                    <img class="img-fluid" style="max-width: 100px;" src="@Model.ImageUrl" alt="Category Image" />
+                </div>
+                   
+                <div class="mb-3">
 
                     <label class="form-label fs-5 fw-bold" for="imageFile">Category Image</label>
                     <input type="file" class="form-control shadow-sm" id="imageFile" name="imageFile">

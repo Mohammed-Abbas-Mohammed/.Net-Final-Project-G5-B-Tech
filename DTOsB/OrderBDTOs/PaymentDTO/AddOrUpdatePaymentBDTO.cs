@@ -24,5 +24,14 @@ namespace DTOsB.OrderBDTOs.PaymentDTO
         [MaxLength(500)]
         public string GatewayResponse { get; set; }
         public int OrderId { get; set; }
+
+
+        [MaxLength(100)]
+        public string CreatedBy { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
+        [MaxLength(100)]
+        public string UpdatedBy { get; set; }
+        public DateTime Updated { get; set; } = DateTime.Now;
+        public bool? IsDeleted { get; set; } = false;
     }
 }

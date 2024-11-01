@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ApplicationB.Contracts_B.Order;
 
 namespace InfrastructureB.Order
 {
@@ -20,9 +21,9 @@ namespace InfrastructureB.Order
             context = _context;
         }
 
-        public async Task<IQueryable<OrderItemB>> ItemsOfOrder(int id)
+        public async Task<IEnumerable<OrderItemB>> ItemsOfOrder(int id)
         {
-            var ans = context.OrderItems.Where(o => o.OrderId == id);
+            var ans = context.OrderItems.Where(o => o.OrderId == id && o.IsDeleted == false);
             return ans;
         }
     }

@@ -23,17 +23,22 @@ namespace ApplicationB.Services_B.Order
         private readonly IMapper mapper;
         private readonly IUserService userService;
         IProductTranslationService productRepository;
+        IProductService productService;
 
 
         public OrderItemService(IOrderItemRepository _orderItemRepository, IMapper _mapper, IUserService _userService,
-            IProductTranslationService _productRepository
+            IProductTranslationService _productRepository, IProductService _productService
             )
         {
             orderItemRepository = _orderItemRepository;
             mapper = _mapper;
             userService = _userService;
             productRepository = _productRepository;
+            productService = _productService;
         }
+
+        //*****************************************
+
         public async Task<ResultView<AddOrUpdateOrderItemBDTO>> CreateOrderItemAsync(AddOrUpdateOrderItemBDTO orderItemBDTO)
         {
             var orderItem = mapper.Map<OrderItemB>(orderItemBDTO);
@@ -44,6 +49,8 @@ namespace ApplicationB.Services_B.Order
             await orderItemRepository.AddAsync(orderItem);
             return ResultView<AddOrUpdateOrderItemBDTO>.Success(orderItemBDTO);
         }
+
+        //*****************************************
 
         public async Task<ResultView<SelectOrderItemBDTO>> DeleteOrderItemAsync(int id)
         {
@@ -59,28 +66,33 @@ namespace ApplicationB.Services_B.Order
             return ResultView<SelectOrderItemBDTO>.Success(null);
         }
 
+        //*****************************************
+
         public async Task<IEnumerable<SelectOrderItemBDTO>> GetAllOrderItemsAsync()
         {
             var OrderItems = await orderItemRepository.GetAllAsync();
 
             var orders = new List<SelectOrderItemBDTO>();
-            //foreach (var orderItem in OrderItems)
-            //{
-            //    var product = (await productRepository.GetTranslationsByProductIdAsync(orderItem.ProductId)).Entity;
-            //    var item = new SelectOrderItemBDTO()
-            //    {
-            //        ProductName = product.Name,
-            //        Quantity = orderItem.Quantity,
-            //        Price = product.Price,
-            //        TotalPrice = product.Price * orderItem.Quantity,
-            //        StockQuantity = product.StockQuantity
+            foreach (var orderItem in OrderItems)
+            {
+                var productName = (await productRepository.GetTranslationsByProductIdAsync(orderItem.ProductId)).Entity.FirstOrDefault().Name;
+                var product = (await productService.GetProductByIdAsync(orderItem.ProductId)).Entity;
+                var item = new SelectOrderItemBDTO()
+                {
+                    ProductName = productName,
+                    Quantity = orderItem.Quantity,
+                    Price = product.Price,
+                    TotalPrice = product.Price * orderItem.Quantity,
+                    StockQuantity = product.StockQuantity
 
-            //    };
-            //    orders.Add(item);
-            //}
+                };
+                orders.Add(item);
+            }
             return OrderItems.ProjectTo<SelectOrderItemBDTO>(mapper.ConfigurationProvider);
         }
-      
+
+        //*****************************************
+
         public async Task<ResultView<SelectOrderItemBDTO>> GetOrderItemByIdAsync(int id)
         {
             var order = await orderItemRepository.GetByIdAsync(id);
@@ -90,6 +102,8 @@ namespace ApplicationB.Services_B.Order
             var orderDto = mapper.Map<SelectOrderItemBDTO>(order);
             return ResultView<SelectOrderItemBDTO>.Success(orderDto);
         }
+
+        //*****************************************
 
         public async Task<ResultView<AddOrUpdateOrderItemBDTO>> UpdateOrderItemAsync(AddOrUpdateOrderItemBDTO orderItemBDTO)
         {
@@ -108,10 +122,13 @@ namespace ApplicationB.Services_B.Order
             return ResultView<AddOrUpdateOrderItemBDTO>.Success(orderItemBDTO);
         }
 
+        //*****************************************
+
         public async Task<IEnumerable<SelectOrderItemBDTO>> GetAllItemsOfOrderAsync(int id)
         {
             var OrderItems = await orderItemRepository.ItemsOfOrder(id);
-            return OrderItems.ProjectTo<SelectOrderItemBDTO>(mapper.ConfigurationProvider);
+            var res = mapper.Map< IEnumerable < SelectOrderItemBDTO >>(OrderItems);
+            return res;
         }
     }
 }
