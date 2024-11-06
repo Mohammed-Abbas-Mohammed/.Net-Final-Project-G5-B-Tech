@@ -1,58 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\",
+  "WorkspaceRootPath": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\admindashboardb\\views\\order\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\order\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\admindashboardb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\applicationb\\services b\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\services b\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\applicationb\\services b\\order\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\services b\\order\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\admindashboardb\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11278AA7-930A-47ED-8EB9-45F7DEB3159C}|DTOsB\\DTOsB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\dtosb\\orderbdtos\\orderitemdto\\selectorderitembdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11278AA7-930A-47ED-8EB9-45F7DEB3159C}|DTOsB\\DTOsB.csproj|solutionrelative:dtosb\\orderbdtos\\orderitemdto\\selectorderitembdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74E724FB-74F1-425A-AFC1-3DCF2A3820A2}|InfrastructureB\\InfrastructureB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\infrastructureb\\order\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E724FB-74F1-425A-AFC1-3DCF2A3820A2}|InfrastructureB\\InfrastructureB.csproj|solutionrelative:infrastructureb\\order\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\applicationb\\services b\\order\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\services b\\order\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\admindashboardb\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\backkkkkkkkkk\\.net-final-project-g5-b-tech\\admindashboardb\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\admindashboardb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|c:\\users\\cs\\desktop\\project versions\\backkkkkkkkkk\\.net-final-project-g5-b-tech\\applicationb\\services b\\order\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\services b\\order\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\applicationb\\services b\\order\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\services b\\order\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74E724FB-74F1-425A-AFC1-3DCF2A3820A2}|InfrastructureB\\InfrastructureB.csproj|c:\\users\\cs\\desktop\\project versions\\backkkkkkkkkk\\.net-final-project-g5-b-tech\\infrastructureb\\order\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E724FB-74F1-425A-AFC1-3DCF2A3820A2}|InfrastructureB\\InfrastructureB.csproj|solutionrelative:infrastructureb\\order\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\modelsb\\product b\\producttranslationb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\product b\\producttranslationb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|c:\\users\\cs\\desktop\\project versions\\backkkkkkkkkk\\.net-final-project-g5-b-tech\\applicationb\\services b\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E966295-A567-418D-9BC4-EE3373F752F0}|ApplicationB\\ApplicationB.csproj|solutionrelative:applicationb\\services b\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|c:\\users\\cs\\desktop\\project versions\\marge\\.net-final-project-g5-b-tech\\admindashboardb\\controllers\\productbscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F197EB-5DC2-4AC6-B8FA-FBA6E5BF9ACE}|AdminDashboardB\\AdminDashboardB.csproj|solutionrelative:admindashboardb\\controllers\\productbscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|c:\\users\\cs\\desktop\\project versions\\backkkkkkkkkk\\.net-final-project-g5-b-tech\\modelsb\\product b\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\product b\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|c:\\users\\cs\\desktop\\project versions\\backkkkkkkkkk\\.net-final-project-g5-b-tech\\modelsb\\product b\\productimageb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C48D87-6E17-4E7F-A9BA-2F9D86C67DD5}|ModelsB\\ModelsB.csproj|solutionrelative:modelsb\\product b\\productimageb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,172 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Order\\Add.cshtml",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Order\\Add.cshtml",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Order\\Add.cshtml",
-              "RelativeToolTip": "AdminDashboardB\\Views\\Order\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T04:21:36.57Z",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "AdminDashboardB\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:31:07.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "AdminDashboardB\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "ApplicationB\\Services B\\Order\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderItemService.cs",
+              "RelativeToolTip": "ApplicationB\\Services B\\Order\\OrderItemService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAASwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:15:26.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderService.cs",
-              "RelativeDocumentMoniker": "ApplicationB\\Services B\\Order\\OrderService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderService.cs",
-              "RelativeToolTip": "ApplicationB\\Services B\\Order\\OrderService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAUwEAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T19:15:26.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Order\\Details.cshtml",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Views\\Order\\Details.cshtml",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Views\\Order\\Details.cshtml",
-              "RelativeToolTip": "AdminDashboardB\\Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T16:16:00.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SelectOrderItemBDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\OrderBDTOs\\OrderItemDTO\\SelectOrderItemBDTO.cs",
-              "RelativeDocumentMoniker": "DTOsB\\OrderBDTOs\\OrderItemDTO\\SelectOrderItemBDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\DTOsB\\OrderBDTOs\\OrderItemDTO\\SelectOrderItemBDTO.cs",
-              "RelativeToolTip": "DTOsB\\OrderBDTOs\\OrderItemDTO\\SelectOrderItemBDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:11:55.816Z"
+              "WhenOpened": "2024-11-05T05:52:22.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderItemService.cs",
-              "RelativeDocumentMoniker": "ApplicationB\\Services B\\Order\\OrderItemService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderItemService.cs",
-              "RelativeToolTip": "ApplicationB\\Services B\\Order\\OrderItemService.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAuwFIAAAAAAAAAAAAAAA==",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "ApplicationB\\Services B\\Order\\OrderService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\OrderService.cs",
+              "RelativeToolTip": "ApplicationB\\Services B\\Order\\OrderService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwEkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:10:46.421Z"
+              "WhenOpened": "2024-11-05T05:47:09.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\Order\\OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\Order\\OrderItemRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureB\\Order\\OrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\Order\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\InfrastructureB\\Order\\OrderItemRepository.cs",
               "RelativeToolTip": "InfrastructureB\\Order\\OrderItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:10:15.935Z"
+              "WhenOpened": "2024-11-05T05:44:31.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Program.cs",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Program.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Program.cs",
-              "RelativeToolTip": "AdminDashboardB\\Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwGMAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ProductImageB.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductImageB.cs",
+              "RelativeDocumentMoniker": "ModelsB\\Product B\\ProductImageB.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductImageB.cs",
+              "RelativeToolTip": "ModelsB\\Product B\\ProductImageB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:09:18.925Z"
+              "WhenOpened": "2024-11-05T06:37:57.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "ApplicationB\\Services B\\Order\\IPaymentService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\IPaymentService.cs",
-              "RelativeToolTip": "ApplicationB\\Services B\\Order\\IPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductB.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductB.cs",
+              "RelativeDocumentMoniker": "ModelsB\\Product B\\ProductB.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\backkkkkkkkkk\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductB.cs",
+              "RelativeToolTip": "ModelsB\\Product B\\ProductB.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:08:56.871Z"
+              "WhenOpened": "2024-11-05T06:17:18.883Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\PaymentService.cs",
-              "RelativeDocumentMoniker": "ApplicationB\\Services B\\Order\\PaymentService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ApplicationB\\Services B\\Order\\PaymentService.cs",
-              "RelativeToolTip": "ApplicationB\\Services B\\Order\\PaymentService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAUwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T11:54:43.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "AdminDashboardB\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T10:54:47.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductTranslationB.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductTranslationB.cs",
-              "RelativeDocumentMoniker": "ModelsB\\Product B\\ProductTranslationB.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\ModelsB\\Product B\\ProductTranslationB.cs",
-              "RelativeToolTip": "ModelsB\\Product B\\ProductTranslationB.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T08:00:10.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductBsController.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductBsController.cs",
-              "RelativeDocumentMoniker": "AdminDashboardB\\Controllers\\ProductBsController.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\project versions\\marge\\.Net-Final-Project-G5-B-Tech\\AdminDashboardB\\Controllers\\ProductBsController.cs",
-              "RelativeToolTip": "AdminDashboardB\\Controllers\\ProductBsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABIAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T21:30:43.667Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
