@@ -19,7 +19,7 @@ using PayPalCheckoutSdk.Orders;
 
 namespace DTOsB.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
 
     public class ProductController : Controller
     {
@@ -55,11 +55,9 @@ namespace DTOsB.Controllers
         public async Task<IActionResult> Index(string searchString, int? selectedLanguageId, int? selectedCategoryId)
         {
             ViewBag.SearchString = searchString;
-           
-            var availableLanguages = await languageService.GetAllLanguagesAsync();
-            ViewBag.AvailableLanguages = new SelectList(availableLanguages, "Id", "Code");
 
-       
+
+
             var availableLanguages = await languageService.GetAllLanguagesAsync();
             ViewBag.AvailableLanguages = availableLanguages;
 
@@ -136,14 +134,10 @@ namespace DTOsB.Controllers
 
         public async Task<IActionResult> Create()
         {
-            //var availableLanguages = await languageService.GetAllLanguagesAsync();
-            //ViewBag.AvailableLanguages = new SelectList(availableLanguages, "Id", "Code");
 
             var categories = await categoryService.GetAllCategoriesAsync();
             ViewBag.Categories = categories.Entity;
 
-            //languageService.SetUserSelectedLanguageAsync(selectedLanguageId);
-            //ViewBag.SelectedLanguageId = selectedLanguageId;
             return View();
         }
 
@@ -168,11 +162,8 @@ namespace DTOsB.Controllers
             }
 
 
-            //Images
             if (productDto.ImageFiles != null && productDto.ImageFiles.Count > 0)
             {
-                productDto.Images = productDto.Images ?? new List<ProductImageCreateOrUpdateDto>();
-                var errorMessages = new List<string>();
 
                 result.Entity.Images = result.Entity.Images ?? new List<ProductImageCreateOrUpdateDto>();
 
@@ -188,7 +179,6 @@ namespace DTOsB.Controllers
                         ProductId = result.Entity.Id
                     };
 
-                    productDto.Images.Add(imageDto);
 
                     var imageResult = await _productImageService.AddImageAsync(imageDto);
                     if (!imageResult.IsSuccess)
@@ -196,12 +186,6 @@ namespace DTOsB.Controllers
                         ModelState.AddModelError("", imageResult.Msg);
                         return View(result.Entity);
                     }
-                }
-
-                if (errorMessages.Any())
-                {
-                    ModelState.AddModelError("", string.Join(";", errorMessages));
-                    return View(productDto);
                 }
             }
 
@@ -302,7 +286,7 @@ namespace DTOsB.Controllers
             {
 
                 var newItem = new ProductCategoryDto
-            {
+                {
                     CategoryId = SelectedCategories[i].Id,
                     ProductId = productDto.Id,
                     IsMainCategory = (i == 0) ? true : false,
@@ -315,7 +299,7 @@ namespace DTOsB.Controllers
             await productCategoryService.UpdateAsync(Items);
 
 
-                var result = await productService.UpdateProductAsync(productDto);
+            var result = await productService.UpdateProductAsync(productDto);
             var translations = productDto.Translations;
             foreach (var Trans in translations)
             {
@@ -392,8 +376,8 @@ namespace DTOsB.Controllers
             }
 
 
-                if (result.IsSuccess)
-                {
+            if (result.IsSuccess)
+            {
                 return RedirectToAction("Index", new { id = productDto.Id });
             }
             // Return the entire resultView to the view, since it's the expected type

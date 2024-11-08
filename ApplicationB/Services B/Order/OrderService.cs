@@ -39,10 +39,11 @@ namespace ApplicationB.Services_B.Order
             //order.Created = DateTime.Now;
             //order.UpdatedBy = userService.GetCurrentUserId();
             //order.Updated = DateTime.Now;
-            order.CreatedBy = userService.GetCurrentUserId();
-            order.Created = DateTime.Now;
-            order.UpdatedBy = userService.GetCurrentUserId();
-            order.Updated = DateTime.Now;
+
+            //order.CreatedBy = userService.GetCurrentUserId();
+            //order.Created = DateTime.Now;
+            //order.UpdatedBy = userService.GetCurrentUserId();
+            //order.Updated = DateTime.Now;
 
             await orderRepository.AddAsync(order);
             return ResultView<AddOrUpdateOrderBDTO>.Success(orderBDTO);
@@ -77,10 +78,10 @@ namespace ApplicationB.Services_B.Order
         public async Task<SelectOrderBDTO> GetOrderByIdAsync(int id)
         {
             OrderB order = await orderRepository.GetByIdAsync(id);
-           
+
 
             var orderDto = mapper.Map<SelectOrderBDTO>(order);
-            
+
             var test = new SelectOrderBDTO();
             if (orderDto == null) return test;
 
@@ -95,7 +96,7 @@ namespace ApplicationB.Services_B.Order
             if (shippingResulView.Entity == null) orderDto.ShippingCost = 70;
             else orderDto.ShippingCost = shippingResulView.Entity.ShippingCost;
 
-            if( order.Payment.PaymentStatus==null) orderDto.PaymentStatus="Pending";
+            if (order.Payment.PaymentStatus == null) orderDto.PaymentStatus = "Pending";
 
             return orderDto;
         }

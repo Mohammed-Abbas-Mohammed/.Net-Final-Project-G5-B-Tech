@@ -51,7 +51,7 @@ public class PayPalController : ControllerBase
                 OrderId = orderId,
                 TransactionId = request.OrderID
             };
-            await paymentService.CreatePaymentAsync(payment);
+            //await paymentService.CreatePaymentAsync(payment);
 
             //===========(3) add to shipping table ===========
             var ship = new AddOrUpdateShippingBDTO()

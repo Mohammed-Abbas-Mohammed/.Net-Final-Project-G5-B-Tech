@@ -102,7 +102,6 @@ namespace ApplicationB.Services_B.General
             {
                 Id = l.Id,
                 Code = l.Code,
-                Id = l.Id,
                 Name = l.Name,
             }).ToList();
         }
