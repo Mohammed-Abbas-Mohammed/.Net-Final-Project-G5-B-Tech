@@ -1,4 +1,7 @@
 ﻿using ApplicationB.Services_B.Order;
+using AutoMapper;
+using DTOsB.OrderDTO;
+using DTOsB.Shared;
 using DTOsB.Order.OrderDTO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -37,13 +40,13 @@ namespace DTOsB.Controllers
         {
             /* (ModelState.IsValid)
             {*/
-            orderBDTO.OrderDate = DateTime.Now;
-            orderBDTO.TotalPrice = 5000;
-            orderBDTO.ApplicationUserId = "db0a8336-7f0f-416c-90c8-a8dfd01d97f7";
+                orderBDTO.OrderDate = DateTime.Now;
+                orderBDTO.TotalPrice = 5000;
+                orderBDTO.ApplicationUserId = "db0a8336-7f0f-416c-90c8-a8dfd01d97f7";
+                
 
-
-            await orderService.CreateOrderAsync(orderBDTO);
-            return RedirectToAction("Index");
+                await orderService.CreateOrderAsync(orderBDTO);
+                return RedirectToAction("Index");
             /*}
 
             return View(orderBDTO);*/
@@ -54,7 +57,7 @@ namespace DTOsB.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             SelectOrderBDTO order = await orderService.GetOrderByIdAsync(id);
-
+            
             if (order == null || order.CurrentStatus == ModelsB.Order_B.Status.Shipped || order.CurrentStatus == ModelsB.Order_B.Status.Delivered)
             {
                 TempData["ErrorMessage"] = "You can't edit this order anymore.";
@@ -69,7 +72,7 @@ namespace DTOsB.Controllers
                 ApplicationUserId = "db0a8336-7f0f-416c-90c8-a8dfd01d97f7"
             };
 
-            return View("Edit", updateOrder);
+            return View("Edit", updateOrder);  
         }
 
         [HttpPost]

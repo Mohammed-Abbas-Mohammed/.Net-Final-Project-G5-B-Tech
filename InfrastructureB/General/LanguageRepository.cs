@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace InfrastructureB.General
 {
-    public class LanguageRepository :ILanguageRepository
+    public class LanguageRepository : ILanguageRepository
     {
         private readonly BTechDbContext _context;
 

@@ -91,8 +91,8 @@ namespace DTOsB.Controllers
             var languages = await _languageService.GetAllLanguagesAsync();
             ViewBag.Languages = languages.Select(l => new SelectListItem
             {
-
-                Value = l.Id.ToString(),
+                
+                Value = l.Id.ToString(), 
                 Text = l.Name
             }).ToList();
 
@@ -128,7 +128,7 @@ namespace DTOsB.Controllers
             //        var errors = entry.Value.Errors;
             //        foreach (var error in errors)
             //        {
-
+                       
             //            Console.WriteLine($"Error in {entry.Key}: {error.ErrorMessage}");
             //        }
             //    }
@@ -137,7 +137,8 @@ namespace DTOsB.Controllers
             var languages = await _languageService.GetAllLanguagesAsync();
             ViewBag.Languages = languages.Select(l => new SelectListItem
             {
-                Value = l.Id.ToString(),
+                
+                Value = l.Id.ToString(), 
                 Text = l.Name
             }).ToList();
 
@@ -160,7 +161,7 @@ namespace DTOsB.Controllers
             {
                 model.Translations = new List<CreateCategoryTranslationDto>
                 {
-                    new CreateCategoryTranslationDto()
+                   new CreateCategoryTranslationDto()
                 };
             }
 
@@ -215,6 +216,7 @@ namespace DTOsB.Controllers
             return View(categoryDto);
         }
 
+        // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -234,3 +236,4 @@ namespace DTOsB.Controllers
         }
     }
 }
+

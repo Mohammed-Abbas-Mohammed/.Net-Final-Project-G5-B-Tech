@@ -347,7 +347,7 @@ namespace DbContextB.Migrations
 
             modelBuilder.Entity("ModelsB.Category_B.ProductCategoryB", b =>
                 {
-                    b.Property<int>("ProductId")
+                    b.Property<int?>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")

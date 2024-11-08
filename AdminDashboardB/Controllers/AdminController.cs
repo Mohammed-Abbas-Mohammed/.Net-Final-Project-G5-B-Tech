@@ -8,6 +8,7 @@ using ModelsB.Authentication_and_Authorization_B;
 
 namespace DTOsB.Controllers
 {
+    [AllowAnonymous]
     public class AdminController : Controller
     {
         private UserManager<ApplicationUserB> _userManager;
@@ -51,14 +52,14 @@ namespace DTOsB.Controllers
                     if (result.IsLockedOut)
                     {
                         ModelState.AddModelError(string.Empty, "This account has been locked out due to multiple failed login attempts.");
-                    }
-                    else
-                    {
+            }
+            else
+            {
                         ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                     }
-                    return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Home");
 
-                }
+            }
                 else
                 {
                     return View();

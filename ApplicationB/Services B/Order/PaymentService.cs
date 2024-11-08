@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationB.Services_B.Order
 {
+
     public class PaymentService : IPaymentService
     {
         public async Task<string> CreatePayment(decimal amount, string currency)

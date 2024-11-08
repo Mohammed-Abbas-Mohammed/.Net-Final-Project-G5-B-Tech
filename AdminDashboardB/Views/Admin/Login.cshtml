@@ -6,6 +6,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,6 +24,7 @@
             height: 100%;
             object-fit: cover;
             z-index: -1;
+            overflow: hidden;
         }
 
         /* Custom login card styling */
@@ -45,8 +47,10 @@
             padding: 10px;
         }
     </style>
+    <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="bg-primary">
     <video autoplay muted loop id="background-video">
         <source src="~/Vbackground.mp4" type="video/mp4">
@@ -62,33 +66,38 @@
                             <img src="https://btech.com/media/logo/stores/2/new3.png" alt="B.Tech" width="170" />
                         </a>
                         <h3 class="my-3">Admin Login</h3>
-                    </div>
+                                </div>
 
                     <div asp-validation-summary="All" class="validation-summary-errors text-danger"></div>
-                    <div class="card-body">
-                        <form method="post" asp-action="Login">
-                            <div class="form-floating mb-3">
+                                <div class="card-body">
+                                    <form method="post" asp-action="Login">
+                                        <div class="form-floating mb-3">
                                 <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" asp-for="Email" />
                                 <label for="inputEmail">Email address</label>
                                 <span asp-validation-for="Email" class="text-danger"></span>
-                            </div>
-                            <div class="form-floating mb-3">
+                                        </div>
+                                        <div class="form-floating mb-3">
                                 <input class="form-control" id="inputPassword" type="password" placeholder="Password" asp-for="Password" />
                                 <label for="inputPassword">Password</label>
                                 <span asp-validation-for="Password" class="text-danger"></span>
-                            </div>
+                                        </div>
                             <div class="d-grid mt-4">
-                                <button class="btn btn-primary" type="submit">Login</button>
+                                            <button class="btn btn-primary" type="submit">Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </main>
         </div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
 </body>
+
 </html>

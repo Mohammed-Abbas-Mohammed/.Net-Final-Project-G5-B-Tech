@@ -17,7 +17,7 @@
     <div class="row justify-content-center mt-5">
         <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Edit Product</h2>
         <form asp-action="Edit" method="post" enctype="multipart/form-data">
-            
+
             <!-- Hidden field for ID -->
             <input type="hidden" asp-for="Entity.Id" />
 
@@ -35,6 +35,7 @@
                 <span asp-validation-for="Entity.Translations[0].BrandName" class="text-danger"></span>
             </div>
 
+
             <div class="mb-4">
                 <label class="form-label fs-5 fw-bold">English Description</label>
                 <textarea class="form-control shadow-sm" asp-for="Entity.Translations[0].Description" rows="3" placeholder="Enter Description"></textarea>
@@ -49,11 +50,14 @@
                 <span asp-validation-for="Entity.Translations[1].Name" class="text-danger"></span>
             </div>
 
+
+
             <div class="mb-4">
                 <label class="form-label fs-5 fw-bold">Arabic Brand Name</label>
                 <input type="text" class="form-control shadow-sm" asp-for="Entity.Translations[1].BrandName" placeholder="Enter Arabic Brand Name" required>
                 <span asp-validation-for="Entity.Translations[1].BrandName" class="text-danger"></span>
             </div>
+
 
             <div class="mb-4">
                 <label class="form-label fs-5 fw-bold">Arabic Description</label>
@@ -80,33 +84,38 @@
             <!-- Categories -->
             @if (categories != null && categories.Any())
 {
-    <div class="mb-4">
+            <div class="mb-4">
         <label class="form-label fs-5 fw-bold">Select Main Category</label>
                     <select class="form-select" name="SelectedCategories[0].Id" id="mainCategoryDropdown">
             <option value="">-- Select Main Category --</option>
             @foreach (var category in categories)
-            {
+                    {
                 var mainCategoryTranslation = category?.Translations?.FirstOrDefault()?.CategoryName ?? "No name available";
                 <option value="@category.Id">
                     @mainCategoryTranslation
                 </option>
-            }
-        </select>
-    </div>
+                    }
+                    *@
+                </select>
+                @* <span asp-validation-for="CategoryId" class="text-danger"></span> *@
+            </div>
 
-    <div class="mb-4">
+
+            <div class="mb-4">
         <label class="form-label fs-5 fw-bold">Select Subcategory</label>
         <select class="form-select" name="SelectedCategories[1].Id" id="subCategoryDropdown">
             <option value="">-- Select Subcategory --</option>
             @foreach (var category in categories)
-            {
+                    {
                 var subCategoryTranslation = category?.Translations?.FirstOrDefault()?.CategoryName ?? "No name available";
                 <option value="@category.Id">
                     @subCategoryTranslation
                 </option>
-            }
-        </select>
-    </div>
+                    }
+                    *@
+                </select>
+                @* <span asp-validation-for="SpecificationId" class="text-danger"></span> *@
+            </div>
 }
 else
 {
@@ -166,7 +175,8 @@ else
                 </div>
             </div>
                 }
-</div>
+                *@
+            </div>
 
 
                 <!-- Button to add more specifications -->
@@ -267,7 +277,7 @@ document.getElementById('addSpec').addEventListener('click', function () {
         <div class="mb-4">
             <label class="form-label fs-5 fw-bold" for="ArValue_${specCount}">Arabic Value</label>
             <input type="text" class="form-control shadow-sm" id="ArValue_${specCount}" name="Specifications[${specCount}].Translations[1].TranslatedValue" placeholder="Enter Arabic Value" required>
-        </div>
+</div>
     `;
     
     // Append the new specification entry to the container

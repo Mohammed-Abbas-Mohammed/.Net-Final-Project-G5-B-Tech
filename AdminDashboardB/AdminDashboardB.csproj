@@ -31,7 +31,9 @@
   <ItemGroup>
     <ProjectReference Include="..\ApplicationB\ApplicationB.csproj" />
     <ProjectReference Include="..\DbContextB\DbContextB.csproj" />
+    <ProjectReference Include="..\DTOsB\DTOsB.csproj" />
     <ProjectReference Include="..\InfrastructureB\InfrastructureB.csproj" />
+    <ProjectReference Include="..\ModelsB\ModelsB.csproj" />
   </ItemGroup>
 
   <ItemGroup>

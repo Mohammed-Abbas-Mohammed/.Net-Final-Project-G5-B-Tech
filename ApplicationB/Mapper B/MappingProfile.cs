@@ -75,6 +75,32 @@ namespace ApplicationB.Mapper_B
             CreateMap<SpecificationStore, SpecificationStoreDto>().ReverseMap();
             CreateMap<ReviewB, ReviewDto>().ReverseMap();
 
+     //       CreateMap<ProductB, ProductViewModel>()
+     ////.ForMember(dest => dest.ProductId, opt => opt.MapFrom(src => src.Id))  // Assuming 'Id' in ProductB corresponds to 'ProductId'
+     ////.ForMember(dest => dest.Images, opt => opt.MapFrom(src => src.Images))
+     ////.ForMember(dest => dest.Specifications, opt => opt.MapFrom(src => src.Specifications))
+     ////.ForMember(dest => dest.Translations, opt => opt.MapFrom(src => src.Translations))
+     ////.ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.Price))  // Assuming 'Price' exists in ProductB
+     ////.ForMember(dest => dest.StockQuantity, opt => opt.MapFrom(src => src.StockQuantity))  // Assuming 'StockQuantity' exists in ProductB
+     ////.ForMember(dest => dest.CreatedBy, opt => opt.MapFrom(src => src.CreatedBy))  // Assuming 'CreatedBy' exists in ProductB
+     ////.ForMember(dest => dest.Created, opt => opt.MapFrom(src => src.Created))  // Assuming 'Created' exists in ProductB
+     ////.ForMember(dest => dest.UpdatedBy, opt => opt.MapFrom(src => src.UpdatedBy))  // Assuming 'UpdatedBy' exists in ProductB
+     ////.ForMember(dest => dest.Updated, opt => opt.MapFrom(src => src.Updated))  // Assuming 'Updated' exists in ProductB
+     ////.ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => src.IsDeleted))  // Assuming 'IsDeleted' exists in ProductB
+     //.ReverseMap();
+            CreateMap<ProductTranslationB, ProductTranslationViewModel>().ReverseMap();
+            CreateMap<ProductSpecificationsB, ProductSpecificationViewModel>().ReverseMap();
+            CreateMap<ProductSpecificationTranslationB, ProductSpecificationTranslationViewModel>()
+             .ForMember(dest => dest.TranslatedKey, opt => opt.MapFrom(src => src.TranslatedKey))
+             .ForMember(dest => dest.TranslatedValue, opt => opt.MapFrom(src => src.TranslatedValue)).ReverseMap();
+
+            CreateMap<ProductDto, ProductViewModelWithLang>()
+                .ForMember(dest => dest.Products, opt => opt.MapFrom(src => src))
+                .ForMember(dest => dest.AvailableLanguages, opt => opt.Ignore()) // Set this in the controller
+                .ForMember(dest => dest.SelectedLanguageId, opt => opt.Ignore())
+                .ForMember(dest => dest.Products, opt => opt.MapFrom(src => new List<ProductDto> { src })); 
+
+
 
             // Category --------------------------------
 

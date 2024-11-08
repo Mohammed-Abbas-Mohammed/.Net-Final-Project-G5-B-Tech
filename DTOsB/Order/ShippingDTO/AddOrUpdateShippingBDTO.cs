@@ -16,12 +16,12 @@ namespace DTOsB.Order.ShippingDTO
         public string ShippingAddress { get; set; }
 
         [MaxLength(50)]
-        public string ShippingMethod { get; set; }  // e.g., "Standard", "Express"
+        public string ShippingMethod { get; set; } = "Standard";  // e.g., "Standard", "Express"
 
         [Column(TypeName = "money")]
         public decimal ShippingCost { get; set; }
-        public DateTime ShippedDate { get; set; }
-        public DateTime EstimatedDeliveryDate { get; set; }
+        public DateTime ShippedDate { get; set; } = DateTime.Now;
+        public DateTime EstimatedDeliveryDate { get; set; } = new DateTime(DateTime.Now.Second + 2);
 
         public int OrderId { get; set; }
 

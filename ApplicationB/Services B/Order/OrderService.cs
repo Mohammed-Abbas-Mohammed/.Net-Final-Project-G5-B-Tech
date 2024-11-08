@@ -39,6 +39,10 @@ namespace ApplicationB.Services_B.Order
             //order.Created = DateTime.Now;
             //order.UpdatedBy = userService.GetCurrentUserId();
             //order.Updated = DateTime.Now;
+            order.CreatedBy = userService.GetCurrentUserId();
+            order.Created = DateTime.Now;
+            order.UpdatedBy = userService.GetCurrentUserId();
+            order.Updated = DateTime.Now;
 
             await orderRepository.AddAsync(order);
             return ResultView<AddOrUpdateOrderBDTO>.Success(orderBDTO);

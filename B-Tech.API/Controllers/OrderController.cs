@@ -3,6 +3,7 @@ using ApplicationB.Services_B.Product;
 using AutoMapper;
 using DTOsB.Order.OrderDTO;
 using DTOsB.Order.OrderItemDTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,7 @@ namespace B_Tech.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous] // Allows access without authentication
     public class OrderController : ControllerBase
     {
         private readonly IOrderService orderService;
@@ -32,6 +34,8 @@ namespace B_Tech.API.Controllers
         //{
         //    return View();
         //}
+
+        
 
         //**********************************************************
 
@@ -183,6 +187,7 @@ namespace B_Tech.API.Controllers
 
         [HttpGet]
         public async Task<IActionResult> ViewCart(string userId)
+       
         {
             // Retrieve the "InCart" order for the user
             var order = (await orderService.GetAllOrdersAsync()).FirstOrDefault(p => p.CurrentStatus == ModelsB.Order_B.Status.InCart && p.ApplicationUserId == userId);
@@ -201,7 +206,9 @@ namespace B_Tech.API.Controllers
                 ProductName = oi.ProductName,
                 ProductPrice = oi.Price,
                 TotalPrice = oi.TotalPrice,
-                StockQuantity = oi.StockQuantity
+                StockQuantity = oi.StockQuantity,
+                imageUrl = oi.Url,
+                orderId = order.Id
             }).ToList();
 
             return Ok(cartItems);

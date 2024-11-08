@@ -7,7 +7,7 @@
     if (categories == null)
     {
         categories = new List<DTOsB.Category.ProductCategoryDto>(); // Initialize if null
-    }
+}
 }
 
 <div class="container my-5 p-4 shadow rounded col-md-10">
@@ -39,7 +39,7 @@
                             {
                             <li>
                                 @cat?.Category?.Translations?.FirstOrDefault()?.CategoryName
-                            </li>
+                </li>
                             }
                         }
                         else

@@ -8,7 +8,7 @@
    var languages = ViewBag.AvailableLanguages as List<DTOsB.Shared.LanguageDto>;
     var categories = ViewBag.Categories as List<DTOsB.Category.GetAllCategoriesDTO>;
 }
-
+    
 
 
 
@@ -25,7 +25,7 @@
                     <option value="@lang.Id">
                         @lang.Name
                     </option>
-                }
+}
                 }
             </select>
         </div>
@@ -69,10 +69,10 @@
 
     @* @if ((languages != null && languages.Any()) && (categories != null && categories.Any()))
     {
-        <div class="container my-5 shadow p-4 rounded">
+<div class="container my-5 shadow p-4 rounded">
             <form asp-action="Index" method="get">
                 <select class="form-select" name="selectedLanguageId" onchange="this.form.submit()">
-                    <option value="">Select Language</option>
+        <option value="">Select Language</option>
                     @foreach (var lang in languages)
                     {
                         <option value="@lang.Id">
@@ -84,13 +84,13 @@
                 <select class="form-select" name="selectedCategoryId" onchange="this.form.submit()">
                     <option value="">Select Category</option>
                     @foreach (var cat in categories)
-                    {
+        {
                         <option value="@cat.Id">
                             @cat.Translations.FirstOrDefault()?.CategoryName
-                        </option>
+            </option>
+        }
                     }
-                    }
-                </select>
+    </select>
             </form>
         </div>
     }
@@ -216,7 +216,7 @@
 </div>
 
 
-
+                        
 
 
 @* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
