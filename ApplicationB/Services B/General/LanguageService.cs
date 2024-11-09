@@ -19,6 +19,47 @@ namespace ApplicationB.Services_B.General
             _currentLanguageId = 2; // Default to English
         }
 
+        
+
+        public async Task<ResultView<LanguageDto>> CreateProductAsync(LanguageDto langDto)
+        {
+            if (langDto.Id > 0)
+                return ResultView<LanguageDto>.Failure("Language already exists. Use update to modify it.");
+
+            var lang = _mapper.Map<LanguageB>(langDto);
+            var createdLang = await _languageRepository.AddAsync(lang);
+
+            return ResultView<LanguageDto>.Success(_mapper.Map<LanguageDto>(createdLang));
+        }
+
+
+        public async Task<ResultView<LanguageDto>> UpdateProductAsync(LanguageDto langDto)
+        {
+            if (langDto == null)
+                return ResultView<LanguageDto>.Failure("Language must have data to be added");
+
+            var existingLang = await _languageRepository.GetByIdAsync(langDto.Id);
+            if (existingLang == null )
+                return ResultView<LanguageDto>.Failure("Language not found. Unable to update.");
+                
+            _mapper.Map(langDto, existingLang);
+            
+            await _languageRepository.UpdateAsync(existingLang);
+            return ResultView<LanguageDto>.Success(langDto);
+        }
+        
+
+         public async Task<ResultView<LanguageDto>> DeleteProductAsync(int id)
+        {
+            var existingLang = await _languageRepository.GetByIdAsync(id);
+            
+            if (existingLang == null)
+                return ResultView<LanguageDto>.Failure("Language not found. Unable to delete.");
+
+            await _languageRepository.UpdateAsync(existingLang);
+            return ResultView<LanguageDto>.Success(null);
+        }
+
         // Get the currently selected language
         public int GetCurrentLanguageCode()
         {
