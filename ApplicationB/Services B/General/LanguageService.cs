@@ -11,6 +11,7 @@ namespace ApplicationB.Services_B.General
     public class LanguageService : ILanguageService
     {
         private readonly ILanguageRepository _languageRepository;
+        private readonly IProductTranslationService _productTranslationService;
         private int _currentLanguageId;
 
         public LanguageService(ILanguageRepository languageRepository)
@@ -56,6 +57,10 @@ namespace ApplicationB.Services_B.General
             if (existingLang == null)
                 return ResultView<LanguageDto>.Failure("Language not found. Unable to delete.");
 
+            var product = await _productTranslationService.GetAllTranslationsAsync().FirstOrDefault(l=>l.language==id);
+            if(product != null)
+                 return ResultView<LanguageDto>.Failure("Language is related with product. Unable to delete.");
+                 
             await _languageRepository.UpdateAsync(existingLang);
             return ResultView<LanguageDto>.Success(null);
         }
