@@ -1,0 +1,31 @@
+﻿@model DTOsB.Shared.ResultView<DTOsB.Shared.LanguageDto>
+
+@{
+    ViewData["Title"] = "Edit";
+    
+}
+
+<div class="container my-5 p-4 shadow rounded col-md-8">
+    <div class="row justify-content-center mt-5">
+        <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Edit Language</h2>
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+ <input type="hidden" asp-for="Entity.Id" />
+
+  <div class="mb-4">
+                <label class="form-label fs-5 fw-bold">Name</label>
+                <input type="text" class="form-control shadow-sm" asp-for="Entity.Name" placeholder="Enter Name" required>
+                <span asp-validation-for="Entity.Name" class="text-danger"></span>
+            </div>
+
+ <div class="mb-4">
+                <label class="form-label fs-5 fw-bold">Code</label>
+                <input type="text" class="form-control shadow-sm" asp-for="Entity.Code" placeholder="Enter Language Code" required>
+                <span asp-validation-for="Entity.Code" class="text-danger"></span>
+            </div>
+
+           <div class="d-grid gap-2 mt-5">
+               <button type="submit" class="btn btn-success">Save Changes</button>
+            </div>
+</form>
+</div>
+</div>
