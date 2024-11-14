@@ -1,0 +1,29 @@
+﻿@model DTOsB.Shared.LanguageDto
+
+
+
+@{
+    ViewData["Title"] = "Create";
+  
+}
+
+<div class="container my-5 p-4  shadow rounded col-md-8">
+
+ <div class="row justify-content-center mt-5">
+        <h2 class="text-center mb-4 bg-light fw-bold text-primary p-4 shadow rounded" style="margin-top: -100px">Create Language</h2>
+         <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+            <div class="mb-4">
+                <label class="form-label fs-5 fw-bold " for="Name">Language Name</label>
+                <input type="text" class="form-control shadow-sm" id="EnName" name="Name" placeholder="Enter Name" required>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+           <div class="mb-4">
+                <label class="form-label fs-5 fw-bold" for="Code">Language Code</label>
+                <input type="number" class="form-control shadow-sm" id="Price" name="Code" placeholder="Enter Code" required>
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+  </form>
+</div>
+</div>
